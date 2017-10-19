@@ -50,6 +50,10 @@
     font-size: 1.5rem;
   }
 
+  .twitter-timeline {
+    max-width: 640px !important;
+  }
+
   #intro-outer {
     background-image: url(/static/images/backgrounds/board-texture-1.jpg);
   }
