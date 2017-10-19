@@ -1,0 +1,69 @@
+
+#join {
+  text-align: center;
+}
+
+#join .placeholder {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen {
+  body#local-tottori #header-outer {
+    background-image: url(/static/images/backgrounds/raspberry-pi.jpg);
+  }
+
+  body#local-tottori #header h1 {
+    background-image: url(/static/images/general/wordmark-tottori.png);
+  }
+
+  #intro-outer {
+    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+  }
+
+  #intro h2,
+  #join h2 {
+    position: absolute;
+    left: -9999px;
+  }
+
+  #intro p {
+    margin: 0 0 12px;
+  }
+
+  .map-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  #join-outer {
+    background-image: url(/static/images/backgrounds/board-texture-3.jpg);
+  }
+
+  #join .button.cta {
+    font-size: 24px;
+    display: inline-block;
+  }
+
+  #join .button.cta + small {
+    display: block;
+    margin-top: 8px;
+  }
+
+  #footer nav {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #join .button.cta {
+    font-size: 1rem;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+  body#local-tottori #header h1 {
+    background-image: url(/static/images/general/wordmark-tottori@2x.png);
+  }
+}

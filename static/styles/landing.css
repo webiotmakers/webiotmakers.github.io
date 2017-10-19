@@ -1,0 +1,358 @@
+#news,
+#organizers,
+#outline section,
+#contact {
+  text-align: center;
+}
+
+#organizers .logos {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#organizers .logos figure {
+  margin: 8px 16px;
+  font-size: 14px;
+}
+
+#organizers figcaption {
+  margin-top: 8px;
+}
+
+@media screen {
+  #header h1 {
+    background-image: url(/static/images/general/wordmark.png);
+  }
+
+  #header .description,
+  #header .locations {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  #header .description span {
+    display: block;
+  }
+
+  #header .locations strong {
+    display: block;
+    font-size: 2rem;
+  }
+
+  #news h2,
+  #intro h2,
+  #organizers h2 {
+    position: absolute;
+    left: -9999px;
+  }
+
+  #news .hashtag {
+    font-size: 1.5rem;
+  }
+
+  #intro-outer {
+    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+  }
+
+  #intro,
+  #locations {
+    position: relative;
+  }
+
+  #intro p {
+    margin: 0 0 12px;
+  }
+
+  #locations {
+    background-image: url(/static/images/backgrounds/map.png);
+    background-repeat: no-repeat;
+    background-size: 570px 600px;
+  }
+
+  #location-map .location .marker span {
+    display: block;
+    width: 32px;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 32px;
+    line-height: 1;
+    color: #db3232;
+  }
+
+  #location-map .location .content {
+    display: block;
+  }
+
+  #location-map .location h3 {
+    margin: 0;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  #location-map .location p {
+    margin: 0;
+  }
+
+  #organizers h3 small {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  #grant {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    padding: 32px 0;
+    font-size: 14px;
+  }
+
+  #grant a {
+    flex: none;
+    display: block;
+    margin: 0 32px 0 0;
+  }
+
+  #outline section {
+    margin: 16px 0;
+    padding: 32px;
+    background: rgba(0, 0, 0, .1);
+  }
+
+  #outline section > :last-child {
+    margin-bottom: 0;
+  }
+
+  #outline h3 {
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding-bottom: 16px;
+  }
+
+  #outline .location {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #outline .location .marker {
+    position: absolute;
+    top: -32px;
+    right: -16px;
+    font-family: FontAwesome;
+    font-size: 200px;
+    line-height: 1;
+    color: rgba(0, 0, 0, .1);
+  }
+
+  #contact-outer {
+    background-image: url(/static/images/backgrounds/board-texture-3.jpg);
+  }
+
+  .location .marker {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #intro {
+    z-index: 2;
+    margin-right: 320px;
+    margin-bottom: -200px;
+  }
+
+  #locations {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #locations {
+    z-index: 1;
+    margin: 48px auto;
+    width: 600px;
+    height: 600px;
+    background-position: center left;
+  }
+
+  #locations h2 {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+  }
+
+  #location-map {
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 600px;
+  }
+
+  #location-map .location {
+    position: absolute;
+  }
+
+  #location-map .location .marker {
+    position: absolute;
+    bottom: 0;
+    left: -16px;
+    height: 32px;
+  }
+
+  #location-map .location .marker span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .2s all;
+  }
+
+  #location-map .location:hover .marker span {
+    font-size: 40px;
+    color: #ff3b3b;
+  }
+
+  #location-map .location .content {
+    position: absolute;
+    top: -32px;
+    left: 16px;
+    white-space: nowrap;
+    padding: 4px;
+    background-color: rgba(46, 58, 66, .75);
+  }
+
+  #location-sendai {
+    top: 231px;
+    left: 392px;
+  }
+
+  #location-sendai .content {
+    top: -80px !important;
+  }
+
+  #location-maebashi {
+    top: 270px;
+    left: 353px;
+  }
+
+  #location-maebashi .content {
+    top: -96px !important;
+    right: 16px;
+    left: auto !important;
+  }
+
+  #location-maebashi .content *,
+  #location-tottori .content * {
+    text-align: right !important;
+  }
+
+  #location-yokosuka {
+    top: 310px;
+    left: 363px;
+  }
+
+  #location-tottori {
+    top: 310px;
+    left: 236px;
+  }
+
+  #location-tottori .content {
+    right: 16px;
+    left: auto !important;
+  }
+
+  #location-okinawa {
+    top: 547px;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #locations {
+    background-position: center;
+    background-size: contain !important;
+  }
+
+  #location-map {
+    overflow: hidden;
+  }
+
+  #location-map .location {
+    float: left;
+    margin: 8px 24px;
+    width: 240px;
+  }
+
+  #location-map .location .marker {
+    width: 32px;
+    float: left;
+  }
+
+  #location-map .location .content {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #header .description,
+  #header .locations {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  #header .description span {
+    display: inline;
+  }
+
+  #header .locations strong {
+    font-size: inherit;
+  }
+
+  #location-map .location {
+    float: none;
+    margin: 16px auto;
+  }
+
+  #organizers ul.grid.logos {
+    display: block;
+  }
+
+  #organizers ul.grid.logos li {
+    display: block;
+    margin: 32px 16px;
+  }
+
+  #organizers ul.grid.logos img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #grant {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  #grant a {
+    margin: 0 0 16px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+  #header h1 {
+    background-image: url(/static/images/general/wordmark@2x.png);
+  }
+
+  #locations {
+    background-image: url(/static/images/backgrounds/map@2x.png);
+  }
+}
+
+@media print {
+  #location-map {
+    text-align: center;
+  }
+
+  #location-map .location .marker {
+    display: none;
+  }
+}
