@@ -156,6 +156,11 @@ img {
   padding: 8px 24px;
 }
 
+.cta + small {
+  display: block;
+  margin-top: 8px;
+}
+
 .inner > section {
   margin: 48px 16px;
 }

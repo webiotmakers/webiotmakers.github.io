@@ -44,11 +44,6 @@
     display: inline-block;
   }
 
-  #join .button.cta + small {
-    display: block;
-    margin-top: 8px;
-  }
-
   #footer nav {
     font-size: 1rem;
     margin-bottom: 1rem;
