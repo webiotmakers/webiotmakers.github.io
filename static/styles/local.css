@@ -31,9 +31,8 @@
     margin: 0 0 12px;
   }
 
-  .map-wrapper img {
-    width: 100%;
-    height: auto;
+  #outline table ~ p {
+    text-align: center;
   }
 
   #join-outer {
