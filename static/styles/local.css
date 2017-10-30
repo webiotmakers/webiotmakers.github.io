@@ -14,7 +14,7 @@
   }
 
   body#local-tottori #header h1 {
-    background-image: url(/static/images/general/wordmark-tottori.png);
+    background-image: url(/static/images/general/wordmark-tottori.png?v=20171029);
   }
 
   #intro-outer {
@@ -58,6 +58,6 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
   body#local-tottori #header h1 {
-    background-image: url(/static/images/general/wordmark-tottori@2x.png);
+    background-image: url(/static/images/general/wordmark-tottori@2x.png?v=20171029);
   }
 }
