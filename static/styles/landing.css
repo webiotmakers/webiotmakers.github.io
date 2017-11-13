@@ -117,16 +117,6 @@
     margin: 0 32px 0 0;
   }
 
-  #outline section {
-    margin: 16px 0;
-    padding: 32px;
-    background: rgba(0, 0, 0, .1);
-  }
-
-  #outline section > :last-child {
-    margin-bottom: 0;
-  }
-
   #outline h3 {
     border-bottom: 2px solid rgba(0, 0, 0, .2);
     padding-bottom: 16px;
@@ -135,6 +125,13 @@
   #outline .location {
     position: relative;
     overflow: hidden;
+    margin: 16px 0;
+    padding: 32px;
+    background: rgba(0, 0, 0, .1);
+  }
+
+  #outline .location > :last-child {
+    margin-bottom: 0;
   }
 
   #outline .location .marker {
@@ -145,6 +142,14 @@
     font-size: 200px;
     line-height: 1;
     color: rgba(0, 0, 0, .1);
+  }
+
+  #outline .location h4 ~ * {
+    margin: 24px 0 0;
+  }
+
+  #outline .location .details * {
+    margin: 0;
   }
 
   #contact-outer {
@@ -271,6 +276,28 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  #outline .location [itemprop="subEvent"] {
+    display: flex;
+    align-items: center;
+  }
+
+  #outline .location h5 {
+    flex: none;
+    margin: 0;
+    width: calc(50% - 16px);
+    text-align: right;
+  }
+
+  #outline .location .details {
+    flex: auto;
+    margin-left: 16px;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding-left: 16px;
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #locations {
     background-position: center;
@@ -338,6 +365,19 @@
 
   #grant a {
     margin: 0 0 16px;
+  }
+
+  #outline .location {
+    padding: 16px;
+  }
+
+  #outline .location .marker {
+    top: -24px;
+    font-size: 160px;
+  }
+
+  #outline .location h4 ~ * {
+    margin: 16px 0 0;
   }
 }
 
