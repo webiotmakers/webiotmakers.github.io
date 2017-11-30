@@ -314,7 +314,7 @@ img {
     min-height: 520px;
     color: #EEE;
     background-color: #333;
-    background-image: url(/static/images/backgrounds/cover.jpg);
+    background-image: url(/static/images/backgrounds/cover.jpg?v=20171129);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -13,6 +13,10 @@
     background-image: url(/static/images/backgrounds/raspberry-pi.jpg);
   }
 
+  body#local-okinawa #header h1 {
+    background-image: url(/static/images/general/wordmark-okinawa.png?v=20171029);
+  }
+
   body#local-tottori #header h1 {
     background-image: url(/static/images/general/wordmark-tottori.png?v=20171029);
   }
@@ -28,7 +32,14 @@
   }
 
   #intro p {
-    margin: 0 0 12px;
+    margin: 12px 0;
+  }
+
+  #intro img {
+    display: block;
+    margin: 12px auto;
+    max-width: 100%;
+    height: auto;
   }
 
   #outline table ~ p {
@@ -57,6 +68,10 @@
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+  body#local-okinawa #header h1 {
+    background-image: url(/static/images/general/wordmark-okinawa@2x.png?v=20171029);
+  }
+
   body#local-tottori #header h1 {
     background-image: url(/static/images/general/wordmark-tottori@2x.png?v=20171029);
   }
