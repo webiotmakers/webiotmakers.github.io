@@ -1,3 +1,10 @@
+#outline table h3 {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: bold;
+  letter-spacing: normal;
+}
 
 #join {
   text-align: center;
