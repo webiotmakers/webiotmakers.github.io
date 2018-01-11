@@ -150,6 +150,24 @@ img {
   vertical-align: top;
 }
 
+figure {
+  margin: 16px 0;
+  text-align: center;
+}
+
+figcaption {
+  margin: 0 32px;
+  font-size: 14px;
+  opacity: .6;
+}
+
+figure img {
+  display: block;
+  margin: 12px auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .button {
   border-width: 4px;
   border-style: solid;

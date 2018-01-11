@@ -16,10 +16,6 @@
 }
 
 @media screen {
-  body#local-tottori #header-outer {
-    background-image: url(/static/images/backgrounds/raspberry-pi.jpg);
-  }
-
   body#local-maebashi #header h1 {
     background-image: url(/static/images/general/wordmark-maebashi.png);
   }
@@ -29,7 +25,7 @@
   }
 
   body#local-tottori #header h1 {
-    background-image: url(/static/images/general/wordmark-tottori.png?v=20171029);
+    background-image: none;
   }
 
   #intro-outer {
@@ -85,9 +81,5 @@
 
   body#local-okinawa #header h1 {
     background-image: url(/static/images/general/wordmark-okinawa@2x.png?v=20171029);
-  }
-
-  body#local-tottori #header h1 {
-    background-image: url(/static/images/general/wordmark-tottori@2x.png?v=20171029);
   }
 }

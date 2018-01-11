@@ -1,0 +1,114 @@
+@media screen {
+  figure.small {
+    float: right;
+    margin: 16px 0 16px 16px;
+  }
+
+  figure.small img {
+    margin-top: 0;
+  }
+
+  #cover {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-height: 720px;
+  }
+
+  #cover img {
+    width: 100%;
+    height: auto;
+  }
+
+  #header-outer {
+    display: block;
+    min-height: 0;
+    color: inherit;
+    background-color: #F5CE52;
+    background-image: none;
+    text-shadow: none;
+  }
+
+  #header-outer > .inner {
+    flex: none;
+  }
+
+  #header {
+    margin: 48px 16px;
+    height: auto;
+  }
+
+  #header h1 {
+    height: auto;
+    font-size: 56px;
+    font-weight: 700;
+    text-indent: 0;
+  }
+
+  #teams h2 + p {
+    text-align: center;
+  }
+
+  #teams h3 strong {
+    display: inline-block;
+    margin: 0 4px;
+    border: 2px solid #EEE;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    vertical-align: 4px;
+  }
+
+  #teams .row {
+    margin: 32px -48px;
+  }
+
+  #teams .col {
+    padding: 32px;
+    width: 416px;
+    background-color: rgba(0, 0, 0, .2);
+  }
+
+  #teams .col section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #teams .col figure {
+    order: -1;
+    margin-top: 0;
+  }
+
+  #teams .col p {
+    margin: 16px 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #teams .row {
+    margin: 32px -32px;
+  }
+
+  #teams .col {
+    margin: 32px 0;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    margin: 24px 12px;
+  }
+
+  #header h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  figure.small {
+    float: none;
+    margin: 16px auto;
+  }
+}
