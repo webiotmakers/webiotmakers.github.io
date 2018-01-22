@@ -24,6 +24,10 @@
     background-image: url(/static/images/general/wordmark-okinawa.png?v=20171029);
   }
 
+  body#local-yokosuka #header h1 {
+    background-image: url(/static/images/yokosuka/wordmark.png);
+  }
+
   body#local-tottori #header h1 {
     background-image: none;
   }
@@ -81,5 +85,9 @@
 
   body#local-okinawa #header h1 {
     background-image: url(/static/images/general/wordmark-okinawa@2x.png?v=20171029);
+  }
+
+  body#local-yokosuka #header h1 {
+    background-image: url(/static/images/yokosuka/wordmark@2x.png);
   }
 }
