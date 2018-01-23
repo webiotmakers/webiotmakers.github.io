@@ -152,6 +152,12 @@
     margin: 0;
   }
 
+  #outline .location strong.call {
+    font-size: 1.2rem;
+    letter-spacing: -.03em;
+    color: #ED7D31;
+  }
+
   #contact-outer {
     background-image: url(/static/images/backgrounds/board-texture-3.jpg);
   }
