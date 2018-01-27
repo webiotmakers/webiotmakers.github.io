@@ -184,6 +184,10 @@ figure img {
   margin-top: 8px;
 }
 
+.icon.fa {
+  font-family: FontAwesome;
+}
+
 .inner > section {
   margin: 48px 16px;
 }
@@ -223,12 +227,12 @@ figure img {
   }
 
   a:link, a:visited {
-    color: #0d9aff;
+    color: #0A7BCC;
     text-decoration: none;
   }
 
   a:hover, a:focus, a:active {
-    color: #33AAE4;
+    color: #0B8BE5;
     text-decoration: underline;
   }
 
@@ -248,6 +252,10 @@ figure img {
     background-position: center;
     background-size: cover;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+  }
+
+  .outer-3 {
+    background-color: #F5CE52;
   }
 
   .inner {

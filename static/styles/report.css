@@ -83,6 +83,10 @@
   #teams .col p {
     margin: 16px 0 0;
   }
+
+  #press {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1023px) {
