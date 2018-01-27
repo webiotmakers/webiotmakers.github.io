@@ -46,9 +46,13 @@
     margin: 12px 0;
   }
 
+  #intro p:first-of-type {
+    margin-top: 0;
+  }
+
   #intro img {
     display: block;
-    margin: 12px auto;
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
   }
