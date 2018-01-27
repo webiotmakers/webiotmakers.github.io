@@ -2,8 +2,8 @@
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  src: url('/static/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
-       url('/static/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
+  src: url('/static/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('/static/fonts/fontawesome-webfont.woff') format('woff');
 }
 
 body {
@@ -332,7 +332,7 @@ figure img {
     min-height: 520px;
     color: #EEE;
     background-color: #333;
-    background-image: url(/static/images/backgrounds/cover.jpg?v=20171129);
+    background-image: url(/static/images/backgrounds/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
