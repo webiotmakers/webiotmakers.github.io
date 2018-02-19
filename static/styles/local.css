@@ -24,6 +24,10 @@
     background-image: url(/static/images/general/wordmark-okinawa.png);
   }
 
+  body#local-sendai #header h1 {
+    background-image: url(/static/images/sendai/wordmark.png);
+  }
+
   body#local-yokosuka #header h1 {
     background-image: url(/static/images/yokosuka/wordmark.png);
   }
@@ -89,6 +93,10 @@
 
   body#local-okinawa #header h1 {
     background-image: url(/static/images/general/wordmark-okinawa@2x.png);
+  }
+
+  body#local-sendai #header h1 {
+    background-image: url(/static/images/sendai/wordmark@2x.png);
   }
 
   body#local-yokosuka #header h1 {
