@@ -11,29 +11,239 @@
     <title>Web × IoT メイカーズチャレンジ 2017 in 横須賀</title>
     <link rel="stylesheet" href="/static/styles/main.css">
     <link rel="stylesheet" href="/static/styles/local.css">
+    <link rel="stylesheet" href="/static/styles/report.css">
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
   <body class="local" id="local-yokosuka">
     <main>
-      <div id="header-outer" class="outer">
+      <div id="header-outer" class="outer outer-1">
         <div class="inner">
           <header id="header">
-            <h1>Web × IoT メイカーズチャレンジ 2017 in 横須賀</h1>
+            <h1><span>Web × IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>2017 in 横須賀</span> <span>開催報告</span></h1>
+            <p>Web 技術 (JavaScript、Node.js) を用いたハードウェアの制御を学び、横須賀市の地域課題をテーマとした IoT デバイス開発に挑戦するイベント「Web × IoT メイカーズチャレンジ 2017 in 横須賀」が開催された。ハンズオン講習会、横須賀テレコムリサーチパークでの体験学習、アイディアソン、及びハッカソンがそれぞれ開催され、ハッカソンでは、電車の乗客人数をカウントして、快適環境を提供することを目指した Team B の作品「車両混雑状況お知らせシステム」が最優秀賞を受賞した。</p>
           </header>
         </div>
       </div>
-      <div id="intro-outer" class="outer outer-2">
+      <div id="cover">
+        <img src="/static/images/yokosuka/cover.jpg" alt="" width="1280" height="840">
+      </div>
+      <div id="handson-outer" class="outer outer-2">
         <div class="inner">
-          <section id="intro" class="columns nobreak">
-            <h2>概要</h2>
-            <p>Web × IoT メイカーズチャレンジ 2017 in 横須賀は、小型ボードコンピューター Raspberry Pi 3 とセンサーキットを使って、Node.js 環境下での JavaScript によるハードウェアの制御をハンズオン形式で学び、その 1 週間後にモノづくりを伴ったハッカソンを行う IoT エンジニアリングのスキルアップイベントです。</p>
-            <p>座学講習では IoT 開発を進めるうえで知っておくべき電波についての基礎知識を習得、また開催地の横須賀リサーチパークは電波・情報通信技術を中心とした ICT 技術の研究開発拠点で、その現地視察ツアーも開催致します。体験講習ではサンプルプログラムを触りながら、実際に自分でセンサーの制御を体験し、IoT プロトタイピングに向けてのアイデアワークショップやハッカソンでの作品制作にチャレンジしていただきます。</p>
-            <p>チーム結成からハッカソンまでの準備期間は約 1 週間。その間にメンバーと相談して作品制作に必要な材料を調達していただきます。また、ハッカソンの作品制作にかかる材料費も 1 チームにつき最大 6,000 円まで補助があります。</p>
-            <p>最優秀作品に選ばれたチームには、2018 年 3 月 9 日に東京で開催されるスマート IoT 推進フォーラム総会での作品展示へのご招待があります。</p>
-            <p><img src="/static/images/yokosuka/raspberrypi-a.jpg" width="480" height="324" alt="Raspberry Pi 3 &amp; 周辺部品同梱"></p>
-            <p>「Web を触ったり、ちょっとしたプログラミングならやったことがあるけれど、Raspberry Pi は触ったことがない・・・」という方、「組み込み開発の知識はあるけれど、Web 技術での制御は未経験・・・」といった方などに特にオススメのハンズオン講習会とハッカソンです。</p>
-            <p>参加条件は、基本的に学生／社会人問わず学習意欲のある方でプログラミングに興味をお持ちの方かつ、ハンズオン講習とハッカソンの全日程にご参加いただける方です。ぜひ奮ってご参加ください。</p>
+          <section id="handson">
+            <h2>ハンズオン講習会</h2>
+            <div class="row">
+              <div class="col">
+                <p>2018 年 2 月 24 日 (土) – 25 日 (日) の両日、Web × IoT メイカーズチャレンジ 2017 in 横須賀のハンズオン講習会が横須賀テレコムリサーチパーク (YRP) にて開催された。本講習会は、電波等、IoT の基礎となる知識を身に着けること、無線歴史展示室の視察、Web 技術 (JavaScript、Node.js) を用いてハードウェア (センサー等) を制御する方法を学ぶことを目的とした。</p>
+              </div>
+              <div class="col">
+                <figure class="small">
+                  <img src="/static/images/yokosuka/yamashita.jpg" alt="" width="200" height="200">
+                  <figcaption>総務省 山下朝文氏</figcaption>
+                </figure>
+                <p>快晴の中、近隣の大学生や企業の若手エンジニア等 33 名が参加し、会場は熱気に包まれた。横須賀運営委員会主査である株式会社ブール・ジャパン 代表取締役 杉田真奈美氏と、YRP 研究開発推進協会 事務局長の安井哲也氏の挨拶に続き、総務省 関東総合通信局 情報通信部長 山下朝文氏の激励の言葉で講習会が始まった。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <p>本講習会では、電気通信大学 先端ワイヤレスコミュニケーション研究センター 専任教員 准教授 安達宏一講師による IoT の基礎知識、IoT の技術・関連法制度、及び電波の有効利用等に関する講義、無線歴史展示室を株式会社横須賀テレコムリサーチパーク 技術顧問 無線歴史展示室室長 太田現一郎先生による説明を通じて無線の歴史を学んだ。</p>
+                <figure>
+                  <img src="/static/images/yokosuka/handson-1.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/handson-2.jpg" alt="" width="300" height="400">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/kit.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <p>その後くじ引きによるチーム分けが行われ、Raspberry Pi 3 とNode.js を開発環境として、IoT の基本となるセンサー等を制御するプログラムを作成した。初めての IoT 開発でもセンサー稼働を容易に体験でき、IoT の可能性を感じられる講習会となった。</p>
+                <p>最後に 3 月 3 日 (土) – 4 日 (日) 開催のハッカソンに向けて、ここで出会ったメンバーが各チームでアイディアソンが活発に行われ 1 週間後に行われるハッカソンに臨む。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/handson-3.jpg" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/yokosuka/handson-4.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/handson-5.jpg" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/yokosuka/handson-6.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="hackathon-outer" class="outer outer-1">
+        <div class="inner">
+          <section id="hackathon">
+            <h2>ハッカソン</h2>
+            <div class="row">
+              <div class="col">
+                <p>2018 年 3 月 3 日 (土)、及び 4 日 (日) の 2 日間にわたり、横須賀市産業交流プラザにてハッカソンが開催された。アイディアソンで説明を受けた横須賀市の 5 つの地域テーマを解決する為の物づくりに各チームで挑戦する。</p>
+                <p>今回のハッカソンは、4 ～ 5 名からなる 8 チーム計 37 名が参加し、Raspberry Pi 3、センサーキット、様々な工作物等を用いて作品の制作に臨んだ。チームごとに 6 千円を上限に作品の制作や開発にかかわる経費を主催者が負担、皆が思い思いの制作に取り掛かった。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/hackathon-1.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/hackathon-2.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/yokosuka/hackathon-4.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure class="large">
+                  <img src="/static/images/yokosuka/bestaward.jpg" alt="" width="400" height="300">
+                  <figcaption>最優秀賞を受賞した Team B のメンバー</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <p>2 日目の午後に審査が行われた。審査委員は、慶応義塾大学 環境情報学部 准教授 中澤仁氏、株式会社ステップ 代表取締役社長 神宮司誠氏、国立研究開発法人情報通信研究機構 ワイヤレスネットワーク総合研究センター長 浜口清氏、モバイルコンピューティング推進コンソーシアム (MCPC) 技術最高責任者 岡崎正一氏の 4 名が務めた。アイデア (無線の活用度含む)、完成度、チーム力の 3 点を基準に審査が行われ、電車の乗客人数をカウントして快適環境を提供することを目指した Team B の作品「車両混雑状況お知らせシステム」が最優秀賞を受賞した。Team B のメンバーは、3 月 9 日に東京で開催予定の「スマート IoT 推進フォーラム総会」に招待され、作品の展示が行われる。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <p>他の 7 チームの作品も完成度の高いものが多く、横須賀では審査の際に協力者達の意見も取り入れ、協力それぞれの名を関した賞で参加者の作品をねぎらい、結果として全チームに賞が与えられる結果となった。</p>
+                <figure>
+                  <img src="/static/images/yokosuka/hackathon-3.jpg" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure class="small">
+                  <img src="/static/images/yokosuka/nemoto.jpg" alt="" width="200" height="200">
+                  <figcaption>総務省 根本朋生氏</figcaption>
+                </figure>
+                <p>懇親会では軽食や飲み物が用意され、参加者同士の交流を深めた。最後は総務省 国際戦略局 通信規格課 企画官  根本朋生氏の言葉で、4 日間にわたり開催された「Web × IoT メイカーズチャレンジ 2017 in 横須賀」の全日程が終了した。</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="teams-outer" class="outer outer-2">
+        <div class="inner">
+          <section id="teams">
+            <h2><span>各参加チームと</span><span>作品の紹介</span></h2>
+            <p>最後に、全 8 チーム (Team A ～ Team H) の作品の概要を紹介する。</p>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team A</strong> <span>T 次郎</span></h3>
+                  <h4>作品名： (名称無し)</h4>
+                  <p>見通しの悪い T 字路で、車の往来を見える化する看板。センサーは数 10cm おきに計 3 つあり、その前を車が遮ると、看板に描かれた道路と車の絵のうち、位置に対応する車の絵が発光する。また、速度を測定しサーバーにアップロードし、Web 上で確認できる。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-a.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team B</strong> <span>Hackathon Team B</span> <span>Matrix</span></h3>
+                  <h4>作品名：車両混雑状況おしらせシステム</h4>
+                  <p>駅に到着する電車の車両ごとの乗客人数をカウントし、混雑状況を知らせる他、車両内の温度と湿度の情報を取得し不快指数を通知。駅ホームでの掲示に加え Web でも確認ができる。また、空いている車両に乗客を自発的に誘導することで、事故の防止に繋げる。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-b.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team C</strong> <span>raspberrypi09</span></h3>
+                  <h4>作品名：路上駐車お知らせシステム</h4>
+                  <p>検知した不正な路上駐車を Web ページ上にマッピングし、タップすると詳細な住所や経過時間を表示する。また、一定時間が経過するごとにカメラで写真を撮影しデータベースに保存する。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-c.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team D</strong> <span>D チーム</span></h3>
+                  <h4>作品名： (名称無し)</h4>
+                  <p>高齢者見守りシステム。「室温の異常検出」「外出、帰宅のログ取得」「スイッチによる緊急メッセージ転送」「空調機器のリモート操作」の 4 つを行うことのできるシステム。身内などにこれらのデータやメッセージを送ることで、高齢者の見守りを行うことができる。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-d.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team E</strong> <span>RBS</span></h3>
+                  <h4>作品名： (名称無し)</h4>
+                  <p>谷戸で暮らす高齢者や観光客のためのバスシステム。利用者が停留所に来たら、その停留所の座標と、近隣のバスの座標を共有し、その段階での停留所に最も近いバスが向かえるようにする。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-e.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team F</strong> <span>F</span></h3>
+                  <h4>作品名： (名称無し)</h4>
+                  <p>保護者や介護者が近くにいない時、一人でいる高齢者や子に対して、簡単なメッセージを送ることで、安否などを確認できる IoT 作品。介護者が Raspberry Pi にメールを送り、中身を表示。超音波センサーで人の検知を行い、ボタンの押された回数によってメールの定型文を返す。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-f.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team G</strong> <span>グリーンパイ</span></h3>
+                  <h4>作品名：入退店監視システム</h4>
+                  <p>店舗の混雑状況をセンサーを用いて、可視化する。超音波センサーを 2 つ用いて、入り口方向と出口方向に向けて、人物の入退をモニタリングする。この計測したデータをグラフに描画することで、時間ごとの混雑状況を可視化する。また、カメラを併用することで、より高精度な計測を実現した。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-g.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team G</strong> <span>フランボワーズ</span></h3>
+                  <h4>作品名：鬼は外　家 (ウチ) は無事</h4>
+                  <p>高齢者の安否や留守宅の不安を解消する IoT 作品。見守りモードでは、一定時間動きがない部屋の様子を自動撮影しスマホに送信する。さらに、玄関にどのくらい動いていないのかをライトの色で知らせ、近隣の人が家の様子を確認できる。防犯モードでは、部屋で動きが検知されると、連続して写真を撮影し送信する。</p>
+                  <figure>
+                    <img src="/static/images/yokosuka/team-h.jpg" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
           </section>
         </div>
       </div>
@@ -102,7 +312,7 @@
         <div class="inner">
           <section id="join">
             <h2>申し込み</h2>
-            <p><a href="https://webiotmakers.connpass.com/event/74174/" class="button cta">詳細・お申し込みはこちら</a> <small>(Connpass サイトへ移動します)</small></p>
+            <p><a href="https://webiotmakers.connpass.com/event/74174/" class="button cta">詳細はこちら</a> <small>(Connpass サイトへ移動します)</small></p>
           </section>
         </div>
       </div>
