@@ -254,6 +254,17 @@ figure img {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
   }
 
+  .outer-2 a:link,
+  .outer-2 a:visited {
+    color: #0C92F2;
+  }
+
+  .outer-2 a:hover,
+  .outer-2 a:focus,
+  .outer-2 a:active {
+    color: #0D9AFF;
+  }
+
   .outer-3 {
     background-color: #F5CE52;
   }
@@ -323,7 +334,7 @@ figure img {
   .button.cta {
     display: inline-block;
     border-width: 0;
-    color: #FFF;
+    color: #FFF !important;
     background-color: #0095DD;
     text-decoration: none !important;
     transition: all .3s;
