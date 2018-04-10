@@ -45,6 +45,10 @@
     text-indent: 0;
   }
 
+  #awards h3 + p {
+    text-align: center;
+  }
+
   #awards h4 strong {
     display: inline-block;
     margin: 0 4px;
@@ -54,6 +58,14 @@
     font-size: 1rem;
     font-weight: normal;
     vertical-align: 2px;
+  }
+
+  .outer-2 #awards h4 strong {
+    border-color: #EEE;
+  }
+
+  #events h4 {
+    margin: 1rem 0;
   }
 
   #teams h2 + p {
