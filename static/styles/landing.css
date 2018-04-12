@@ -1,3 +1,17 @@
+#report h2 {
+  position: absolute;
+  left: -99999px;
+}
+
+#report h4,
+#report h5 {
+  line-height: 1.5;
+}
+
+#report figure.large {
+  margin-top: 32px;
+}
+
 #news,
 #organizers,
 #outline section,
@@ -39,6 +53,14 @@
     font-size: 2rem;
   }
 
+  #report-outer {
+    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+  }
+
+  #report .col.closing section {
+    border: 1px solid rgba(255, 255, 255, .3);
+  }
+
   #news h2,
   #intro h2,
   #organizers h2 {
@@ -55,7 +77,7 @@
   }
 
   #intro-outer {
-    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+    background-image: url(/static/images/backgrounds/board-texture-2.jpg);
   }
 
   #intro,
@@ -171,6 +193,15 @@
 }
 
 @media screen and (min-width: 1024px) {
+  #report .col.closing {
+    display: flex;
+    align-items: center;
+  }
+
+  #report .col.closing section :last-child {
+    margin-bottom: 0;
+  }
+
   #intro {
     z-index: 2;
     margin-right: 320px;
@@ -283,6 +314,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  #report .col.closing section {
+    margin: 32px;
+    padding: 32px;
+  }
+
   #outline .location [itemprop="subEvent"] {
     display: flex;
     align-items: center;
@@ -305,6 +341,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  #report .col.closing section {
+    margin: 16px 0;
+    padding: 16px;
+  }
+
   #locations {
     background-position: center;
     background-size: contain !important;
