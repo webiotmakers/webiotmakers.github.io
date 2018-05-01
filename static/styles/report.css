@@ -64,6 +64,10 @@
     border-color: #EEE;
   }
 
+  #handson > footer {
+    text-align: center;
+  }
+
   #events h4 {
     margin: 1rem 0;
   }
