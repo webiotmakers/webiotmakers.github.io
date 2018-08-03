@@ -25,7 +25,7 @@
     min-height: 0;
     color: inherit;
     background-color: #F5CE52;
-    background-image: none;
+    background-image: none !important;
     text-shadow: none;
   }
 

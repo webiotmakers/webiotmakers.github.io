@@ -357,11 +357,14 @@ figure img {
     min-height: 520px;
     color: #EEE;
     background-color: #333;
-    background-image: url(/static/images/backgrounds/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  }
+
+  body.wimc17 #header-outer {
+    background-image: url(/static/images/2017/template/cover.jpg);
   }
 
   #header-outer > .inner {
