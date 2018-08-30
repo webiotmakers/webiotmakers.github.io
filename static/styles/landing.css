@@ -42,12 +42,12 @@
     background-image: url(/static/images/2018/template/wordmark.png);
   }
 
-  body.wimc18 #report ul.grid li {
+  body.wimc18 #intro ul.grid li {
     max-width: 100%;
     text-align: center;
   }
 
-  body.wimc18 #report .button.cta span {
+  body.wimc18 #intro .button.cta span {
     display: inline-block;
     pointer-events: none;
   }
@@ -65,10 +65,6 @@
   #header .locations strong {
     display: block;
     font-size: 2rem;
-  }
-
-  body.wimc18 #report-outer {
-    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
   }
 
   #report .col.closing section {
@@ -101,6 +97,10 @@
 
   #intro p {
     margin: 0 0 12px;
+  }
+
+  body.wimc18 #intro .columns {
+    margin-bottom: 32px;
   }
 
   #locations {
@@ -218,6 +218,9 @@
 
   #intro {
     z-index: 2;
+  }
+
+  body.wimc17 #intro {
     margin-right: 320px;
     margin-bottom: -200px;
   }
@@ -235,7 +238,7 @@
       url(/static/images/2018/template/cover@2x.jpg);
   }
 
-  body.wimc18 #report .button.cta span {
+  body.wimc18 #intro .button.cta span {
     font-size: 1.5rem;
   }
 
@@ -435,6 +438,14 @@
   #organizers ul.grid.logos img {
     max-width: 100%;
     height: auto;
+  }
+
+  #organizers .logos figure {
+    margin: 8px 0;
+  }
+
+  #organizers .logos figcaption {
+    margin: 8px 0 0;
   }
 
   #grant {
