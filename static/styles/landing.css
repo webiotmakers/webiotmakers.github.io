@@ -99,10 +99,6 @@
     margin: 0 0 12px;
   }
 
-  body.wimc18 #intro .columns {
-    margin-bottom: 32px;
-  }
-
   #locations {
     background-image: url(/static/images/backgrounds/map.png);
     background-repeat: no-repeat;
@@ -131,6 +127,7 @@
 
   #location-map .location p {
     margin: 0;
+    line-height: 1.5;
   }
 
   #organizers h3 small {
@@ -151,6 +148,10 @@
     flex: none;
     display: block;
     margin: 0 32px 0 0;
+  }
+
+  #outline table + p {
+    text-align: center;
   }
 
   #outline h3 {
@@ -218,9 +219,6 @@
 
   #intro {
     z-index: 2;
-  }
-
-  body.wimc17 #intro {
     margin-right: 320px;
     margin-bottom: -200px;
   }
@@ -236,10 +234,6 @@
     background-image:
       linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, transparent 25%, transparent 75%, rgba(0, 0, 0, .7) 100%),
       url(/static/images/2018/template/cover@2x.jpg);
-  }
-
-  body.wimc18 #intro .button.cta span {
-    font-size: 1.5rem;
   }
 
   #locations {
@@ -292,16 +286,35 @@
     left: 16px;
     white-space: nowrap;
     padding: 4px;
-    background-color: rgba(46, 58, 66, .75);
+    background-color: rgba(46, 58, 66, .5);
+  }
+
+  #location-maebashi .content *,
+  #location-tottori .content * {
+    text-align: right !important;
+  }
+
+  #location-sapporo {
+    top: 82px;
+    left: 402px;
   }
 
   #location-sendai {
-    top: 231px;
+    top: 221px;
     left: 392px;
   }
 
   #location-sendai .content {
-    top: -80px !important;
+    top: -72px !important;
+  }
+
+  #location-ibaraki {
+    top: 280px;
+    left: 382px;
+  }
+
+  #location-ibaraki .content {
+    top: -48px !important;
   }
 
   #location-maebashi {
@@ -315,14 +328,14 @@
     left: auto !important;
   }
 
-  #location-maebashi .content *,
-  #location-tottori .content * {
-    text-align: right !important;
-  }
-
   #location-yokosuka {
     top: 310px;
     left: 363px;
+  }
+
+  #location-yokosuka .content {
+    top: 0 !important;
+    left: -24px !important;
   }
 
   #location-tottori {
@@ -331,8 +344,19 @@
   }
 
   #location-tottori .content {
+    top: -60px !important;
     right: 16px;
     left: auto !important;
+  }
+
+  #location-kagawa {
+    top: 349px;
+    left: 236px;
+  }
+
+  #location-kagawa .content {
+    top: -16px !important;
+    left: 8px !important;
   }
 
   #location-okinawa {
