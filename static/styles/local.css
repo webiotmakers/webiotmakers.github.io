@@ -25,6 +25,10 @@
     background-image: url(/static/images/2018/sapporo/wordmark.png);
   }
 
+  body#local-tottori.wimc18 #header h1 {
+    background-image: url(/static/images/2018/tottori/wordmark.png);
+  }
+
   #intro-outer {
     background-image: url(/static/images/backgrounds/board-texture-1.jpg);
   }
@@ -82,5 +86,9 @@
 
   body#local-sapporo.wimc18 #header h1 {
     background-image: url(/static/images/2018/sapporo/wordmark@2x.png);
+  }
+
+  body#local-tottori.wimc18 #header h1 {
+    background-image: url(/static/images/2018/tottori/wordmark@2x.png);
   }
 }
