@@ -21,6 +21,10 @@
     background-image: url(/static/images/2018/template/cover-small.jpg);
   }
 
+  body#local-okinawa.wimc18 #header h1 {
+    background-image: url(/static/images/2018/okinawa/wordmark.png);
+  }
+
   body#local-sapporo.wimc18 #header h1 {
     background-image: url(/static/images/2018/sapporo/wordmark.png);
   }
@@ -82,6 +86,10 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
   body.wimc18 #header-outer {
     background-image: url(/static/images/2018/template/cover-small@2x.jpg);
+  }
+
+  body#local-okinawa.wimc18 #header h1 {
+    background-image: url(/static/images/2018/okinawa/wordmark@2x.png);
   }
 
   body#local-sapporo.wimc18 #header h1 {
