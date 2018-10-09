@@ -33,6 +33,10 @@
     background-image: url(/static/images/2018/tottori/wordmark.png);
   }
 
+  body#local-yokosuka.wimc18 #header h1 {
+    background-image: url(/static/images/2018/yokosuka/wordmark.png);
+  }
+
   #intro-outer {
     background-image: url(/static/images/backgrounds/board-texture-1.jpg);
   }
@@ -98,5 +102,9 @@
 
   body#local-tottori.wimc18 #header h1 {
     background-image: url(/static/images/2018/tottori/wordmark@2x.png);
+  }
+
+  body#local-yokosuka.wimc18 #header h1 {
+    background-image: url(/static/images/2018/yokosuka/wordmark@2x.png);
   }
 }
