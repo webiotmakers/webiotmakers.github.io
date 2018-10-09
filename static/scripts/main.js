@@ -15,6 +15,11 @@ ga('send', 'pageview');
 window.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
+  var hit_fallback;
+
+  // Clear the timer to prevent the fallback code being executed while navigating back (bfcache)
+  window.addEventListener('unload', function () { window.clearTimeout(hit_fallback); });
+
   [].forEach.call(document.querySelectorAll('a[href^="http"]'), function ($link) {
     $link.addEventListener('click', function (event) {
       ga('send', 'event', 'Outbound Link', 'click', $link.href, {
@@ -23,7 +28,7 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       // Fallback when the `hitCallback` function doesn't work for some reason
-      window.setTimeout(function () { document.location = $link.href; }, 1000);
+      hit_fallback = window.setTimeout(function () { document.location = $link.href; }, 1000);
 
       event.preventDefault();
       event.stopPropagation();
