@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', function () {
   var hit_fallback;
 
   // Clear the timer to prevent the fallback code being executed while navigating back (bfcache)
-  window.addEventListener('unload', function () { window.clearTimeout(hit_fallback); });
+  window.addEventListener('pagehide', function () { window.clearTimeout(hit_fallback); });
 
   [].forEach.call(document.querySelectorAll('a[href^="http"]'), function ($link) {
     $link.addEventListener('click', function (event) {
