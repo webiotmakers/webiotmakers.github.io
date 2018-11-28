@@ -22,7 +22,7 @@
   }
 
   body#local-ibaraki.wimc18 #header h1 {
-    background-image: url(/static/images/2018/ibaraki/wordmarks.png);
+    background-image: url(/static/images/2018/ibaraki/wordmark.png);
   }
 
   body#local-maebashi.wimc18 #header h1 {
@@ -113,7 +113,7 @@
   }
 
   body#local-ibaraki.wimc18 #header h1 {
-    background-image: url(/static/images/2018/ibaraki/wordmarks@2x.png);
+    background-image: url(/static/images/2018/ibaraki/wordmark@2x.png);
   }
 
   body#local-maebashi.wimc18 #header h1 {
