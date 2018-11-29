@@ -25,6 +25,10 @@
     background-image: url(/static/images/2018/ibaraki/wordmark.png);
   }
 
+  body#local-kagawa.wimc18 #header h1 {
+    background-image: url(/static/images/2018/kagawa/wordmark.png);
+  }
+
   body#local-maebashi.wimc18 #header h1 {
     background-image: url(/static/images/2018/maebashi/wordmark.png);
   }
@@ -114,6 +118,10 @@
 
   body#local-ibaraki.wimc18 #header h1 {
     background-image: url(/static/images/2018/ibaraki/wordmark@2x.png);
+  }
+
+  body#local-kagawa.wimc18 #header h1 {
+    background-image: url(/static/images/2018/kagawa/wordmark@2x.png);
   }
 
   body#local-maebashi.wimc18 #header h1 {
