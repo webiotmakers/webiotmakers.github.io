@@ -45,6 +45,10 @@
     background-image: url(/static/images/2018/sendai/wordmark.png);
   }
 
+  body#local-tokyo.wimc18 #header h1 {
+    background-image: url(/static/images/2018/tokyo/wordmark.png);
+  }
+
   body#local-tottori.wimc18 #header h1 {
     background-image: url(/static/images/2018/tottori/wordmark.png);
   }
@@ -138,6 +142,10 @@
 
   body#local-sendai.wimc18 #header h1 {
     background-image: url(/static/images/2018/sendai/wordmark@2x.png);
+  }
+
+  body#local-tokyo.wimc18 #header h1 {
+    background-image: url(/static/images/2018/tokyo/wordmark@2x.png);
   }
 
   body#local-tottori.wimc18 #header h1 {
