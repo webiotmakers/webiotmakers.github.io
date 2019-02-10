@@ -11,41 +11,248 @@
     <title>Web×IoT メイカーズチャレンジ 2018-19 in 前橋</title>
     <link rel="stylesheet" href="/static/styles/main.css">
     <link rel="stylesheet" href="/static/styles/local.css">
+    <link rel="stylesheet" href="/static/styles/report.css">
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
   <body class="wimc18 local" id="local-maebashi">
     <main>
-      <div id="header-outer" class="outer">
+      <div id="header-outer" class="outer outer-1">
         <div class="inner">
           <header id="header">
-            <h1>Web×IoT メイカーズチャレンジ 2018-19 in 前橋</h1>
+            <h1><span>Web×IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>2018-19 in 前橋</span> <span>開催報告</span></h1>
+            <p>2018年 12 月 15 日 (土) - 16 日 (日) にハンズオン講習会、2019 年 1 月 19 日 (土) – 20 日 (日) にハッカソンと、計 4 日間の日程で群馬県前橋市にて「Web×IoT メイカーズチャレンジ 2018-19 in 前橋」が開催された。このイベントは、Web 技術 (JavaScript、HTML) を用いたハードウェアの制御をハンズオン講習会で実践的に学んだのち、成果発表の機会としてハッカソンを行い、実際の IoT デバイス開発に挑戦するもので、これら一連のイベントを通じて若手 IoT エンジニアのスキルアップを目指す取り組みとして実施された。</p>
           </header>
         </div>
       </div>
+      <figure class="cover">
+        <img src="/static/images/2018/maebashi/cover.jpg" alt="" width="1920" height="1080">
+      </figure>
       <div id="intro-outer" class="outer outer-2">
         <div class="inner">
-          <section id="intro" class="columns nobreak">
-            <h2>概要</h2>
-            <p>Web×IoT メイカーズチャレンジ 2018-19 in 前橋では、小型ボードコンピューター Raspberry Pi 3 を使って、JavaScript によるハードウェアの制御を 2 日間のハンズオン形式で学び、5 週間の準備期間を経て、学んだ技術を活用し、モノづくりを伴ったハッカソンを行います。</p>
-            <p>前半 12/15 - 16 のハンズオン講習会では、電波リテラシーを含む IoT の基礎知識に関する講義の後、Raspberry Pi 3 上に構築された IoT プログラミング環境 CHIRIMEN for Raspberry Pi 3 を教材に、各自サンプルプログラムを触りながら、実際にネットと接続したセンサーやアクチュエーター (モーターなど) の制御をハンズオン形式の講習会で学びます。また、ハッカソン作品のテーマ検討に向け、地域課題をテーマにしたアイデアワークショップも行います。</p>
-            <p>後半 1/19 - 20 のハッカソンでは、ハンズオン講習で学んだ技術を活かして IoT 作品をチーム毎に制作し、その成果を競います。チーム結成からハッカソンまでの準備期間は 1 ヶ月以上！ その間にメンバーと相談して作品制作に必要な材料を調達していただきます。また、ハッカソンの作品制作にかかる材料費も 1 チームにつき最大 25,000 円 (税込) まで補助があります。</p>
-            <p>前橋のハッカソンでは、「ぐんまプログラミングアワード 2019」のファイナルステージでハッカソン作品の発表を行える栄誉が与えられる賞などをご用意！ また、最優秀作品に選ばれたチームには、2019 年 3 月 8 日に東京で開催されるスマート IoT 推進フォーラム総会での作品展示のご招待もあります。</p>
-            <figure>
-              <img src="/static/images/2018/shared/pic-1.jpg" srcset="/static/images/2018/shared/pic-1@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <figure>
-              <img src="/static/images/2018/shared/pic-2.jpg" srcset="/static/images/2018/shared/pic-2@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <p>応募条件は、</p>
-            <ul>
-              <li>プログラミングに興味のある方 (講習やハッカソンでは、JavaScript を使うため、JavaScript 初学者の方は、事前に予習されてからのご参加をおすすめします)</li>
-              <li>ハンズオン講習会 (2 日間) およびハッカソン (2 日間) の計 4 日間にご参加いただける方</li>
-              <li>学生・社会人問わず学習意欲のある自ら若手！と思われる方</li>
-              <li>年齢制限は設けておりませんが、小学生のご参加については引率者のご同伴が必須となります</li>
-            </ul>
-            <p>「Web を触ったり、ちょっとしたプログラミングならやったことがあるけれど、Raspberry Pi は触ったことがない…」という方、「ボードコンピューターで IoT を学びたい…！」」といった方などに特にオススメのスキルアップイベントです。</p>
-            <p>ハッカソンに参加してみたいけれど自分のスキルが少々不安…という初めての方はもちろん、昨年参加して今年もぜひチャレンジしたい！という方もぜひご参加ください。(2 回目参加の方はハンズオン講習会時、先輩参加者として、近くにいる初めて参加の方のお手伝いなどをお願いする場合がありますのであらかじめご了承ください。)</p>
+          <section id="handson">
+            <h2>ハンズオン講習会</h2>
+            <div class="row">
+              <div class="col">
+                <p>Web×IoT メイカーズチャレンジ 2018-19 in 前橋のハンズオン講習会を 2018 年 12 月 15 日 (土) - 16 日 (日) の 2 日間の日程で群馬県前橋市の前橋プラザ元気 21 内 中央公民館ホールにて開催した。</p>
+                <p>主催者の総務省関東総合通信局 情報通信部 情報通信部長 山下 朝文 氏からの激励の言葉で開会した講習会初日、最初のプログラムとして IoT と電波についての基礎知識を学ぶ講義が NPO 法人日本 Android の会理事長の嶋是一氏によって行われた。実機を用いた実践講習を前に、まずは IoT とは何か？や電波の有効利用や無線の法制度などについて丁寧で分かりやすい説明を受け、受講者たちの中には真剣にメモを取る姿も見られた。</p>
+                <p>続いて、KDDI 株式会社 技術開発戦略部 マネージャーの宮崎 典行 氏が講師となりハンズオン講習 (実践講習) がスタートした。各参加者には 1 台ずつ開発環境である Raspberry Pi 3 B+ と小型のモニターやキーボード、マウスが用意され、本日の講習の教材となる CHIRIMEN for Raspberry Pi 3 のチュートリアルの基礎編で使用するための SD カードやブレッドボード、LED ランプ、ジャンパー線やセンサー、抵抗器などがセットされたスターターキットも配布され、各自ハンズオン講習の環境のセットアップを行った。</p>
+                <p>CHIRIMEN for Raspberry Pi 3 のチュートリアルに従って、ウェブ技術を使用して LED を点滅させるサンプルプログラムを動かしたり、物理的なスイッチを使ってモーターを制御する方法を試したりと、チュータースタッフの手助けを借りながら、各自自分のペースで学習を進め 1 日目の講習が終了。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-01.jpg" srcset="/static/images/2018/maebashi/handson-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-02.jpg" srcset="/static/images/2018/maebashi/handson-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-03.jpg" srcset="/static/images/2018/maebashi/handson-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-04.jpg" srcset="/static/images/2018/maebashi/handson-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-05.jpg" srcset="/static/images/2018/maebashi/handson-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-06.jpg" srcset="/static/images/2018/maebashi/handson-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-07.jpg" srcset="/static/images/2018/maebashi/handson-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <p>講習会 2 日目は、午前中を中心に、光センサーや距離センサー、加速度センサーといった様々なセンサーを試したり、複数のセンサーの組み合わせた使用などにも挑戦したりし、実践講習のプログラムを終えた。</p>
+                <p>午後からは、ハッカソンのチーム分けが発表され、ハッカソンに向けての作品のアイデア出しに向けてのワークショップを実施。アイデアワークショップは、群馬大学社会情報学部  吉良 知文 准教授がファシリテーターを務め、事前に課題として出されていた群馬をテーマにしたマンダラートの披露から各チームのディスカッションが始まった。「群馬をスマートにする IoT ツールを作ろう！」をサンプルテーマとしてアイデア出しやアイデアの整理・絞り込みが行われ、後半は各チームのハッカソンに向けての作戦会議時間を設けた。</p>
+                <p>講習会の最後は、チーム毎にハッカソンに向けての作品テーマ設定の進捗を報告し、講師やメンターからのハッカソンでの作品制作のアドバイスを受けて閉会となった。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-08.jpg" srcset="/static/images/2018/maebashi/handson-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-09.jpg" srcset="/static/images/2018/maebashi/handson-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-10.jpg" srcset="/static/images/2018/maebashi/handson-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/handson-11.jpg" srcset="/static/images/2018/maebashi/handson-11@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="hackathon-outer" class="outer outer-1">
+        <div class="inner">
+          <section id="hackathon">
+            <h2>ハッカソン</h2>
+            <div class="row">
+              <div class="col">
+                <p>2019 年 1 月 19 日 (土) - 20 日 (日)、12 月に実施したハンズオン講習会の成果発表イベントとして、群馬県前橋市の中央公民館ホールにてハッカソンを開催した。</p>
+                <p>7 チームに分かれた参加者たちが年末年始をはさんで約5週間の準備期間を経て再集結することとなったが、残念ながら、インフルエンザ流行の影響で出席が叶わなかった参加者が複数出たため、最終的に 6 チーム 24 名がそれぞれ 2 日間の作品制作に取り組んだ。</p>
+                <p>作品制作の条件は、1) 無線の活用を前提として、ネットワークサービスの連携もしくはネットワークからのコントロールが可能なこと。2) Web 技術を活用したシステムであること。そして、3) 講習で学んだ Web GPIO API または Web I2C API を使った創作物であること。の 3 点。今回は、ソフトウェアだけでなくハードウェアを伴うハッカソンであるため、作品制作にかかる材料費を上限税込 25,000 円の範囲内で主催者負担とすることとした。</p>
+                <p>基本的には、ハッカソン前の準備期間中に各チームでセンサーや材料などを調達してハッカソン当日に持ち込む前提ではあるが、会場内には当日部品が不足して作品づくりになるべく支障が出ないよう、様々な材料や道具が用意され、参加者たちは自由な雰囲気の中、IoT デバイス制作に真剣に取り組んだ。</p>
+                <p>参加者の経験不足や力不足を補助する要員として、当日は、ソフトウェア開発やハードウェア制作の知識を持つエキスパートがメンターやチューターとして参加し、積極的に参加者の作業の手伝いやアドバイスを行った。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-01.jpg" srcset="/static/images/2018/maebashi/hackathon-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-02.jpg" srcset="/static/images/2018/maebashi/hackathon-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-03.jpg" srcset="/static/images/2018/maebashi/hackathon-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-04.jpg" srcset="/static/images/2018/maebashi/hackathon-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-05.jpg" srcset="/static/images/2018/maebashi/hackathon-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <p>ハッカソン 2 日目は、各チームとも追い込み作業となり、慌ただしくハードウェアの仕上げや作品の動作確認などを行う姿が見られ、成果発表の時間を迎えた。</p>
+                <p>作品審査は、地元前橋市から情報政策担当部長の大野 誠司 氏、上毛新聞社 取締役の鎌田 一郎 氏、株式会社クライム 代表取締役の金井 修 氏、そして主催でもある本イベント前橋運営委員会 主査を務める KDDI 株式会社の高木 悟氏の 4 名により行われた。</p>
+                <p>各チームは 5 分間で作品のデモンストレーションと説明を行い、審査員からの質疑応答を行うスタイルでの成果発表だったが、終始、興味深い作品の数々に対して審査員から多くの質問が寄せられた。</p>
+                <p>全 6 作品の紹介後、審査の結果、最優秀賞は、チーム C (uekibachi) の作品「動く苔 2.5」が受賞。地元群馬で開催される「ぐんまプログラミングアワード」のファイナリストと共にステージでの発表権が得られる「GPA 賞」には、チーム G (チームじいや) の作品「物理的厄除けだるま じいや」が選ばれた。また、チーム D (学校革命委員会) の作品「身体測定 with FUN」は、特別賞 (クライム賞) に選ばれ、入賞チーム全員に今回の教材にもなった Raspberry Pi 3B+ が副賞として授与された。</p>
+                <p>表彰後の懇親会では、総務省 国際戦略局 通信規格課 福島 千枝企画官より参加者へのねぎらいの言葉が贈られ、参加者や講師陣、運営メンバーや審査員を含め交流を深め、ハッカソンの終了となった。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-06.jpg" srcset="/static/images/2018/maebashi/hackathon-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>審査の様子</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-07.jpg" srcset="/static/images/2018/maebashi/hackathon-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>最優秀賞受賞の様子</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-08.jpg" srcset="/static/images/2018/maebashi/hackathon-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>GPA 賞受賞の様子</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/maebashi/hackathon-09.jpg" srcset="/static/images/2018/maebashi/hackathon-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>特別賞 (クライム賞) 受賞の様子</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="teams-outer" class="outer outer-2">
+        <div class="inner">
+          <section id="teams">
+            <h2><span>参加チームおよび</span><span>作品概要</span></h2>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team B</strong> <span>ガベンジャーズ</span></h3>
+                  <h4>作品名：<span>スーパービニールハウス</span></h4>
+                  <p>農業を総合的にサポートする多機能管理システムが搭載されているビニールハウス。温度センサーでビニールハウス内の環境を測定し、遠隔地からでも管理画面でモニタリングできる。また距離センサーとカメラを用いた防犯機能も搭載している。ビニールハウスの扉が開かれたことを距離センサーが感知し、その瞬間カメラが作動、備え付けの非常鈴も鳴る。撮影した画像は、他の情報同様に管理画面に表示されるため、侵入犯の記録を残すことができる。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-01.jpg" srcset="/static/images/2018/maebashi/teams-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team C</strong> <span>uekibachi</span></h3>
+                  <h4>作品名：<span>動く苔 2.5</span> <span>【最優秀賞受賞作品】</span></h4>
+                  <p>太陽光を求めて自分で明るいところに移動するというコンセプトのもと、多機能を実装した植木鉢。植木鉢の移動には、ライントレースを採用し、光センサーが一定値以上になったら停止する。また、付近の光量、湿度、気圧をセンサーで計測して Slack 上に通知するほか、モイスチャーセンサーで測った土の湿り気を NEOPIXEL で顔の表情で伝えることで、植木鉢が生きているように見えるよう工夫した。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-02.jpg" srcset="/static/images/2018/maebashi/teams-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team D</strong> <span>学校革命委員会</span></h3>
+                  <h4>作品名：<span>身体測定 with FUN</span> <span>【特別賞 (クライム賞) 受賞作品】</span></h4>
+                  <p>学校で行う「身体測定」を楽しく過ごすためのデバイス。時間の無駄が多い待ち時間の間、生徒は Raspberry Pi で作られたカラオケボックスで楽しむことができる。プロジェクターで歌詞画面を投影し、マイクで認識した歌声を取得。音声の高低を判定し、イルミネーションで音域のずれをフィードバックしてくれる。また身体測定自体も簡単に行うことができる。ボタンを押すと測距センサーが作動し、瞬時に身長などを測定。そのデータはオンラインのスプレッドシートに蓄積される。記録の自動化によって、入力作業の手間を省く工夫が凝らされている。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-03.jpg" srcset="/static/images/2018/maebashi/teams-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team E</strong> <span>夏休みの宿題</span></h3>
+                  <h4>作品名：<span>触ってだるま</span></h4>
+                  <p>大きな筐体の「だるま」とコミュニケーションをとることができるデバイス。体のあちこちにあるタッチセンサーに触れると、OLED ディスプレイで表情豊かに感情を表してくれる。また、反応に合わせて Slack 上のアカウントも発言する。よりコミュニケーションのリアリティを出すために、ディスプレイへの表情表示の高速化を工夫して行った。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-04.jpg" srcset="/static/images/2018/maebashi/teams-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team F</strong> <span>パンデミック</span></h3>
+                  <h4>作品名：<span>上毛かるた</span> <span>自動読み上げ君</span></h4>
+                  <p>群馬の郷土に伝わる遊び「上毛かるた」を 2 人でやりたい！という願いを叶えてくれるデバイス。かるたの読み札を自動で読み上げてくれるため、読み人が居なくても 2 人でかるた遊びができる。取った札は各プレイヤーの箱に入れると、3 軸加速センサーがそれを感知しカウントし、点数計算も自動で行われる。勝敗も判定し、サーボモーターで制御された虎の人形が勝者の旗を振り上げる。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-05.jpg" srcset="/static/images/2018/maebashi/teams-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team G</strong> <span>チームじいや</span></h3>
+                  <h4>作品名：<span>物理的厄除けだるま</span> <span>じいや</span> <span>【GPA 賞受賞作品】</span></h4>
+                  <p>群馬名産の高崎だるまがもつ「厄除け」のご利益をセンサー技術で再現したデバイス。とりわけ風邪や体調不良といった厄を払ってくれる。だるまの前に立つと、温湿度・気圧センサーの BME280 でユーザーの健康状態を診断。表情豊かに健康アドバイスを返し、風邪予防を促してくる。表情は LED の色合いで表現し、健康アドバイスは LINE 宛にメッセージが届く。おじいちゃんのような可愛らしい喋り方と親しみやすい表情によって、風邪予防により関心をもち、積極的に体調管理をしてもらえるよう工夫した。</p>
+                  <figure>
+                    <img src="/static/images/2018/maebashi/teams-06.jpg" srcset="/static/images/2018/maebashi/teams-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
           </section>
         </div>
       </div>
@@ -123,7 +330,7 @@
                 </td>
               </tr>
             </table>
-            <p><a href="/static/docs/2018/maebashi-flier.pdf">告知チラシ (1 MB PDF)</a></p>
+                          <p><a href="/static/docs/2018/maebashi-flier.pdf">告知チラシ (1 MB PDF)</a></p>
             <p><a href="/2017/maebashi/">2017 年度 (Web×IoT メイカーズチャレンジ 2017 in 前橋) の開催報告はこちら</a></p>
           </section>
         </div>
