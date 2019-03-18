@@ -8,14 +8,15 @@
     margin-top: 0;
   }
 
-  #cover {
+  figure.cover {
     display: flex;
     align-items: center;
+    margin: 0;
     overflow: hidden;
-    max-height: 720px;
   }
 
-  #cover img {
+  figure.cover img {
+    margin: 0;
     width: 100%;
     height: auto;
   }
@@ -43,6 +44,7 @@
     font-size: 56px;
     font-weight: 700;
     text-indent: 0;
+    background-image: none !important;
   }
 
   #awards h3 + p {
@@ -76,15 +78,26 @@
     text-align: center;
   }
 
+  #teams h3 {
+    letter-spacing: 0;
+  }
+
   #teams h3 strong {
     display: inline-block;
     margin: 0 4px;
     border: 2px solid #EEE;
     border-radius: 5px;
     padding: 2px 8px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
-    vertical-align: 4px;
+  }
+
+  #teams h3 span {
+    font-size: 1.2rem;
+  }
+
+  #teams h4 {
+    line-height: 150%;
   }
 
   #teams .row {
@@ -138,6 +151,10 @@
 
   #header h1 {
     font-size: 32px;
+  }
+
+  #teams h4 {
+    font-size: 1.5rem;
   }
 }
 
