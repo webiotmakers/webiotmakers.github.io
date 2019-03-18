@@ -11,35 +11,227 @@
     <title>Web×IoT メイカーズチャレンジ 2018-19 in 横須賀</title>
     <link rel="stylesheet" href="/static/styles/main.css">
     <link rel="stylesheet" href="/static/styles/local.css">
+    <link rel="stylesheet" href="/static/styles/report.css">
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
   <body class="wimc18 local" id="local-yokosuka">
     <main>
-      <div id="header-outer" class="outer">
+      <div id="header-outer" class="outer outer-1">
         <div class="inner">
           <header id="header">
-            <h1>Web×IoT メイカーズチャレンジ 2018-19 in 横須賀</h1>
+            <h1><span>Web×IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>2018-19 in 横須賀</span> <span>開催報告</span></h1>
+            <p>2018年 11 月 17 日 (土) - 18 日 (日) にハンズオン講習会、2018 年12 月 8 日 (土) – 9 日 (日) にハッカソンと、計 4 日間の日程で横須賀市にて「Web×IoT メイカーズチャレンジ 2018-2019 in 横須賀」が開催された。このイベントは、Web 技術 (JavaScript、HTML) を用いたハードウェアの制御をハンズオン講習会で実践的に学んだのち、成果発表の機会としてハッカソンを行い、実際の IoT デバイス開発に挑戦するもので、これら一連のイベントを通じて若手 IoT エンジニアのスキルアップを目指す取り組みとして実施された。</p>
           </header>
         </div>
       </div>
+      <figure class="cover">
+        <img src="/static/images/2018/yokosuka/cover.jpg" alt="" width="1920" height="960">
+      </figure>
       <div id="intro-outer" class="outer outer-2">
         <div class="inner">
-          <section id="intro" class="columns nobreak">
-            <h2>概要</h2>
-            <p>Web×IoT メイカーズチャレンジ 2018-19 in 横須賀は、小型ボードコンピューター Raspberry Pi 3B+ と各種センサーを使って、 Node.js 環境下での JavaScript によるハードウェアの制御をハンズオン形式で学び、その 3 週間後にモノづくりを伴ったハッカソンを行う IoT エンジニアリングのスキルアップイベントです。</p>
-            <figure>
-              <img src="/static/images/2018/yokosuka/pic-1.jpg" srcset="/static/images/2018/yokosuka/pic-1@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <p>座学講習では IoT 開発を進めるうえで知っておくべき電波についての基礎知識を習得、また開催地の横須賀リサーチパーク (略称: YRP) は電波・情報通信技術を中心とした ICT 技術の研究開発拠点で、研究現場の視察体験講習も開催致します。体験講習ではサンプルプログラムを触りながら、実際に自分でセンサーの制御を体験し、IoT プロトタイピングに向けてのアイデアワークショップやハッカソンでの作品制作にチャレンジしていただきます。</p>
-            <p>チーム結成からハッカソンまでの準備期間は約 3 週間。その間にメンバーと相談して作品制作に必要な材料を調達していただきます。また、ハッカソンの作品制作にかかる材料費も 1 チームにつき最大 20,000 円まで補助があります。</p>
-            <p>最優秀作品に選ばれたチームには、2019 年 3 月 8 日に東京で開催されるスマート IoT 推進フォーラム総会への招待と作品展示の機会の提供があります。特に横須賀では、スマートモビリティをテーマとする作品から優れた作品 1 件に「ヨコスカ×スマートモビリティ・チャレンジ 2019」のアイデアコンテスト本選 (2019 年 1 月 24 日 (木)、YRP にて開催) への参加権が付与されます。</p>
-            <p>「Web を触ったり、ちょっとしたプログラミングならやったことがあるけれど、Raspberry Pi は触ったことがない・・・」という方、「組み込み開発の知識はあるけれど、Web 技術での制御は未経験・・・」といった方などに特にオススメのハンズオン講習会とハッカソンです。</p>
-            <p>参加条件は、基本的に学生／社会人問わず学習意欲のある方、持ち込みノート PC (Windows または Mac) の準備ができる方、プログラミングに興味をお持ちの方で、ハンズオン講習会 (2 日間) 及びハッカソン (2 日間) の計 4 日間にご参加いただける方です。ぜひ奮ってご参加ください。(2 回目参加の方はハンズオン講習会時、先輩参加者として、近くにいる初めて参加の方のお手伝いなどをお願いする場合がありますのであらかじめご了承ください。)</p>
-            <figure>
-              <img src="/static/images/2018/yokosuka/pic-2.jpg" srcset="/static/images/2018/yokosuka/pic-2@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
+          <section id="handson">
+            <h2>ハンズオン講習会</h2>
+            <div class="row">
+              <div class="col">
+                <p>2018 年 11 月 17 日 (土) - 18 日 (日) の両日、Web×IoT メイカーズチャレンジ 2018-19 in 横須賀のハンズオン講習会が横須賀テレコムリサーチパーク (YRP) と横須賀市産業交流プラザにて開催された。本講習会は、電波の有効活用等、IoT の基礎となる知識を身に着けること、無線歴史展示室の視察、LPWA テストベッドの体験、Web 技術 (JavaScript、Node.js) を用いてハードウェア (センサー等) を制御する方法を学ぶことを目的とした。</p>
+                <p>快晴の中、近隣の大学生や中学生、企業の若手エンジニア等 29 名が参加し、会場は熱気に包まれた。横須賀運営委員会主査である株式会社ブール・ジャパン 取締役 杉田瑠美子氏と、YRP研究開発推進協会 事務局長の安井哲也氏の挨拶に続き、総務省 関東総合通信局 情報通信部 情報通信連携推進課 課長 高田貴光氏の激励の言葉で講習会が始まった。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-01.jpg" srcset="/static/images/2018/yokosuka/handson-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-02.jpg" srcset="/static/images/2018/yokosuka/handson-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-03.jpg" srcset="/static/images/2018/yokosuka/handson-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-04.jpg" srcset="/static/images/2018/yokosuka/handson-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-05.jpg" srcset="/static/images/2018/yokosuka/handson-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-06.jpg" srcset="/static/images/2018/yokosuka/handson-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <p>本講習会では、電気通信大学 先端ワイヤレスコミュニケーション研究センター 専任教員 准教授 安達宏一講師による IoT の基礎知識、IoT の技術・関連法制度、及び電波の有効利用等に関する講義、株式会社横須賀テレコムリサーチパークの協力の元で、LPWA テストベッドの電波アンテナの視察とテスト機器の体験学習会を実施、無線歴史展示室を技術顧問 無線歴史展示室室長 太田現一郎先生による説明を通じて無線の歴史を学んだ。</p>
+                <p>その後くじ引きによるチーム分けが行われ、 Raspberry Pi 3B+ と Node.js を開発環境として、IoT の基本となるセンサー等を制御するプログラムを作成した。初めての IoT 開発でもセンサー稼働を容易に体験でき、IoT の可能性を感じられる講習会となった。</p>
+                <p>最後に 12 月 8 日 (土) - 9 日 (日) 開催のハッカソンに向けて、ここで初めて出会ったメンバー達で各チームによるアイデアソンが活発に行われ 3 週間後に行われるハッカソンに臨んだ。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-07.jpg" srcset="/static/images/2018/yokosuka/handson-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/handson-08.jpg" srcset="/static/images/2018/yokosuka/handson-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
           </section>
+        </div>
+      </div>
+      <div id="hackathon-outer" class="outer outer-1">
+        <div class="inner">
+          <section id="hackathon">
+            <h2>ハッカソン</h2>
+            <div class="row">
+              <div class="col">
+                <p>2018 年 12 月 8 日 (土)、及び 9 日 (日) の 2 日間にわたり、横須賀市産業交流プラザにてハッカソンが開催された。アイデアソンで説明を受けた横須賀の地域課題解決をスマートモビリティの活用を検討しつつ解決する事に関わる 3 つのテーマで各チームが物作りに挑戦した。</p>
+                <p>今回のハッカソンは、3 ～ 5 名からなる 6 チーム計 24 名が参加し、 Raspberry Pi 3B+、センサーキット、様々な工作物等を用いて作品の制作に臨んだ。チームごとに 2 万円を上限に作品の制作や開発にかかわる経費を主催者が負担、皆が思い思いの制作に取り掛かった。</p>
+                <p>2 日目の午後に審査が行われた。審査委員は、神奈川工科大学 創造工学部 ホームエレクトロニクス開発学科 教授／スマートハウス研究センター所長 一色正男氏、株式会社グローアップシステム 代表取締役 田中豊隆氏、モバイルコンピューティング推進コンソーシアム (MCPC) 技術最高責任者 岡崎正一氏の 3 名が務めた。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-01.jpg" srcset="/static/images/2018/yokosuka/hackathon-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-02.jpg" srcset="/static/images/2018/yokosuka/hackathon-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-03.jpg" srcset="/static/images/2018/yokosuka/hackathon-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-04.jpg" srcset="/static/images/2018/yokosuka/hackathon-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-05.jpg" srcset="/static/images/2018/yokosuka/hackathon-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-06.jpg" srcset="/static/images/2018/yokosuka/hackathon-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <p>アイデア (無線の活用度含む)、完成度、チーム力の 3 点を基準に審査が行われ、部屋の状態確認、各機器の操作を外部からできる事を実現した Team E の作品「誰でもスマートルーム (仮)」が最優秀賞を受賞した。Team E のメンバーは、3 月 8 日東京開催の「スマート IoT 推進フォーラム総会」に招待され、作品の展示が行われた。</p>
+                <p>また横須賀では連携するイベント、「ヨコスカ×スマートモビリティ・チャレンジ 2019」におけるビジネスアイデアコンテスト 2019 の参加権をスマートモビリティに関して最も優れたアイデアで製作を行った、Team D の「車内快適性モニター」が挑戦権を獲得した。他の 4 チームの作品もテーマに基づき思い思いで製作が行われた。横須賀では審査の際に協力者達の意見も取り入れ、協力者それぞれの名を関した賞で参加者の作品をねぎらい、結果として全チームに賞が与えられる結果となった。</p>
+                <p>最後は総務省 国際戦略局通信規格課 専門職 岡田公孝氏の言葉で、4 日間にわたり開催された「Web × IoT メイカーズチャレンジ 2018-19 in 横須賀」の全日程が終了した。懇親会では軽食や飲み物が用意され、参加者同士の交流を深めた。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-07.jpg" srcset="/static/images/2018/yokosuka/hackathon-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/yokosuka/hackathon-08.jpg" srcset="/static/images/2018/yokosuka/hackathon-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="teams-outer" class="outer outer-2">
+        <div class="inner">
+          <section id="teams">
+            <h2><span>参加チームおよび</span><span>作品概要</span></h2>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team A</strong> <span>横須賀</span><span>プロジェクション</span><span>マッピング</span></h3>
+                  <h4>作品名：<span>横須賀</span><span>プロジェクション</span><span>マッピング</span></h4>
+                  <p>横須賀の地域活性化のために、プロジェクションマッピングの演出を Web 上で選択できるようにして、オリジナルのプロジェクションマッピングを作成できるようにする。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-01.jpg" srcset="/static/images/2018/yokosuka/teams-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-02.jpg" srcset="/static/images/2018/yokosuka/teams-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team B</strong> <span>葡萄</span></h3>
+                  <h4>作品名：<span>クラウドを利用した</span><span>データ収集システム</span></h4>
+                  <p>家に温度センサー、湿度センサーを設置し、そのデータをWi-Fiを介してクラウドに送信すればデータベース化しグラフなどで表示できる。その結果を元に一人暮らしのお年寄りの見守りができる。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-03.jpg" srcset="/static/images/2018/yokosuka/teams-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-04.jpg" srcset="/static/images/2018/yokosuka/teams-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team C</strong></h3>
+                  <h4>作品名：<span>空席情報</span><span>把握システム</span></h4>
+                  <p>飲食店の利用者率とお店のカテゴリー、場所が分かるシステム。お店側がボタンスイッチを用いて空席状況を Web 上にアップロードする。利用者は入店時に待たなくてよい。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-05.jpg" srcset="/static/images/2018/yokosuka/teams-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-06.jpg" srcset="/static/images/2018/yokosuka/teams-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team D</strong> <span>D-☆ (ディースター)</span></h3>
+                  <h4>作品名：<span>車内快適性</span><span>モニター</span></h4>
+                  <p>バス車内の状況を可視化し運転手に通知することで、運転手に空調の操作を促し車内を快適な状態に保つことができる。「乗客数」「室温」を測定し、数値として運転手に提示することで、車内状況を把握することを助ける。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-07.jpg" srcset="/static/images/2018/yokosuka/teams-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-08.jpg" srcset="/static/images/2018/yokosuka/teams-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team E</strong> <span>ぬるぽ</span></h3>
+                  <h4>作品名：<span>誰でも</span><span>スマートルーム (仮)</span></h4>
+                  <p>マイコンやセンサーを用いて一般の家電をスマート化する。部屋環境の監視や家電の制御はスマートフォン、ブラウザ、スマートスピーカーなどで行うことができる。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-09.jpg" srcset="/static/images/2018/yokosuka/teams-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-10.jpg" srcset="/static/images/2018/yokosuka/teams-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team F</strong></h3>
+                  <h4>作品名：<span>お散歩アプリ</span></h4>
+                  <p>外出の懸念を払拭するような「お散歩アプリ」。機能として、日常的に通るルートや訪れたことのない場所の気温・湿度などの目に見えない情報の可視化を行い、利用者それぞれの目的・状態にあったコースを提供するアプリ。</p>
+                  <figure>
+                    <img src="/static/images/2018/yokosuka/teams-11.jpg" srcset="/static/images/2018/yokosuka/teams-11@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/yokosuka/teams-12.jpg" srcset="/static/images/2018/yokosuka/teams-12@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="outline-outer" class="outer outer-1">
