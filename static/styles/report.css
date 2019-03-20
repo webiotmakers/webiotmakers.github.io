@@ -74,6 +74,16 @@
     margin: 1rem 0;
   }
 
+  #winners h4 strong {
+    display: inline-block;
+    margin: 0 4px 4px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+
   #teams h2 + p {
     text-align: center;
   }

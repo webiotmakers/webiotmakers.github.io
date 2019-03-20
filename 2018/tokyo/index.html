@@ -11,34 +11,297 @@
     <title>Web×IoT メイカーズチャレンジ 2018-19 in 東京</title>
     <link rel="stylesheet" href="/static/styles/main.css">
     <link rel="stylesheet" href="/static/styles/local.css">
+    <link rel="stylesheet" href="/static/styles/report.css">
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
   <body class="wimc18 local" id="local-tokyo">
     <main>
-      <div id="header-outer" class="outer">
+      <div id="header-outer" class="outer outer-1">
         <div class="inner">
           <header id="header">
-            <h1>Web×IoT メイカーズチャレンジ 2018-19 in 東京</h1>
+            <h1><span>Web×IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>2018-19 in 東京</span> <span>開催報告</span></h1>
+            <p>2019年 2 月 9 日 (土) - 10 日 (日) にハンズオン講習会、2019 年3 月 2 日 (土) – 3 日 (日) にハッカソンと、計 4 日間の日程で東京・虎ノ門 KDDI DIGITAL GATE にて「Web×IoT メイカーズチャレンジ 2018-2019 in 東京」が開催された。このイベントは、Web 技術 (JavaScript、HTML) を用いたハードウェアの制御をハンズオン講習会で実践的に学んだのち、成果発表の機会としてハッカソンを行い、実際の IoT デバイス開発に挑戦するもので、これら一連のイベントを通じて若手 IoT エンジニアのスキルアップを目指す取り組みとして実施された。</p>
           </header>
         </div>
       </div>
+      <figure class="cover">
+        <img src="/static/images/2018/tokyo/cover.jpg" alt="" width="1920" height="640">
+      </figure>
       <div id="intro-outer" class="outer outer-2">
         <div class="inner">
-          <section id="intro" class="columns nobreak">
-            <h2>概要</h2>
-            <p>昨年度より各地で開催している Web×IoT メイカーズチャレンジを、今年度は東京でも開催いたします。小型ボードコンピューター Raspberry Pi 3 を使って、JavaScript によるハードウェアの制御を 2 日間のハンズオン形式の講習会で学び、3 週間の準備期間を経て、学んだ技術を活用し、モノづくりを伴ったハッカソンを行います。</p>
-            <p>前半 2/9 – 10 のハンズオン講習会では、電波リテラシーを含む IoT の基礎知識に関する講義の後、Raspberry Pi 3 上に構築された IoT プログラミング環境 CHIRIMEN for Raspberry Pi 3 を教材に、各自サンプルプログラムを触りながら、実際にネットと接続したセンサーやアクチュエーター (モーターなど) の制御を学びます。その後、ハッカソンに向けてのチーム分けを行い、ハッカソン作品のテーマ検討を行うアイデアワークショップやチームの作戦タイムを設けます。</p>
-            <p>後半 3/2 – 3 のハッカソンでは、ハンズオン講習で学んだ技術を活かして IoT 作品をチーム毎に制作し、その成果を競います。チーム結成からハッカソンまでの準備期間は 3 週間！ その間にメンバーと相談して作品制作に必要な材料を調達していただきます。また、ハッカソンの作品制作にかかる材料費も 1 チームにつき最大 25,000 円 (税込) まで補助があります。</p>
-            <figure>
-              <img src="/static/images/2018/shared/pic-2.jpg" srcset="/static/images/2018/shared/pic-2@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <figure>
-              <img src="/static/images/2018/tokyo/pic-1.jpg" srcset="/static/images/2018/tokyo/pic-1@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <p>東京会場では、30 才未満の方を対象にした「一般参加枠」の他に、若干名ではありますが年齢制限のない「チューター枠」を設けています。チューター枠の応募資格は、CHIRIMEN for Raspberry Pi 3 を試した経験をお持ちの方になります。ハンズオン講習会では一般参加枠の方のチューターサポートをお願いしますが、3/2 – 3 のハッカソンでは、参加者と一緒にチームを組んでメンバーとして作品制作に参加いただきます。詳しい応募条件等は <a href="https://webiotmakers.connpass.com/event/110708/">Connpass ページ (お申し込みサイト)</a> をご確認ください。</p>
-            <p>ハッカソンで最優秀作品に選ばれたチームには、2019 年 3 月 8 日に東京で開催されるスマート IoT 推進フォーラム総会での作品展示の機会提供があります。</p>
-            <p>本イベントでは、腕自慢が多く集まる一般的なハッカソンとは違い、講習会やハッカソンを学びの機会として活用いただくことを目指しています。ハッカソンに参加してみたいけれど自分のスキルが少々不安…という初めての方はもちろん、「Web を触ったり、ちょっとしたプログラミングならやったことがあるけれど、Raspberry Pi は触ったことがない…」という方、「ボードコンピューターで IoT を学びたい…！」といった方などにもオススメのスキルアップイベントです。</p>
+          <section id="handson">
+            <h2>ハンズオン講習会</h2>
+            <div class="row">
+              <div class="col">
+                <p>2019 年 2 月 9 日 (土) - 10 日 (日) の 2 日間の日程で、Web×IoT メイカーズチャレンジ 2018-19 in 東京のハンズオン講習会を KDDI DIGITAL GATE (虎ノ門) にて開催した。</p>
+                <p>東京会場では、30 才未満を対象にした一般参加枠の他、チューター枠も設けて募集を行ったが、最終的にハンズオン講習会は、38 名、ハッカソンでは欠席者が出たため 35 名の参加者数となった。東京ということもあり、20 代の社会人が半数近くを占めたが、高校生から高専生、専門学校生や大学生といった学生参加者も多く見られた。ハンズオン講習会前日には、雪の予報で交通網の混乱が心配されたが、雨となり特に大きな問題もなくハンズオン講習会当日を迎えた。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-01.jpg" srcset="/static/images/2018/tokyo/handson-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>KDDI DIGITAL GATE</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-03.jpg" srcset="/static/images/2018/tokyo/handson-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>総務省国際戦略局 通信規格課長 田沼知行氏による主催者挨拶</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-04.jpg" srcset="/static/images/2018/tokyo/handson-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>IoT と電波の基礎知識 講習 講師 重近氏</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-05.jpg" srcset="/static/images/2018/tokyo/handson-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハンズオン講習会 講師 浅井氏</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <p>初日は、主催者の総務省国際戦略局 通信規格課長 田沼 知行氏からの激励を頂いて開会した。次に株式会社アールシーエー代表取締役の重近 範行氏による「IoT と電波の基礎知識」の講義が行われた。続いて一般社団法人 WebDINO Japan CTO の浅井 智也 氏によるハンズオン講習が開始された。各参加者には 1 台ずつ開発環境 (Raspberry Pi 3 B+ と小型モニターやキーボード・マウス、SD カードやブレッドボード、LED ランプ、ジャンパー線やセンサー、抵抗器などがセットされたスターターキット) が配布され、ハンズオン講習の環境を構築した。チュータースタッフの手を借りながら、チュートリアルに従って LED の点滅やモーター制御をそれぞれの参加者が黙々と試し、1 日目の講習が終了した。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-06.jpg" srcset="/static/images/2018/tokyo/handson-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハンズオン講習会</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-07.jpg" srcset="/static/images/2018/tokyo/handson-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハンズオン講習会</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <p>2 日目の午前は、光・距離・加速度センサーを単一／複数使用まで挑戦するところまで行った。午後にはハッカソンチームが決まり、一般社団法人 WebDINO Japanの 伊作 太一氏によるアイデアワークショップが行われた。「身近な人をハッピーにする IoT デバイス」をテーマに付箋や模造紙を使って、アイデアの発散や整理・絞り込みが行われた。ワークショップで生まれたアイデアの種を基に、各チームは、ハッカソンに向けた具体的なテーマ検討や作戦会議に移り、熱心な議論が交わされた。最後に、ハッカソンに向けた作品テーマ検討の進捗が各チームから発表され、講師やメンターからのフィードバックが行われて閉会した。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-08.jpg" srcset="/static/images/2018/tokyo/handson-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハンズオン講習会</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-09.jpg" srcset="/static/images/2018/tokyo/handson-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>アイデアワークショップ</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/handson-10.jpg" srcset="/static/images/2018/tokyo/handson-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>アイデアワークショップ</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="hackathon-outer" class="outer outer-1">
+        <div class="inner">
+          <section id="hackathon">
+            <h2>ハッカソン</h2>
+            <div class="row">
+              <div class="col">
+                <p>2019 年 3 月 2 日 (土) - 3 日 (日)、2 月に実施したハンズオン講習会の成果発表イベントとして、KDDI DIGITAL GATE にてハッカソンを開催した。8 チームに分かれた参加者達が約3週間の準備期間を経て再集結し、IoT デバイス制作に真剣に取り組んだ。</p>
+                <p>初日はソフトウェアやハードウェア制作の知識を持つエキスパート、メンターやチューターの助けのもと、各チームが熱心に制作する姿が目立った。はんだ付けを行うためのコーナーは特に盛況で急きょ増席したほどで、私物のはんだを持ち込み、作業し続ける参加者が複数見られた。2 日目は追い込み作業として、ハードウェアの仕上げや作品の動作確認などを行う姿が見られた。</p>
+                <p>各チームの作品の審査は、村井 純 氏 (慶應義塾大学 環境情報学部 教授　大学院政策・メディア研究科委員長)、小林 茂 氏 (情報科学芸術大学院大学 (IAMAS) 教授)、瀧田 佐登子 氏 (一般社団法人 WebDINO Japan 代表理事 / Web×IoT メイカーズチャレンジ実行委員会 副査) の 3 名により行われた。</p>
+                <p>審査では、各チーム 5 分間で作品のデモンストレーションと説明を行い、質疑応答を行った。非常に完成度の高い作品が多く、審査員のみならず参加者も各チームの成果発表に感心する場面が多く見られた。審査の結果、最優秀賞は、チーム D の「SottoSystem」が受賞した。また、審査員から高く評価されたチーム C の「スマート犬小屋」、チーム G の「酔い度判定アプリ」、チーム E の「自動地雷位置検知 IoT システム」の 3 作品がサプライズとして審査員特別賞を受賞した。表彰後の懇親会では、参加者や講師陣、運営メンバーや審査員が交流を深め、ハッカソン終了となった。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/hackathon-01.jpg" srcset="/static/images/2018/tokyo/hackathon-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハッカソンの様子</figcaption>
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/tokyo/hackathon-02.jpg" srcset="/static/images/2018/tokyo/hackathon-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハッカソンの様子</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/hackathon-03.jpg" srcset="/static/images/2018/tokyo/hackathon-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>ハッカソンの様子</figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/tokyo/hackathon-04.jpg" srcset="/static/images/2018/tokyo/hackathon-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  <figcaption>審査の様子</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="winners-outer" class="outer outer-3">
+        <div class="inner">
+          <section id="winners">
+            <h2>表彰作品</h2>
+            <section>
+              <h3>最優秀賞</h3>
+              <section>
+                <h4><strong>Team D</strong><br>SottoSystem</h4>
+                <figure class="large">
+                  <img src="/static/images/2018/tokyo/winners-01.jpg" srcset="/static/images/2018/tokyo/winners-01@2x.jpg 1.5x" alt="" width="600" height="450">
+                  <img src="/static/images/2018/tokyo/winners-02.jpg" srcset="/static/images/2018/tokyo/winners-02@2x.jpg 1.5x" alt="" width="600" height="450">
+                </figure>
+              </section>
+            </section>
+            <section>
+              <h3>審査員特別賞</h3>
+              <div class="row">
+                <div class="col">
+                  <section>
+                    <h4><strong>Team D</strong><br>スマート犬小屋</h4>
+                    <figure>
+                      <img src="/static/images/2018/tokyo/winners-03.jpg" srcset="/static/images/2018/tokyo/winners-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                    </figure>
+                  </section>
+                </div>
+                <div class="col">
+                  <section>
+                    <h4><strong>Team E</strong><br>自動地雷位置検知システム</h4>
+                    <figure>
+                      <img src="/static/images/2018/tokyo/winners-04.jpg" srcset="/static/images/2018/tokyo/winners-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                    </figure>
+                  </section>
+                </div>
+                <div class="col">
+                  <section>
+                    <h4><strong>Team E</strong><br>酔い度判定アプリ</h4>
+                    <figure>
+                      <img src="/static/images/2018/tokyo/winners-05.jpg" srcset="/static/images/2018/tokyo/winners-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                    </figure>
+                  </section>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+      <div id="teams-outer" class="outer outer-2">
+        <div class="inner">
+          <section id="teams">
+            <h2><span>参加チームおよび</span><span>作品概要</span></h2>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team A</strong> <span>Diet Monster</span> <span>討伐ギルド</span></h3>
+                  <h4>作品名：<span>Diet Monster</span></h4>
+                  <p>体重計と冷蔵庫が連動し、ダイエットを応援する IoT ゲームシステム。冷蔵庫の表面にディスプレイが搭載され、そこでモンスターを育成するゲームが進行する。毎日体重を図ることで、自動でゲームが進行する。目標の体重に近づくとモンスターが成長し、逆にダイエットを怠ると退化してしまう。さらに、体重が増えモンスターが退化すると、連動して冷蔵庫のドアの開閉が重くなる仕組みになっている。プレイヤーは、まるで自分も弱体化してしまったかのような感覚を味わうことになる。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-01.jpg" srcset="/static/images/2018/tokyo/teams-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-02.jpg" srcset="/static/images/2018/tokyo/teams-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team B</strong> <span>お坊さんの背筋</span><span>更生委員会</span></h3>
+                  <h4>作品名：<span>お坊さん背筋</span><span>更生システム</span></h4>
+                  <p>姿勢の悪いお坊さんに喝をいれるための IoT システム。背中に装着するウェアラブルデバイスが、曲げセンサーなどで背筋の状態を測定する。猫背を検知した場合、叩き棒を搭載したラジコン「叩きマシン」が背後へ回り、喝を入れるために叩き棒を振り下ろす。ウェアラブルから取得した背筋の値や、叩きマシンのカメラ映像はリアルタイムで Web 経由で確認でき、「監視員」は同画面上からマシンの操作や振り下ろしの実行ができる。叩きマシンによる愛のこもった喝によって、己の過ちを深く反省し、背筋良く読経に励むことを応援する。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-03.jpg" srcset="/static/images/2018/tokyo/teams-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-04.jpg" srcset="/static/images/2018/tokyo/teams-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team C</strong> <span>トゥインクル・</span><span>犬・ユニバース</span></h3>
+                  <h4>作品名：<span>スマート犬小屋</span></h4>
+                  <p>飼い主と犬の双方を幸せにする IoT 犬小屋と首輪。犬の体温を温度センサーでモニタリングし、異常がある際は Slack で飼い主に通知する。GPS で犬の現在地も把握でき、犬が家から離れた際には脱走や通ったルートを通知する。また、犬小屋は、天気に合わせて犬が過ごしやすい環境を作りだす。屋根部分が自動で開閉でき、晴れている場合には開き、雨などの際には閉じる仕組みになっている。開いた際の屋根の裏面部分のデザインにもこだわり、華やかな演出で飼い主の気分を上げることもできる。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-05.jpg" srcset="/static/images/2018/tokyo/teams-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-06.jpg" srcset="/static/images/2018/tokyo/teams-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team D</strong></h3>
+                  <h4>作品名：<span>SottoSystem</span></h4>
+                  <p>作業中に寝落ちしてしまった人を検出し、温かくケアする優しさを提供する IoT システム。デスクに座っている人の顔をカメラと顔判定システムでモニタリングし、その状況変化から寝落ちを判断する。値落ちが検出された際は MQTT によって各種デバイスに一斉に信号が送信される。まず照明が OFF になり、カーテンも自動で閉められる。また、ラックのモータードライバが動作し、寝ている本人にそっと布団をかけてくれる。毛布の代わりにタライなどをセットすれば、寝落ちの際に起こしてくれるシステムとして応用もできる。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-07.jpg" srcset="/static/images/2018/tokyo/teams-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-08.jpg" srcset="/static/images/2018/tokyo/teams-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team E</strong> <span>地雷検知班</span></h3>
+                  <h4>作品名：<span>自動地雷位置検知</span> <span>IoT システム</span></h4>
+                  <p>埋まっている地雷を検知し、民間人や子供の命を守る IoT デバイス。GPS と金属センサーを搭載したラジコン車が地面を這い、地雷が埋まっている場所を検知する。自走可能なため、大量に制作してばらまくことが可能。検知した地雷情報は LINE を介して民間人に共有される。URLから地雷の位置を確認できる他、自分の位置情報を送れば今いる場所が安全か否かを教えてくれる。低コストで自作可能なため、資源が限られている戦地でも制作でき、万が一破壊された場合のロスも最小限に抑えることができる。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-09.jpg" srcset="/static/images/2018/tokyo/teams-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-10.jpg" srcset="/static/images/2018/tokyo/teams-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team F</strong> <span>TIFI</span></h3>
+                  <h4>作品名：<span>外出検知システム</span></h4>
+                  <p>認知症の人を見守る IoT システム。玄関に設置することで人の外出を検知することができる。意図しない徘徊などの際、いち早くそれに気づき、家族の安全を守ることができる。人感センサーと足元の圧力センサーの二重システムで人が通過したのを検知。その瞬間写真を撮り、 家族に通知を送る。二重のセンサーによる検知を導入することで、外出なのか帰宅なのかを判断できるよう工夫した。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-11.jpg" srcset="/static/images/2018/tokyo/teams-11@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-12.jpg" srcset="/static/images/2018/tokyo/teams-12@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team G</strong> <span>リォウ→日本語で</span><span>お酒という意味</span></h3>
+                  <h4>作品名：<span>Say rượu</span> <span>(サイ リォウ：酔い)</span> <span>度判定アプリ</span></h4>
+                  <p>飲み会の際、酔いを検知して飲み過ぎを警告する IoT システム。コースター型のデバイスでカラーセンサー等を使って、飲んでいるお酒の種類を判別。その飲み会で飲んだお酒の履歴を記録していく。酒気センサーによってユーザーが酔っ払った時点も判断し、限界値を超えた場合、卓上のサルの人形が踊りだし飲み過ぎを警告する。酔っ払った時点がわかるので、ユーザーは自分の限界を知ることができる。そのデータを踏まえて、次回以降、飲む量をコントロールできるようになる。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-13.jpg" srcset="/static/images/2018/tokyo/teams-13@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-14.jpg" srcset="/static/images/2018/tokyo/teams-14@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team H</strong> <span>おもちゃ LABO</span></h3>
+                  <h4>作品名：<span>うんち認識</span><span>自動洗浄トイレ</span></h4>
+                  <p>トイレの際、大小を判断し、自動で水洗してくれるスマートトイレ。用を足しトイレのフタを閉じると、フタ部分に設置されたカメラが「わすれもの」の画像を取得。その色から、大であるか小であるかを判断する。モータードライバーによって「わすれもの」が大であれば大、小であれば小の方向へ洗浄レバーが自動で回される。大で流すか小で流すかの判断を省くことで、ユーザーの負担軽減をねらう。</p>
+                  <figure>
+                    <img src="/static/images/2018/tokyo/teams-15.jpg" srcset="/static/images/2018/tokyo/teams-15@2x.jpg 1.5x" alt="" width="400" height="300">
+                    <img src="/static/images/2018/tokyo/teams-16.jpg" srcset="/static/images/2018/tokyo/teams-16@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
           </section>
         </div>
       </div>
