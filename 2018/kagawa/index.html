@@ -11,34 +11,340 @@
     <title>Web×IoT メイカーズチャレンジ 2018-19 in 香川</title>
     <link rel="stylesheet" href="/static/styles/main.css">
     <link rel="stylesheet" href="/static/styles/local.css">
+    <link rel="stylesheet" href="/static/styles/report.css">
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
   <body class="wimc18 local" id="local-kagawa">
     <main>
-      <div id="header-outer" class="outer">
+      <div id="header-outer" class="outer outer-1">
         <div class="inner">
           <header id="header">
-            <h1>Web×IoT メイカーズチャレンジ 2018-19 in 香川</h1>
+            <h1><span>Web×IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>2018-19 in 香川</span> <span>開催報告</span></h1>
+            <p>2019 年 1 月 12 日 (土) - 13 日 (日) にハンズオン講習会、2019 年 2 月 2 日 (土) – 3 日 (日) にハッカソンと、計 4 日間の日程で香川県高松市にて「Web×IoT メイカーズチャレンジ 2018-2019 in 香川」が開催された。このイベントは、Web 技術 (JavaScript、HTML) を用いたハードウェアの制御をハンズオン講習会で実践的に学んだのち、成果発表の機会としてハッカソンを行い、実際の IoT デバイス開発に挑戦するもので、これら一連のイベントを通じて若手 IoT エンジニアのスキルアップを目指す取り組みとして実施された。</p>
           </header>
         </div>
       </div>
+      <figure class="cover">
+        <img src="/static/images/2018/kagawa/cover.jpg" alt="" width="1920" height="960">
+      </figure>
       <div id="intro-outer" class="outer outer-2">
         <div class="inner">
-          <section id="intro" class="columns nobreak">
-            <h2>概要</h2>
-            <p>Web×IoT メイカーズチャレンジ 2018-19 in 香川では、小型ボードコンピューター Raspberry Pi 3 を使って、JavaScript によるハードウェアの制御を 2 日間のハンズオン形式で学び、その 3 週間後に学んだ技術を活用し、モノづくりを伴ったハッカソンを行います。</p>
-            <figure>
-              <img src="/static/images/2018/shared/pic-1.jpg" srcset="/static/images/2018/shared/pic-1@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <p>前半日程のハンズオン講習会では、電波リテラシーを含む IoT の基礎知識に関する講義と香川県内での IoT を活用した事例紹介の後、Raspberry Pi 3 上に構築された IoT プログラミング環境 CHIRIMEN for Raspberry Pi 3 を教材に、各自サンプルプログラムを触りながら、実際にネットと接続したセンサーの制御をハンズオン形式の講習会で学びます。また、ハッカソン作品テーマ検討に向けての通地域課題をテーマにしたアイデアワークショップも行います。</p>
-            <p>後半のハッカソンでは、ハンズオン講習で学んだ技術を活かして IoT 作品をチーム毎に制作し、その成果を競います。チーム結成からハッカソンまでの準備期間は約 3 週間。その間にメンバーと相談して作品制作に必要な材料を調達していただきます。また、ハッカソンの作品制作にかかる材料費も 1 チームにつき最大 25,000 円 (税込) まで補助があります。</p>
-            <p>ハッカソンで最優秀作品に選ばれたチームには、2019 年 3 月 8 日に東京で開催されるスマート IoT 推進フォーラム総会での作品展示へご招待！</p>
-            <p>「Web を触ったり、ちょっとしたプログラミングならやったことがあるけれど、Raspberry Pi は触ったことがない…」という方、「ボードコンピューターで IoT を学びたい…！」」といった方などに特にオススメのスキルアップイベントです。</p>
-            <figure>
-              <img src="/static/images/2018/shared/pic-2.jpg" srcset="/static/images/2018/shared/pic-2@2x.jpg 1.5x" alt="" width="400" height="300">
-            </figure>
-            <p>ハッカソンに参加してみたいけれど自分のスキルが少々不安…という初めての方はもちろん、昨年参加して今年もぜひチャレンジしたい！という方もぜひご参加ください。(ハンズオン講習会やハッカソンでは、詳しいスタッフの補助もあります。)</p>
+          <section id="handson">
+            <h2>ハンズオン講習会</h2>
+            <div class="row">
+              <div class="col">
+                <p>「Web×IoT メイカーズチャレンジ 2018-2019 in 香川」のハンズオン講習会が、2019 年 1 月 12 日 (土) - 13 日 (日) の 2 日間、情報通信交流館 e-とぴあ・かがわで開催された。本講習会は、広く用いられている Raspberry Pi 3 と各種センサーを使った体験学習を通じて、IoT システムの基礎を身につけることを目的とした。内容は、電波利用の基礎、IoT の基礎、IoT の応用の 3 部構成となっており、2 日間共に県内の高校生・大学生・社会人の 27 名が参加した。</p>
+                <h3>ハンズオン講習会 1 日目</h3>
+                <p>主催者側として、総務省四国総合通信局 情報通信部 電気通信事業課 竹田剛城課長の挨拶に続き、高松市の IoT に対する取り組み事例の紹介と今回のハッカソンにて利用可能なスマートシティ向け IoT プラットフォーム「FIWARE」の説明をそれぞれ、高松市総務局 情報政策課 ICT 推進室 田中照敏室長、日本電気株式会社未来都市づくり推進本部シティマネジメントグループ 米丸浩一郎氏にお願いした。</p>
+                <p>引き続き、IoT を学ぶ前段階として、電波利用の基礎知識の講習を行った。</p>
+                <p>午後からは、NPO 法人日本 Android の会香川支部支部長 岩倉洋平 氏より、JavaScript の基礎と CHIRIMEN for Raspberry Pi 3 を使って、ブレッドボードの仕組みや解説、抵抗やセンサーの種類と使い方などのチートリアルを行いながら Web GPIO、Web I2C API の使い方を学び、センサーを使ったモーター制御に取り組む段階で、1 日目が終了した。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-01.jpg" srcset="/static/images/2018/kagawa/handson-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-02.jpg" srcset="/static/images/2018/kagawa/handson-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-03.jpg" srcset="/static/images/2018/kagawa/handson-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-04.jpg" srcset="/static/images/2018/kagawa/handson-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-05.jpg" srcset="/static/images/2018/kagawa/handson-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-06.jpg" srcset="/static/images/2018/kagawa/handson-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-07.jpg" srcset="/static/images/2018/kagawa/handson-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <h3>ハンズオン講習会 2 日目</h3>
+                <p>2 日目の午前中は、引き続き岩倉洋平氏より、1 日目の続きとなるセンサーを使ったモーター制御に取り組んだ。温度センサーを用い閾値を超えたらアラート (LED を警告代わりに点灯させる) が発生し、モーター (DC ファン) を回転させるものだ。簡易的ではあるが、温度制御システムという「環境の変化によりモノを動かす」仕組み体験することで、参加者の本イベントに対する意欲が高まったようだ。</p>
+                <p>午後は、講習会を始める前にチーム分けを行った。申し込み時の希望と参加者のスキルなどを加味し、6 チームに分かれた。特徴的なチームとして、同じ高校のパソコン部に所属するメンバーのみのチームや親子参加者のいるチームなどができあがった。</p>
+                <p>その後、香川大学 創造工学部 助教 米谷雄介氏により、本格的な Web×IoT にもつながる内容のハンズオン講習会を行った。みちびき対応の GPS センサーを使い、位置情報と温度をクラウド上のデータ (FIWARE) にアップするものだ。最初に FIWARE のインターフェースについて解説があり、その後はサンプルプログラムを元に、情報をアップするプログラムを作成後、各チームに分かれてモバイルバッテリーを使い動作検証を行った。</p>
+                <p>講習会後は同施設内で場所を移し、各チームに分かれアイデアワークショップに取り組んだ。チームやプロジェクトの名称も含め、具体的な作品テーマを考え、3 週間後のハッカソンに向けての体制やスケジュールを決め、解散となった。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-08.jpg" srcset="/static/images/2018/kagawa/handson-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-09.jpg" srcset="/static/images/2018/kagawa/handson-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-10.jpg" srcset="/static/images/2018/kagawa/handson-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/handson-11.jpg" srcset="/static/images/2018/kagawa/handson-11@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="hackathon-outer" class="outer outer-1">
+        <div class="inner">
+          <section id="hackathon">
+            <h2>ハッカソン</h2>
+            <div class="row">
+              <div class="col">
+                <p>ハッカソンは、2019 年 2 月 2 日 (土) - 3 日 (日) の 2 日間にわたり、情報通信交流館 e-とぴあ・かがわで実施された。講習会参加者のうち、24 名 6 チームが参加しての開催となった。</p>
+                <p>ハンズオン講習会から 3 週間の準備期間を経て、各チームが部分的にできあがった作品や予め用意した材料・機材を持ち込んで、作品を仕上げた。今回のハッカソンでは、チームごとに 25,000 円を上限として作品制作にかかわる費用を主催者側が補助することとなっており、それぞれのチームはテーマにより、情報機器類の調達から 3D プリンタ出力や手作り工作など、さまざまな材料・機材を準備していた。</p>
+                <p>ハッカソン 1 日目は、各チームとも作品の完成度を高めるため、様々な検討や試行錯誤を行い作品に反映していった。チーム「Cyber Works」のように、バス運行情報を収集する仕組みを考えたチームは、メンバーが機材を持ってバスに乗り、情報を随時発信し続けるなど実情報を収集しながらの調整を行うなど、ユニークな作業を行っていた。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-01.jpg" srcset="/static/images/2018/kagawa/hackathon-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-02.jpg" srcset="/static/images/2018/kagawa/hackathon-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-03.jpg" srcset="/static/images/2018/kagawa/hackathon-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-04.jpg" srcset="/static/images/2018/kagawa/hackathon-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-05.jpg" srcset="/static/images/2018/kagawa/hackathon-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-06.jpg" srcset="/static/images/2018/kagawa/hackathon-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-07.jpg" srcset="/static/images/2018/kagawa/hackathon-07@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <p>ハッカソン 2 日目は、午前中に最終調整を行い、午後からは審査会となった。ハッカソン審査員は、次の方にお願いした。</p>
+                <ul>
+                  <li>高松大学・高松短期大学学長 佃昌道氏</li>
+                  <li>高松市総務局参事 廣瀬一朗氏</li>
+                  <li>日本電気株式会社四国支社 支社長 松尾達宏氏</li>
+                  <li>香川県情報政策課 課長 松本浩二氏</li>
+                </ul>
+                <p>審査員が各チームのテーブルをまわり、10 分間プレゼンを受け作品を確認、質疑応答を経て評価となった。</p>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-08.jpg" srcset="/static/images/2018/kagawa/hackathon-08@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-09.jpg" srcset="/static/images/2018/kagawa/hackathon-09@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-10.jpg" srcset="/static/images/2018/kagawa/hackathon-10@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-11.jpg" srcset="/static/images/2018/kagawa/hackathon-11@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <p>審査修了後に審査結果が発表され、最優秀作品には「チーム：FsAPro (Flagship Architect Project)」の作品：国旗掲揚 2.0 が選ばれ、全チームの作品講評が審査員から伝えられた。また、ハッカソン参加者全員に審査員より、修了証が授与された。</p>
+                <p>参加者、審査員、スタッフを交えた記念撮影と懇親会が行われ、催事が終了した。懇親会では、次年度開催があればチューターとして参加したい・新入生を迎えたパソコン部で再挑戦したいなど、地元主催イベントとして定着し、発展が感じられる手応えがあった。</p>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-12.jpg" srcset="/static/images/2018/kagawa/hackathon-12@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-13.jpg" srcset="/static/images/2018/kagawa/hackathon-13@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-14.jpg" srcset="/static/images/2018/kagawa/hackathon-14@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-15.jpg" srcset="/static/images/2018/kagawa/hackathon-15@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="/static/images/2018/kagawa/hackathon-16.jpg" srcset="/static/images/2018/kagawa/hackathon-16@2x.jpg 1.5x" alt="" width="400" height="300">
+                </figure>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="teams-outer" class="outer outer-2">
+        <div class="inner">
+          <section id="teams">
+            <h2><span>参加チームおよび</span><span>作品概要</span></h2>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team A</strong> <span>チーム SSK.Shrike</span></h3>
+                  <h4>作品名：<span>連続運転防止システム</span></h4>
+                  <p>香川県では交通事故が非常に多く、平成 26 年では以下の通りである。</p>
+                  <ul>
+                    <li>事故件数：約 9,000 件</li>
+                    <li>負傷者数：約 11,000 人</li>
+                    <li>死者数：52 人</li>
+                  </ul>
+                  <p>少しでも事故件数を減らし、被害者が少なくなるよう連続運転防止システムを考案した。2 時間毎に 20 分休憩をとることによって、連続運転による精神的・肉体的負荷を低下させることで、少しでも人的要因で発生する交通事故を減らすことを目的とした。GPS を組み込み、一定時間運転していた場合に注意を促すと共に、休憩場所を表示するという仕組みを考えた。休憩場所の表示に IoT を活用することで、休憩場所を素早く、正確に表示し、分かりやすくすることが可能となる。</p>
+                  <p>システムの機能</p>
+                  <ul>
+                    <li>長時間運転による肉体的・精神的疲労の低減</li>
+                    <li>子供連れでも安心して外出できる施設の表示</li>
+                    <li>個人に合わせた運転時間の設定</li>
+                  </ul>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-01.jpg" srcset="/static/images/2018/kagawa/teams-01@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team B</strong> <span>FsAPro (Flagship Architect Project)</span></h3>
+                  <h4>作品名：<span>国旗掲揚 2.0</span></h4>
+                  <p>IoT の I をポール、o は旗、T を人に見立てると、「IoT という文字は人が旗を上げている様子に見える！」地域を IoT = つまり旗でつなげ、盛り上げたいという思いに着想を得た作品。地域の小中学校の運動会などの行事の国旗掲揚を円滑に負担を少なくしたい、また、東京オリンピックで世界の旗が首都東京で上がるというシチュエーションも考慮し、全自動旗揚げマシーンを制作した。日時と場所を指定すると、国旗掲揚を自動で実施できる。予約情報を FIWARE に送信し、いつどこで国旗が掲揚されるのかを一目で把握することができる。「あそこが上げているならうちも上げよう」そんな使用シーンも実現すべく、連携掲揚も可能とした。旗が旗を呼び、そして人が動く。旗で繋がる香川。来る 2020 年の東京オリンピックでの活用も視野に入れた国旗掲揚 2.0 である。</p>
+                  <ul>
+                    <li>駆動部分のカバーは、3D プリンタを使い最適なサイズに仕上げた。</li>
+                    <li>ステッピングモーターを使い、細かな掲揚スピードの実現に成功した。</li>
+                    <li>掲げ下げの作業中には、君が代が流れ臨場感を演出している。</li>
+                    <li>予約機能をつけることで人手を使わずに自動的に、香川県ひいては世界中で、旗を掲揚することができる。</li>
+                    <li>予約情報は誰でも自由に見ることができ、「あ、今日はあそこであがるのか！ ならあそこいってみようかな」と地域活性化に貢献できる。</li>
+                    <li>今すぐ上げたい、そんなあなたのためにモニタをワンタッチすれば旗を上げ下げすることができる。</li>
+                  </ul>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-02.jpg" srcset="/static/images/2018/kagawa/teams-02@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team C</strong></h3>
+                  <h4>作品名：<span>熱中症予防</span><span>遠隔モニタリング</span><span>システム</span></h4>
+                  <p>昨今、一人暮らしの高齢者世帯が増加しており、そういった方々が屋内で熱中症を発症する可能性が指摘できる。熱中症は、高温・高湿度な環境下で体内の水分等のバランスが崩れ、調整機能が失われることで発症する。高齢者は体温調整機能が低下していることなどから、若年者より熱中症を発症する危険性が高い。また、発症場所は屋外に限らず、屋内でも同様に危険性がある。[*1]</p>
+                  <p>本システムは熱中症の発症要因である温度と湿度をセンサーでモニタリングし、室内が有人の (人感センサーが人を検知している) 時に温度または湿度が閾値 [*2] を超えた場合、室内の LED が点灯してアラートし、事前に登録済みの連絡先 (電子メール、SMS 等) に危険度に応じたメッセージを送信することで、離れて暮らす親族や地域の見守りに役立てる。</p>
+                  <p>[*1] 「協力医療機関における熱中症入院患者数 (8 月 31 日 報告分)」：厚生労働省<br>[*2] 環境省「暑さ指数 (WBGT)」より簡易に算出</p>
+                  <p>特徴的に機能として、Web サービスと連携し、アラートメッセージを送信する。その送信先を柔軟に設定できる。</p>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-03.jpg" srcset="/static/images/2018/kagawa/teams-03@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team D</strong> <span>Cyber Works</span></h3>
+                  <h4>作品名：<span>Bu すっとプロジェクト</span></h4>
+                  <p>バス位置、乗車人数、車内温度等がモニタリングできる路線バスロケーション＆監視システム。時間帯による乗車人数を把握することにより、効果的なバスダイヤを組みことの助けになる。また新規路線を考えるときにも、どのルートを走らせることが利便性、経済効果が高いか効率的にデータ収集ができる。将来的にはカメラをつなぎ、車内犯罪防止のツールになることも目指す。温度情報も収集できるので、エンジンなどの異常検知に寄与させることもできる。本作品はバスのみでなく、人の動線調査、空き家監視など多様な分野に応用可能である。</p>
+                  <p>高松市は公共交通機関の在り方が課題となっている。幹線交通と支線路線を組み合わせた路線再編や利便性の高いバス施策、効果的なダイヤ編成などに貢献する作品作りを目指した。装置をバスに搭載することにより比較的簡単にバス位置や乗客数のデータを収集でき、これらの課題に役立たせることができる。あわせて、バスのみでなく、人の動線調査、空き家監視など多様な分野に応用可能となることを想定して、作品作りに取り組んだ。</p>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-04.jpg" srcset="/static/images/2018/kagawa/teams-04@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <section>
+                  <h3><strong>Team E</strong> <span>SUKF</span></h3>
+                  <h4>作品名：<span>いきいき行脚</span></h4>
+                  <p>本作品は、”高齢者増加による医療費の増加を抑制するために、高齢者が長く健康でいられる”ことを目的とした。外に出歩くことができる健康な高齢者を対象にした健康促進アプリである。活動記録を見える化して、高齢者同士の繋がりを深めて生き甲斐を作ることができる。今回の製作では、作品のコアである歩数計測機能とランキング表示機能を作成した。将来的には、配下チェックや訪れた場所のチェックイン機能などを実装したいという展望がある。</p>
+                  <ul>
+                    <li>3 軸加速度センサモジュール LIS3DH を利用して、歩数を計測し FIWARE へのアップロードができるようにし。</li>
+                    <li>FIWARE から取得した計測データをもとに、ランキング表示できるようにした。</li>
+                  </ul>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-05.jpg" srcset="/static/images/2018/kagawa/teams-05@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h3><strong>Team F</strong> <span>TM ネットワーク</span></h3>
+                  <h4>作品名：<span>さぬきうどんを</span><span>もっと食べに行こう！！</span></h4>
+                  <p>「さぬきうどん」は、県外から多くの食通が食べに来るほど香川県の名物として特に有名であり、有名店では長い行列ができている。そこで、1 日で何軒もうどん屋をハシゴする県外観光客にもっと効率よく、多くのうどん屋を廻ってもらうための情報発信を狙いとし本作品を制作した。</p>
+                  <p>うどん屋では、来客はタッチパネルでの注文を行うこととして、この情報を収集・処理し、リアルタイムの混み具合情報を提供し、空いているうどん店に誘導。併せて、その店の人気メニューや空く時間帯情報も提供する。開発のもう一つの狙いとして、口頭で注文するセルフ店での煩わしさを軽減し、聴覚障害者にも気兼ねなくうどん店に来店できるようにすることも考えた。</p>
+                  <ul>
+                    <li>混み具合を数値化する方法を解決するめ、タッチパネルを用いて注文し、この情報を入店者数とした。また、退店者については 20 分程度滞在すると仮定し、時間が経過すると退店処理し、出入りの齟齬をなくした。</li>
+                    <li>うどん屋だけでなく、様々な状況での活用が可能。(瀬戸内国際芸術祭など)</li>
+                  </ul>
+                  <figure>
+                    <img src="/static/images/2018/kagawa/teams-06.jpg" srcset="/static/images/2018/kagawa/teams-06@2x.jpg 1.5x" alt="" width="400" height="300">
+                  </figure>
+                </section>
+              </div>
+            </div>
           </section>
         </div>
       </div>
