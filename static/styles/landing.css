@@ -3,6 +3,10 @@
   left: -99999px;
 }
 
+#report h4 {
+  margin-bottom: 0;
+}
+
 #report h4,
 #report h5 {
   line-height: 1.5;
@@ -69,6 +73,10 @@
 
   #report .col.closing section {
     border: 1px solid rgba(255, 255, 255, .3);
+  }
+
+  #report .col.closing a {
+    white-space: nowrap;
   }
 
   #news h2,
