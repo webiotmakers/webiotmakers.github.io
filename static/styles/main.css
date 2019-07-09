@@ -118,6 +118,7 @@ ul.grid.labels li {
 ul.grid.logos li {
   margin: 16px;
   width: auto;
+  max-width: 100%
 }
 
 ul.grid.pics li {
@@ -174,6 +175,11 @@ figure img {
   height: auto;
 }
 
+[role="button"] * {
+  display: inline-block; /* for IE11 */
+  pointer-events: none;
+}
+
 .button {
   border-width: 4px;
   border-style: solid;
@@ -192,6 +198,7 @@ figure img {
 
 .icon.fa {
   font-family: FontAwesome;
+  vertical-align: top;
 }
 
 .inner > section {
@@ -215,7 +222,7 @@ figure img {
 #footer {
   font-size: 0.875rem;
   text-align: center;
-  color: #999;
+  color: #666;
 }
 
 @media screen {
@@ -233,12 +240,12 @@ figure img {
   }
 
   a:link, a:visited {
-    color: #0A7BCC;
+    color: #085C99;
     text-decoration: none;
   }
 
   a:hover, a:focus, a:active {
-    color: #0B8BE5;
+    color: #096CB3;
     text-decoration: underline;
   }
 
@@ -261,18 +268,20 @@ figure img {
   }
 
   .outer-2 a:link,
-  .outer-2 a:visited {
-    color: #0C92F2;
-  }
-
+  .outer-2 a:visited,
   .outer-2 a:hover,
   .outer-2 a:focus,
   .outer-2 a:active {
-    color: #0D9AFF;
+    color: #40AFFF;
   }
 
   .outer-3 {
     background-color: #F5CE52;
+  }
+
+  .outer-4 {
+    color: #FFF;
+    background-color: #096CB3;
   }
 
   .inner {
