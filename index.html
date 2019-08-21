@@ -65,10 +65,10 @@
       <main>
         <div class="drawer outer-2" id="locations" hidden>
           <a href="#" class="close" role="button" aria-controls="locations" aria-label="閉じる"><span aria-hidden="true">×</span></a>
-          <section class="location" id="location-sapporo" hidden>
+          <section class="location" id="location-sapporo" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3>札幌会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 札幌</span></h4>
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 札幌</span></h4>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を札幌市で昨年度に引き続き開催します！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
               <meta itemprop="startDate" content="2019-08-31">
@@ -191,33 +191,53 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-gunma" hidden>
+          <section class="location" id="location-gunma" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3>群馬会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 群馬</span></h4>
-              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を群馬県で昨年度に引き続き開催します！">
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 群馬</span></h4>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を前橋市で昨年度に引き続き開催します！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
               <meta itemprop="startDate" content="2019-09-22">
               <meta itemprop="endDate" content="2019-10-13">
               <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                   <meta itemprop="addressRegion" content="群馬県">
+                  <meta itemprop="addressLocality" content="前橋市">
                 </span>
               </span>
             </hgroup>
             <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
               <h5 itemprop="name">ハンズオン講習会</h5>
               <div><time datetime="2019-09-22" itemprop="startDate">2019 年 9 月 22 日 (土)</time> – <time datetime="2019-09-23" itemprop="endDate">23 日 (祝・月)</time><br>10:00 - 18:00 (予定)</div>
-              <div>会場：調整中</div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：<a href="https://goo.gl/maps/wPcMgYDcTZ2VGWQU9" itemprop="url"><span itemprop="name">上毛新聞社</span></a> 2 階 セミナールーム
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="群馬県">
+                  <meta itemprop="addressLocality" content="前橋市">
+                </span>
+              </div>
             </section>
             <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
               <h5 itemprop="name">ハッカソン</h5>
               <div><time datetime="2019-10-12" itemprop="startDate">2019 年 10 月 12 日 (土)</time> – <time datetime="2019-10-13" itemprop="endDate">13 日 (日)</time><br>10:00 - 19:00 (予定)</div>
-              <div>会場：調整中</div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：<a href="https://goo.gl/maps/wPcMgYDcTZ2VGWQU9" itemprop="url"><span itemprop="name">上毛新聞社</span></a> 2 階 セミナールーム
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="群馬県">
+                  <meta itemprop="addressLocality" content="前橋市">
+                </span>
+              </div>
             </section>
-            <section>
-              <h5>詳細・お申込み</h5>
-              <div>決定次第ご案内いたします。</div>
+            <section class="links">
+              <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <a href="https://webiotmakers.connpass.com/event/141474/" class="button cta" itemprop="url">詳細・お申込み</a>
+                  <small>(Connpass サイトへ移動します)</small>
+                  <small>8 月下旬より申込み受付開始予定</small>
+                  <meta itemprop="price" content="0">
+                </li>
+              </ul>
             </section>
             <section>
               <h5>過去の開催</h5>
@@ -227,12 +247,53 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-yokosuka" hidden>
+          <section class="location" id="location-yokosuka" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3>横須賀会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 横須賀</span></h4>
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 横須賀</span></h4>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を神奈川県で昨年度に引き続き開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
+              <meta itemprop="startDate" content="2019-11-23">
+              <meta itemprop="endDate" content="2019-12-22">
+              <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="神奈川県">
+                </span>
+              </span>
             </hgroup>
-            <p>開催日程は決定次第ご案内します</p>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div><time datetime="2019-11-23" itemprop="startDate">2019 年 11 月 23 日 (土)</time> – <time datetime="2019-11-24" itemprop="endDate">24 日 (日)</time></div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：[1 日目] <a href="http://www.yrp.co.jp/facilities/access.html" itemprop="url"><span itemprop="name">横須賀リサーチパーク</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="神奈川県">
+                  <meta itemprop="addressLocality" content="横須賀市">
+                </span>
+              </div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                [2 日目] <a href="http://univ.kanto-gakuin.ac.jp/index.php/ja/home/about-university/overview/campus-facilities/location.html" itemprop="url"><span itemprop="name">関東学院大学<br>横浜・金沢八景キャンパス</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="神奈川県">
+                  <meta itemprop="addressLocality" content="横浜市金沢区">
+                </span>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div><time datetime="2019-12-21" itemprop="startDate">2019 年 12 月 21 日 (土)</time> – <time datetime="2019-12-22" itemprop="endDate">22 日 (日)</time></div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：<a href="http://univ.kanto-gakuin.ac.jp/index.php/ja/home/about-university/overview/campus-facilities/location.html" itemprop="url"><span itemprop="name">関東学院大学<br>横浜・金沢八景キャンパス</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="神奈川県">
+                  <meta itemprop="addressLocality" content="横浜市金沢区">
+                </span>
+              </div>
+            </section>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <div>決定次第ご案内いたします。</div>
+            </section>
             <section>
               <h5>過去の開催</h5>
               <ul class="plain">
@@ -241,12 +302,61 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-shinshu" hidden>
+          <section class="location" id="location-shinshu" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3>信州会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 信州</span></h4>
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 信州</span></h4>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を長野県で開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
+              <meta itemprop="startDate" content="2019-09-28">
+              <meta itemprop="endDate" content="2019-11-03">
+              <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="塩尻市">
+                </span>
+              </span>
             </hgroup>
-            <p>開催日程は決定次第ご案内します</p>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div><time datetime="2019-09-28" itemprop="startDate">2019 年 9 月 28 日 (土)</time> – <time datetime="2019-09-29" itemprop="endDate">29 日 (日)</time></div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：[1 日目 / 2 日目 AM]<br><a href="https://www.shinshu.ad.jp/wp/" itemprop="url"><span itemprop="name">塩尻情報プラザ</span></a> 研修室
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="塩尻市">
+                </span>
+              </div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                [2 日目 PM]<br><a href="http://sip.shiojiri.com/" itemprop="url"><span itemprop="name">塩尻インキュベーションプラザ</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="塩尻市">
+                </span>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div><time datetime="2019-11-02" itemprop="startDate">2019 年 11 月 2 日 (土)</time> – <time datetime="2019-11-03" itemprop="endDate">3 日 (日)</time></div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：<a href="http://sip.shiojiri.com/" itemprop="url"><span itemprop="name">塩尻インキュベーションプラザ</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="塩尻市">
+                </span>
+              </div>
+            </section>
+            <section class="links">
+              <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <a href="https://webiotmakers.connpass.com/event/143675/" class="button cta" itemprop="url">詳細・お申込み</a>
+                  <small>(Connpass サイトへ移動します)</small>
+                  <small>8 月下旬より申込み受付開始予定</small>
+                  <meta itemprop="price" content="0">
+                </li>
+              </ul>
+            </section>
           </section>
           <section class="location" id="location-ishikawa" hidden>
             <hgroup>
@@ -255,10 +365,10 @@
             </hgroup>
             <p>開催日程は決定次第ご案内します</p>
           </section>
-          <section class="location" id="location-tottori" hidden>
+          <section class="location" id="location-tottori" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3>鳥取会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 鳥取</span></h4>
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 鳥取</span></h4>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を鳥取市で昨年度に引き続き開催します！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
               <meta itemprop="startDate" content="2019-11-09">
@@ -614,20 +724,38 @@
                     <tr>
                       <th rowspan="2"><a href="#location-gunma" role="button" aria-controls="locations location-gunma">群馬</a></th>
                       <th>ハンズオン講習会</th>
-                      <td>2019 年 9 月 22 日 (土) – 23 日 (祝・月)<br>会場：調整中</td>
+                      <td>2019 年 9 月 22 日 (土) – 23 日 (祝・月)<br>会場：上毛新聞社</td>
                     </tr>
                     <tr>
                       <th>ハッカソン</th>
-                      <td>2019 年 10 月 12 日 (土) – 13 日 (日)<br>会場：調整中</td>
+                      <td>2019 年 10 月 12 日 (土) – 13 日 (日)<br>会場：上毛新聞社</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2"><a href="#location-yokosuka" role="button" aria-controls="locations location-yokosuka">横須賀</a></th>
+                      <th>ハンズオン講習会</th>
+                      <td>2019 年 11 月 23 日 (土) – 24 日 (日)<br>会場：横須賀リサーチパーク、関東学院大学 横浜・金沢八景キャンパス</td>
+                    </tr>
+                    <tr>
+                      <th>ハッカソン</th>
+                      <td>2019 年 12 月 21 日 (土) – 22 日 (日)<br>会場：関東学院大学 横浜・金沢八景キャンパス</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2"><a href="#location-shinshu" role="button" aria-controls="locations location-shinshu">信州</a></th>
+                      <th>ハンズオン講習会</th>
+                      <td>2019 年 9 月 28 日 (土) – 29 日 (日)<br>会場：塩尻情報プラザ、塩尻インキュベーションプラザ</td>
+                    </tr>
+                    <tr>
+                      <th>ハッカソン</th>
+                      <td>2019 年 11 月 2 日 (土) – 3 日 (日)<br>会場：塩尻インキュベーションプラザ</td>
                     </tr>
                     <tr>
                       <th rowspan="2"><a href="#location-tottori" role="button" aria-controls="locations location-tottori">鳥取</a></th>
                       <th>ハンズオン講習会</th>
-                      <td>2019 年 11 月 9 日 (土) – 10 日 (日)<br>会場：鳥取大学 鳥取キャンパス 広報センター</td>
+                      <td>2019 年 11 月 9 日 (土) – 10 日 (日)<br>会場：鳥取大学 鳥取キャンパス</td>
                     </tr>
                     <tr>
                       <th>ハッカソン</th>
-                      <td>2019 年 12 月 7 日 (土) – 8 日 (日)<br>会場：鳥取大学 鳥取キャンパス 広報センター</td>
+                      <td>2019 年 12 月 7 日 (土) – 8 日 (日)<br>会場：鳥取大学 鳥取キャンパス</td>
                     </tr>
                   </table>
                   <footer>
