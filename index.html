@@ -451,12 +451,61 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-tokushima" hidden>
+          <section class="location" id="location-tokushima" hidden itemtype="http://schema.org/Event">
             <hgroup>
               <h3>徳島会場</h3>
-              <h4><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 徳島</span></h4>
+              <h4 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>in 徳島</span></h4>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を徳島県で開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2019/template/ogp.jpg">
+              <meta itemprop="startDate" content="2019-11-09">
+              <meta itemprop="endDate" content="2019-12-08">
+              <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="徳島県">
+                </span>
+              </span>
             </hgroup>
-            <p>開催日程は決定次第ご案内します</p>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div><time datetime="2019-11-09" itemprop="startDate">2019 年 11 月 9 日 (土)</time> – <time datetime="2019-11-10" itemprop="endDate">10 日 (日)</time></div>
+              <div>3 会場にてハンズオン講習会を同時開催</div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                徳島会場：<a href="https://www.tokushima-u.ac.jp/access/" itemprop="url"><span itemprop="name">徳島大学 常三島キャンパス</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="徳島県">
+                  <meta itemprop="addressLocality" content="徳島市">
+                </span>
+              </div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                阿南会場：<span itemprop="name">阿南工業高等専門学校</span>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="徳島県">
+                  <meta itemprop="addressLocality" content="阿南市">
+                </span>
+              </div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                神山会場：<a href="https://www.in-kamiyama.jp/kvsoc/access.html" itemprop="url"><span itemprop="name">神山バレーサテライトオフィスコンプレックス</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="徳島県">
+                  <meta itemprop="addressLocality" content="名西郡神山町">
+                </span>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div><time datetime="2019-12-07" itemprop="startDate">2019 年 12 月 7 日 (土)</time> – <time datetime="2019-12-08" itemprop="endDate">8 日 (日)</time></div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                会場：<a href="https://www.tokushima-u.ac.jp/access/" itemprop="url"><span itemprop="name">徳島大学 常三島キャンパス</span></a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="徳島県">
+                  <meta itemprop="addressLocality" content="徳島市">
+                </span>
+              </div>
+            </section>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <div>10 月頃より申し込み受け付け予定</div>
+            </section>
           </section>
           <section class="location" id="location-kagawa" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
@@ -837,6 +886,15 @@
                     <tr>
                       <th>ハッカソン</th>
                       <td>2019 年 12 月 7 日 (土) – 8 日 (日)<br>会場：鳥取大学 鳥取キャンパス</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2"><a href="#location-tokushima" role="button" aria-controls="locations location-tokushima">徳島</a></th>
+                      <th>ハンズオン講習会</th>
+                      <td>2019 年 11 月 9 日 (土) – 10 日 (日)<br>会場：徳島大学 常三島キャンパス、阿南工業高等専門学校、神山バレーサテライトオフィスコンプレックス</td>
+                    </tr>
+                    <tr>
+                      <th>ハッカソン</th>
+                      <td>2019 年 12 月 7 日 (土) – 8 日 (日)<br>会場：徳島大学 常三島キャンパス</td>
                     </tr>
                     <tr>
                       <th rowspan="2"><a href="#location-kagawa" role="button" aria-controls="locations location-kagawa">香川</a></th>
