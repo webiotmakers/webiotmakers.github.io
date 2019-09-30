@@ -204,6 +204,10 @@ main {
   margin: 32px 0;
 }
 
+#locations .location section section {
+  margin: 16px 0;
+}
+
 #locations .location section.links h5 {
   position: absolute;
   left: -99999px;
