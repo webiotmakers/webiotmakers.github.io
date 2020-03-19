@@ -143,6 +143,12 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  figure + figure {
+    margin-top: 44px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   #teams .row {
     margin: 32px -32px;

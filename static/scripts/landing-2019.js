@@ -7,10 +7,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
   const mql = window.matchMedia('screen and (max-width: 767px)');
   const $menu = document.querySelector('#menu');
-  const $home = document.querySelector('#home');
-  const $about = document.querySelector('#about');
-  const $locations = document.querySelector('#locations');
-  const $video = document.querySelector('video');
+  const $home = document.querySelector('#home') || document.createElement('div');
+  const $about = document.querySelector('#about') || document.createElement('div');
+  const $locations = document.querySelector('#locations') || document.createElement('div');
+  const $video = document.querySelector('video') || document.createElement('video');
 
   function toggle_menu() {
     $menu.hidden = mql.matches;
