@@ -76,8 +76,6 @@ window.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       $locations.hidden = true;
     }
-
-    console.log(event.target);
   });
 
   if (!navigator.connection || navigator.connection.type !== 'cellular') {
