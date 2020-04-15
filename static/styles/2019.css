@@ -369,6 +369,10 @@ main {
   background-image: url(/static/images/backgrounds/board-texture-2.jpg);
 }
 
+body#about #contact {
+  text-align: center;
+}
+
 section.winner {
   display: flex;
   position: relative;
