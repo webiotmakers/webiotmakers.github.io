@@ -48,7 +48,7 @@ script: gallery.js
               <ul>
                 <li>{{ work.description }}</li>
                 <li>
-                  カテゴリ:
+                  カテゴリー:
                   {%- for category in work.categories %}
                     <a href="#" role="button" aria-controls="works" data-category="{{ category }}">{{ category }}</a>
                   {%- endfor %}
