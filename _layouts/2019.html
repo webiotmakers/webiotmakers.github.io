@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="/static/styles/2019.css">
     <link rel="stylesheet" href="/static/styles/local.css">
     <link rel="stylesheet" href="/static/styles/report.css">
+{%- if page.style %}
+    <link rel="stylesheet" href="/static/styles/{{ page.style }}">
+{%- endif %}
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
   </head>
@@ -46,6 +49,7 @@
             <h2>開催概要</h2>
             <ul>
               <li><a href="/2019/about/">本事業について</a></li>
+              <li><a href="/gallery/">作品ギャラリー</a></li>
               <li><a href="https://twitter.com/WebIoTmakers" class="twitter" aria-label="Twitter"><span class="icon fa" aria-hidden="true">&#xf099;</span></a></li>
             </ul>
           </section>
@@ -86,5 +90,8 @@
     <script src="https://use.typekit.net/yfn4cbp.js"></script>
     <script src="/static/scripts/main.js"></script>
     <script src="/static/scripts/2019.js"></script>
+{%- if page.script %}
+    <script src="/static/scripts/{{ page.script }}"></script>
+{%- endif %}
   </body>
 </html>

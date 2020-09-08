@@ -1,0 +1,794 @@
+- location: 札幌
+  team_id: A
+  team_name: MikuMikuLock!
+  title: MikuMikuLock!
+  description: メッセージングアプリ「Discord」または Web ブラウザから自宅の鍵開閉が可能なスマートロック。​ロック・アンロック時にはスピーカーから初音ミクの音声が再生されることで、おもてなしの心が演出される。​スマホ等の端末から遠隔ロック・アンロックができること​に加えて、オートロック機能、各種センサーによる不正開錠検知、動態検知を行うことができる。また、ユーザー操作やセンサー出力のイベントログをサーバに集積させることも可能。
+  categories:
+    - 住宅・家電
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/sapporo/team-a2.jpg
+    - /static/images/2019/sapporo/team-a1.jpg
+  award: 最優秀賞
+
+- location: 札幌
+  team_id: B
+  team_name: 漆黒の聖剣
+  title: 漆黒の聖剣
+  description: IoT を用いた寸劇を行った。​聖剣とあるように、殺陣の場面があり、切られ役の血しぶきを、各登場人物の衣装や剣に仕込まれたテープ LED で​表現した。​テープ LED はウェブサイト上で遠隔操作 (ON・OFF) が​できるようになっており、場面にあわせて点灯させる​演出をした。​劇終盤には QR コードで観客に「GOOD エンディング・BAD エンディング」のどちらかを選択してもらえる観客参加型で作り上げた。
+  categories:
+    - ゲーム・エンタメ
+  images:
+    - /static/images/2019/sapporo/team-b2.jpg
+    - /static/images/2019/sapporo/team-b1.jpg
+  award:
+
+- location: 札幌
+  team_id: C
+  team_name: スマートゴミ箱
+  title: Sunday
+  description: テーマは食品ロス。食品ロスというのは非常に大きな問題で、今世界全体の年間の食糧生産量約 40 億トンに対して食糧廃棄量は約 13 億トンで、日本の食糧廃棄量はアジアトップ。そんな大きな問題を、 IoT を用いて一人一人が意識して改善していけるようなごみ箱の作成に、チーム「Sunday」は取り組んだ。ゴミ箱に「重量センサー」・「超音波センサー」・「LED ドットマトリックス」を取りつけて生ごみの残量を表示し、生ごみの廃棄量を集計する。このごみ箱は、様々なデータを使用者に把握してもらうことでごみの減量を促すことを目的としている。
+  categories:
+    - ごみ・資源物
+    - 食品・調理
+  images:
+    - /static/images/2019/sapporo/team-c2.jpg
+    - /static/images/2019/sapporo/team-c1.jpg
+  award:
+
+- location: 札幌
+  team_id: D
+  team_name: +Professional
+  title: スマート自転車置場「チャリスマ！」
+  description: 駐輪場の空き状況をスマートフォンなどで確認することができるスマート自転車置き場。​駐輪データを活用することで、混雑時間の把握や放置自転車の問題を解決できる。​機能としては、​駐輪場が空いているかどうか、スマホなどから混在状況の確認ができる​ほか、駐輪データを収集​し、取得したデータをスプレッドシートに出力、​放置自転車対策や混雑時間を把握できる。
+  categories:
+    - 乗り物・交通
+  images:
+    - /static/images/2019/sapporo/team-d2.jpg
+    - /static/images/2019/sapporo/team-d1.jpg
+  award:
+
+- location: 札幌
+  team_id: E
+  team_name: ごった煮
+  title: SMART LIFE
+  description: 北海道の農家さんや畑仕事をする方に向けたブラウザで​ home や field の状態を管理できるシステム。​多数のセンサーが設置され、家にいるときに畑の、外にいるときに家の状態が​スマートフォンからわかるようになっている。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2019/sapporo/team-e2.jpg
+    - /static/images/2019/sapporo/team-e1.jpg
+  award:
+
+- location: 仙台
+  team_id: A
+  team_name: マジンこ TV
+  title: line スマートロック
+  description: スマートフォンさえ所持していれば、玄関に近づくだけでモータが作動して鍵を開けられるシステム。LINE Beacon 機能を利用しており、LINE Beacon に紐つけられた LINE BOT を友だち追加すれば準備 OK。また、加速度センサでドアの開閉を感知し、自動で鍵が閉まる機能も搭載。さらに、誰がいつ鍵を開けたのかが指定した LINE グループに自動で報告される。共働きの家庭もコレで安心。
+  categories:
+    - 住宅・家電
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/sendai/team-a2.jpg
+    - /static/images/2019/sendai/team-a1.jpg
+  award:
+
+- location: 仙台
+  team_id: B
+  team_name: 力率 160percent
+  title: Sleeping Checker
+  description: 教室で寝ている人を検出し、室内を換気することで教室の環境を良くするシステムである。Web カメラを使って教室の画像を記録し、「Teachable Machine」で転移学習したプログラムを使って、画像から寝ている人を検出すると同じネットワーク内にあるマイコン「ESP32」を使用し、自動で窓を開け、教室の空気の入れ替えを試みる。マイコン側の機構を換装することで、電化製品のスイッチを押すことも可能だ。
+  categories:
+    - 学校・教育
+    - 気候・空調
+  images:
+    - /static/images/2019/sendai/team-b2.jpg
+    - /static/images/2019/sendai/team-b1.jpg
+  award:
+
+- location: 仙台
+  team_id: C
+  team_name: hogehoge
+  title: めくるん
+  description: 料理中、手が汚れている時などに本をめくる動作をしたい時、一旦作業を止める必要があり手間がかかる。そんな時に本を自動でめくってくれたら楽だな、という思いから形にしたのだという。めくるんは、ディープラーニングの画像認識技術を用いて、本を読んでいる人の顔の動きに合わせて、ページをめくってくれる機械である。料理中だけでなく介護現場など、様々なシチュエーションで応用できる可能性を秘めている。
+  categories:
+    - 食品・調理
+    - 高齢者・介護
+  images:
+    - /static/images/2019/sendai/team-c2.jpg
+    - /static/images/2019/sendai/team-c1.jpg
+  award: 最優秀賞
+
+- location: 仙台
+  team_id: D
+  team_name: Team X
+  title: 飲酒乗務取り締まり装置
+  description: 現在の飲酒乗務検査は、アルコールチェッカー等で乗務前に測定するようであるが、乗用車における飲酒運転や航空機等の飲酒乗務は後を絶たない。今回の仕組みは、臭いセンサからアナログ値を取得し、AVR で A/D 変換、digital をさらに I2C 信号へに変換し、メイン基板の AVR にて I2C から UART に変換する。その後、Raspberry Pi で UART から取得した数値情報を Slack へ、文章とともに投稿する仕組みだ。本ソリューションで、測定結果を瞬時に全体に共有することによって飲酒乗務を防ぎ、責任を再確認させることができると考える。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/sendai/team-d2.jpg
+    - /static/images/2019/sendai/team-d1.jpg
+  award:
+
+- location: 仙台
+  team_id: E
+  team_name: 宮城教育電子専門学院
+  title: short shirt or long shirt ??
+  description: 本作品は、手拍子をきっかけにその日の気温を温度センサで取得し、半袖を着るべきか、長袖を着るべきかを判断してくれる。カメラでは回転式のクローゼットを映しており、目的の服が正面にきたら回転が止まり LED で服の決定を知らせる。この機能を使うことで、わざわざその日の気温を調べたり服選びで悩んだりする手間や、外に出たときに寒すぎたり暑すぎたりと感じることもなくなる。
+  categories:
+    - 気候・空調
+    - 衣類・洗濯
+  images:
+    - /static/images/2019/sendai/team-e2.jpg
+    - /static/images/2019/sendai/team-e1.jpg
+  award:
+
+- location: 茨城
+  team_id: A
+  team_name: 水工
+  title: 冷蔵庫守るクン
+  description: 冷蔵庫内の食料品を管理するシステムを作成。冷蔵庫に入れる前に商品および賞味期限の写真を撮り、DB に登録しておくことで、賞味期限が近付くと LINE に通知が届く仕組み。GUI を採用することで誰もが操作しやすい設計にした。
+  categories:
+    - 食品・調理
+    - リマインダー
+  images:
+    - /static/images/2019/ibaraki/team-a2.jpg
+    - /static/images/2019/ibaraki/team-a1.jpg
+  award:
+
+- location: 茨城
+  team_id: B
+  team_name: Nameless Makers
+  title: ELDERLY HOME
+  description: 単身高齢者の安否確認ができる Google Home の介護版のような作品。気象情報や災害情報を取得しお知らせしてくれるほか、高齢者と会話ができる機能を付与した。高齢者が楽しめるように複数の会話パターンを用意した。
+  categories:
+    - 高齢者・介護
+    - コミュニケーション
+  images:
+    - /static/images/2019/ibaraki/team-b2.jpg
+    - /static/images/2019/ibaraki/team-b1.jpg
+  award:
+
+- location: 茨城
+  team_id: C
+  team_name: 爆発ハンバーグ
+  title: CPRSS (カプラス)
+  description: AED 使用時に必須となる「体力勝負の心臓マッサージ」を複数人で行うためのアプリ・作品を製作した。アプリは心臓マッサージができる人に事前に登録してもらうシステム。AED の蓋を開けると近隣にいるアプリ登録者に心臓マッサージが必要な場所が通知され、直ぐに駆けつけることが可能となる。
+  categories:
+    - 医療・健康
+  images:
+    - /static/images/2019/ibaraki/team-c2.jpg
+    - /static/images/2019/ibaraki/team-c1.jpg
+  award: 最優秀賞
+
+- location: 茨城
+  team_id: D
+  team_name: むぎ茶
+  title: ラーメンのびた
+  description: 熱を検知してくれるロボットを製作した。自走ロボットが部屋の中を動きまわり、サーマルセンサで熱源を特定し、事前に登録したデータベースから物品を選別・同定する。可視先カメラではとらえられない温度変化による見守り機能を提供することが可能になる。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/ibaraki/team-d2.jpg
+    - /static/images/2019/ibaraki/team-d1.jpg
+  award:
+
+- location: 茨城
+  team_id: E
+  team_name: 秘書製作所
+  title: 人工秘書 K
+  description: スケジュール管理をサポートする Web アプリケーションを作成した。タスク・場所・時間を紐付し、指定した時間にタスクをこなす場所と現在地が一致しているかを判定する。交通手段の情報も付与することで、現在地からタスク実施場所までの移動時間を計算し LINE で通知させることを目指した。
+  categories:
+    - 乗り物・交通
+    - ビジネス
+    - リマインダー
+  images:
+    - /static/images/2019/ibaraki/team-e2.jpg
+    - /static/images/2019/ibaraki/team-e1.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: A
+  team_name: ICE
+  title: 某高級 ICE 食べ頃教えるザマス
+  description: 群馬県には世界で 3 ヶ所しかないアイスクリーム工場のうちの一つがあることから着想を得た、硬いアイスクリームの食べ頃を教えてくれるデバイス。冷凍庫から出したアイスクリームの表面温度を計測し、食べ頃の温度になったタイミングで LINE に通知を送信する。これによりアイスクリームの存在を忘れることなく、最高のタイミングで味わうことができる。
+  categories:
+    - 食品・調理
+    - リマインダー
+  images:
+    - /static/images/2019/gunma/team-a2.jpg
+    - /static/images/2019/gunma/team-a1.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: B
+  team_name: チーム B
+  title: 移動式害獣検知マシン
+  description: 畑などに現れる害獣を光と音で追い払うことができるデバイス。リアルタイムでカメラによる動体検知を行っており、取得した画像を機械学習によってサルかそうでないかを判断し光と音で追い払う。キャタピラとサーボモーターを搭載しており、Web サーバーを介した遠隔コントロールで自在に動き回って畑の全方位をカバーすることができる。また、CHIRIMEN の代替品として Python を採用しており、開発環境においてもこだわりが見られた。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2019/gunma/team-b2.jpg
+    - /static/images/2019/gunma/team-b1.jpg
+  award: 最優秀賞
+
+- location: 群馬・前橋
+  team_id: C
+  team_name: 力あわせた 4 人の群馬 C チーム
+  title: 上毛かるた専用自動集計マシン
+  description: 群馬県の郷土遊戯・上毛かるたにおける審判の負担を減らすことが出来るデバイス。あらかじめかるたの絵札に取り付けてある QR コードを Raspberry Pi のカメラで読み取り、誰がどの札を取ったのかを自動で集計してくれる。取った札は Google スプレッドシートに記入され、最終的に勝敗を判定し結果が LINE に転送される。団体戦における役札(高得点の札)や同点の際の勝敗の判定も考慮されている他、同じ QR コードを重複して読み取らせてしまってもカウントしないようになっているなど、審判が不在でも気軽にかるたが遊べる工夫が施されている。
+  categories:
+    - ゲーム・エンタメ
+  images:
+    - /static/images/2019/gunma/team-c2.jpg
+    - /static/images/2019/gunma/team-c1.jpg
+  award: 特別賞
+
+- location: 群馬・前橋
+  team_id: D
+  team_name: 優太班
+  title: それいけ！ ぐんまちゃん！
+  description: 群馬県はメンバーの出身地である茨城県よりも暑く感じるという所からアイディアを発展させた、ユーザーに納涼感を与えるデバイス。周囲の気温に応じて前方についているファンが起動し、音楽を流しながら正面に立った人間に追従して動き出す。また、測定した気温や時間をディスプレイに表示することで視覚的な情報も得ることができる。装飾としてぐんまちゃんのぬいぐるみやマントを用いることで親しみやすい見た目になっていることに加え、配線を隠す狙いもあるなどユーザビリティ的な視点での工夫もなされている。
+  categories:
+    - 気候・空調
+  images:
+    - /static/images/2019/gunma/team-d2.jpg
+    - /static/images/2019/gunma/team-d1.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: E
+  team_name: team Cone
+  title: 動くコーン (キャタピラ搭載型)
+  description: 道路での危険運転を抑制するためにキャタピラでの移動を可能としたカラーコーン。距離センサを搭載しており、周囲の車や障害物と一定の距離を空けて移動することで車間距離を確保するのが狙い。また、コーンが動作した際には LINE に通知が届く仕組みになっており、危険運転だけでなく高齢者の安否確認などにも迅速な対応を促すことができる。
+  categories:
+    - 犯罪・事故防止
+    - 高齢者・介護
+  images:
+    - /static/images/2019/gunma/team-e2.jpg
+    - /static/images/2019/gunma/team-e1.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: F
+  team_name: MadoShimeStudent
+  title: Climate-Weather Monitoring System
+  description: 急な雨や焼畑の煙、大気汚染などを予測・観測し、自動で窓を閉めるモニタリングシステム。サーボモーターに繋がれたラジエーションシールドの中には温湿度や気圧、雨、埃など様々なセンサに加え気象予報 API による雨雲の観測、加速度センサによる風速の観測機能などが仕込まれており、Wi-Fi を介して Web アプリ上で確認することができる。アプリ側からも窓を閉めることができる他、観測結果が規定値を超えた場合はモーターが作動し自動で窓を閉め、所有者の LINE や Slack に通知が届く。
+  categories:
+    - 気候・空調
+    - 住宅・家電
+  images:
+    - /static/images/2019/gunma/team-f2.jpg
+    - /static/images/2019/gunma/team-f1.jpg
+  award:
+
+- location: 横須賀
+  team_id: A
+  team_name: レペゼン横須賀
+  title: 観光大使“スカりん”
+  description: 観光地やグルメ店等のドアに開閉を検知するセンサーを置く。これによって得られる人の出入りの情報の収集を行い、収集したデータを分析し、モニタからアウトプットできる IoT マスコットの作成をする。スカりんについては、特定のランドマークに置き、グルメ店の混雑状況等の情報をとり扱い、集客率と観光客の幸福度の向上を図る。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/yokosuka/team-a2.jpg
+    - /static/images/2019/yokosuka/team-a1.jpg
+  award:
+
+- location: 横須賀
+  team_id: B
+  team_name: チーム B
+  title: 半自動水やり機
+  description: 花壇の土の湿気具合を感知し、湿気の状況に応じて水やり機が自動で花壇に水をあげる機械である。初めに、予め用意した容器に水を入れておく。花壇の土壌に土壌センサが差し込まれており、検出する数値が一定の値を下回ったら、LINE BOT にメッセージが送られ選択したメッセージによって水を与える動作を行うか否か選択ができ、水やりをする選択を行うとモーターが作動し植物に水を与える。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2019/yokosuka/team-b2.jpg
+    - /static/images/2019/yokosuka/team-b1.jpg
+  award:
+
+- location: 横須賀
+  team_id: C
+  team_name: はつかそん C チーム
+  title: レコすか CM ストリーマー
+  description: 横須賀の各店舗に横須賀の魅力を伝える各種 CM を流し店に来た人に CM を見てもらい、 CM 先の店舗へ誘導を促す。店舗にラズパイに繋がれたモニタを設置し、お客さんに GPS と液晶を搭載したラズパイを持ってもらい、移動距離を測りつつ、店側のラズパイと通信し CM の成績を決定する。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/yokosuka/team-c2.jpg
+    - /static/images/2019/yokosuka/team-c1.jpg
+  award:
+
+- location: 横須賀
+  team_id: D
+  team_name: ヨコスカマイル
+  title: ヨコスカマイル
+  description: レンタサイクルの自転車にラズパイ＋センサを装着、磁気センサを使い自転車の走行距離を記録し、走行距離に応じて商店街等利用できるヨコスカマイルを付与される。自転車走行中に観光スポットに近づくと、LED と音で自転車の運転者に通知をし、スマホにも観光スポットの詳細な紹介が送信される。
+  categories:
+    - 観光・地域活性化
+    - 乗り物・交通
+  images:
+    - /static/images/2019/yokosuka/team-d2.jpg
+    - /static/images/2019/yokosuka/team-d1.jpg
+  award:
+
+- location: 横須賀
+  team_id: E
+  team_name: YWMP
+  title: 設置型チェックポイントを用いたスタンプラリー
+  description: 横須賀の魅力を高める・広めるというテーマを考えたとき、横須賀市全体にスポットをあて、特にグルメと他の町にはない観光の強みがあったことから、利用者が連続的に観光できるようにチェックポイントを用いたスタンプラリーを考えた。チェックポイント、サーバ、スマートフォンの 3 つで構成される。チェックポイントは、クライアントと UDP を用いて通信する。店頭に設置する QR コードを読み取り、チェックポイントにアクセスする。チェックポイントには温湿度気圧センサ、専用カメラを導入し、データベースに日付、曜日、気温、気圧、湿度、アクセス数を保管し、情報を活用できる設計にした。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/yokosuka/team-e2.jpg
+    - /static/images/2019/yokosuka/team-e1.jpg
+  award:
+
+- location: 横須賀
+  team_id: F
+  team_name: Signals
+  title: 手旗信号入力デバイス
+  description: 横須賀の観光客に、手旗信号の体験をしてもらうことで、手旗信号を身近なものだと感じてもらい、戦艦三笠や猿島などの軍関係施設に足を運んでもらえるようにする。旗を持つ部分に、無線通信できる機器 (今回は時間の都合により有線) が埋め込まれており、無線によりラズベリーパイに送信される。相手側から何の文字が送られたか分からなくても、手旗信号の動きから文字が判別され、自分側のモニタに表示される。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/yokosuka/team-f2.jpg
+    - /static/images/2019/yokosuka/team-f1.jpg
+  award: 最優秀賞
+
+- location: 信州
+  team_id: A
+  team_name: 真田十一勇士
+  title: 幸村様!! 城の警備を厳重にしましょう!!
+  description: 上田城の領内に侵入してくる人間を検知する警備システム。明るいときはカメラ、暗いときは距離センサーで侵入者を検知し、LED や警報音で警告を発する。また、タッチセンサーと感圧板を設置することで、侵入者が床や壁、天井に触れた場合にも警告を発する。警報音は、侵入者を検知した場所だけでなく、城の内部でも発せられ、領内のどこにいても侵入者に気づくことが可能。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/shinshu/team-a2.jpg
+    - /static/images/2019/shinshu/team-a1.jpg
+  award:
+
+- location: 信州
+  team_id: B
+  team_name: 超令和ゴーストバスターズ
+  title: おば検知～あの日見たお化けの名前を僕達はまだ知らない～
+  description: おばけを検知することで、おばけと人間の住み分けを可能にし、空き家の増加等を抑制する。「地磁気乱しおばけ」、「火の玉おばけ」、「ひんやりおばけ」、「ポルターガイストおばけ」の 4 種のおばけを、それぞれ磁気センサー、光センサー、温度センサー、人感センサーによって検知する。各種センサーがお化けを検知した際には、赤外線カメラによって暗闇のなかのおばけを撮影し記録する。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/shinshu/team-b2.jpg
+    - /static/images/2019/shinshu/team-b1.jpg
+  award: 特別賞
+
+- location: 信州
+  team_id: C
+  team_name: ポイ捨て撲滅委員会
+  title: ごみ poi
+  description: ゴミ箱にゴミが捨てられたことを検知し、ポイントサービスを提供する IoT システム。ポイ捨てを抑制し、信州の美しい自然を保全することに貢献する。ゴミ箱の入口を赤外線センサーの距離測定システムでモニタリングし、その値の変化からゴミ捨てを判断する。ゴミを捨てる際にログインしたアカウントにポイントが加算され、保持される。このポイントは、一定量溜まれば任意に消費してサービスを受けることができる。
+  categories:
+    - ごみ・資源物
+  images:
+    - /static/images/2019/shinshu/team-c2.jpg
+    - /static/images/2019/shinshu/team-c1.jpg
+  award:
+
+- location: 信州
+  team_id: D
+  team_name: おいしい日本アルプスの人工水
+  title: 見て学べる日本アルプス雪解けウォーターサーバー
+  description: 日本アルプスの雪解け水を飲むことが出来るウォーターサーバー。タンクには日本アルプスの雪解け水が注ぎこみ、スイッチを押せばタンクに溜まった雪解け水を飲むことが出来る。タンク内の水位をセンサーで検知し、上限に達した場合は、雪解け水をタンク外に排水する。また、積雪ゾーンのセンサーによってアルプスの積雪量をモニターし、クラウド上に蓄積。これによって日本アルプスの積雪の状況を見て学ぶことが出来る。
+  categories:
+    - 食品・調理
+  images:
+    - /static/images/2019/shinshu/team-d2.jpg
+    - /static/images/2019/shinshu/team-d1.jpg
+  award: 最優秀賞
+
+- location: 信州
+  team_id: E
+  team_name: e
+  title: 自動屋根雪落とし
+  description: 屋根に積もった雪を落とすデバイス。豪雪地帯にみられる急こう配な屋根を持つ家の特性を生かし、屋根の棟(一番上の部分)に積もっている雪を電熱線の熱により溶かすことで、雪が自重によって滑り落ちていく仕組み。ロードセル(荷重センサー)から値を取得し、一定以上雪が積もった場合、電熱線に電流が流れるような仕組みにし、自動化。また、Web 上で自分の好きなタイミングで電熱線に電流を流すこともできる。
+  categories:
+    - 気候・空調
+  images:
+    - /static/images/2019/shinshu/team-e2.jpg
+    - /static/images/2019/shinshu/team-e1.jpg
+  award: 特別賞
+
+- location: 信州
+  team_id: F
+  team_name: ISAK (アイザック)
+  title: JACK THE LIPPER
+  description: 唇の潤いレベルを測定する IoT デバイス。JACK 君に口づけすると、唇の水分の伝導率を検知し、潤いレベル (M-Lev.) を 5 段階で評価する。登録された性別、年齢、地域を参考に、全国から集まった唇の潤いデータと比較し、適切な潤いレベルを判定することも可能 (BILDAS システム)。寒さが厳しく乾燥する信州の冬においても、JACK 君のアドバイスをもとに適切な唇の潤いを保つことが可能。
+  categories:
+    - 気候・空調
+    - 医療・健康
+  images:
+    - /static/images/2019/shinshu/team-f2.jpg
+    - /static/images/2019/shinshu/team-f1.jpg
+  award:
+
+- location: 石川
+  team_id: A
+  team_name: Team A
+  title: ZSS ～自炊奨くん～
+  description: 設定した時刻にアラームを鳴らし、止めるとレシピサイトへの QR コードを表示する。今日のオススメの中から選ぶことができるのでメニューを考える手間を省き自炊習慣を身に着けられる。体調管理や食品ロス削減の意識を高める効果が期待される。
+  categories:
+    - 食品・調理
+    - 医療・健康
+  images:
+    - /static/images/2019/ishikawa/team-a2.jpg
+    - /static/images/2019/ishikawa/team-a1.jpg
+  award:
+
+- location: 石川
+  team_id: B
+  team_name: Team B
+  title: 混雑分かる君
+  description: 食堂などに設置したカメラ画像から物体検出で人数を推定、取得データをサーバに送信しユーザーは Web から確認することができる。今後は人数の推移データを蓄積し、混雑度合いの統計を取ることでより快適な生活支援を行う展望を語った。
+  categories:
+    - 住宅・家電
+  images:
+    - /static/images/2019/ishikawa/team-b2.jpg
+    - /static/images/2019/ishikawa/team-b1.jpg
+  award:
+
+- location: 石川
+  team_id: C
+  team_name: Team C
+  title: 獣害対策 Web×IoT
+  description: 獣害対策にかかる費用・人材不足解消をコンセプトに、測距センサーで検知し罠の作動・データを蓄積するスマートトラップのほか、画像認識で害獣とそれ以外を判別し自動通知するシステム、体温計測で害獣のデータを蓄積するシステムの 3 つのソリューションを提案した。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2019/ishikawa/team-c2.jpg
+    - /static/images/2019/ishikawa/team-c1.jpg
+  award:
+
+- location: 石川
+  team_id: D
+  team_name: Team D
+  title: 他力目覚まし
+  description: モーニングコールを要請する目覚まし時計。アラーム後、温度センサーで起床しているかの判定を行い、起床していない場合友人か家族にモーニングコールのお願いをメッセージする。また、それでも起床しない場合は欠席や代返の連絡を送るという二重のセーフティネットからなる。3D プリンタでデバイススタンドも作成されプロダクト感が意識されてた作品。社会的信用が数値化される時代の助け合いがコンセプト。
+  categories:
+    - 医療・健康
+    - 学校・教育
+  images:
+    - /static/images/2019/ishikawa/team-d2.jpg
+    - /static/images/2019/ishikawa/team-d1.jpg
+  award:
+
+- location: 石川
+  team_id: E
+  team_name: Team E
+  title: 簡単に IoT を導入できるプラットフォーム EIIP の開発
+  description: プログラミングが苦手な人でも簡単に IoT を導入できるプラットフォーム。活用例としては、物品の重量を定期的に取得し、在庫が無くなった時に通知を送る、発注するなどのアクションを設定する事ができる。感圧・温度・人感検出など M5Stack の多様なセンサーを活かし、応用性を高めた。専用エディターではセンサーの取得情報とアクションをそれぞれブロックで表現。それらの対応関係を赤線で繋ぐ UI を作成し、直感的な操作ができよう工夫した。
+  categories:
+    - ビジネス
+    - リマインダー
+  images:
+    - /static/images/2019/ishikawa/team-e2.jpg
+    - /static/images/2019/ishikawa/team-e1.jpg
+  award:
+
+- location: 石川
+  team_id: F
+  team_name: Team F
+  title: Garbage Collector
+  description: 天井にあるカメラの情報をもとにルートを決定し、障害物を避けながら机上を移動してゴミを回収しに来てくれるゴミ収集ロボット。紙コップに入ったゴミはゴミステーションに捨てに行く。カメラ画像からグリッドを作成してゴミ箱の位置認識や障害物を認識しさらにグリッドを迷路に見立てて最短経路を探索する。
+  categories:
+    - ごみ・資源物
+  images:
+    - /static/images/2019/ishikawa/team-f2.jpg
+    - /static/images/2019/ishikawa/team-f1.jpg
+  award: 最優秀賞
+
+- location: 鳥取
+  team_id: A
+  team_name: 農業復興委員会
+  title: 声優ボイス×恋する植物 〜あなたも植物に恋してみませんか〜
+  description: 農業の補助を目的としたデバイスである。農業従事者の減少や、従事者における若者の割合が少ない事に注目して、水やりに植物と会話できるような IoT システムデバイスから新しい面白さや楽しさを生み出そうとしている。湿度センサーで土の中の湿度を計測し、ラズパイから Bluetooth でアレクサに伝える。その結果を元にアレクサが会話の中で水の有無を決め、スマートプラグを経由してポンプの ON or OFF を決定する。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2019/tottori/team-a2.jpg
+    - /static/images/2019/tottori/team-a1.jpg
+  award:
+
+- location: 鳥取
+  team_id: B
+  team_name:
+  title: Simpider (しんぱいだー)
+  description: 鳥取では少子高齢化が進んでおり、孤独死や放置児の問題を抱えている。見守りに重点を置いた作品を制作し、家族の心配や負担を軽減することを目的としている。Simpider は人感、温度、光センサーといった様々なセンサーから室内の状況を確認している。人がいるときに高温や低温を検知して照明と音声で警告する、光の有無を調べて睡眠時間を記録するなどの機能と、メールを使用した異常のお知らせ機能を備えている。また、このようなデバイスではプライバシーが問題となることがあるため、カメラを使わないことによってプライバシーに極力配慮するようにしている。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/tottori/team-b2.jpg
+    - /static/images/2019/tottori/team-b1.jpg
+  award:
+
+- location: 鳥取
+  team_id: C
+  team_name: 独身貴族
+  title: しゃべろうボット君 ～お年寄りと世界を繋げよう～
+  description: 高齢者が楽しく健康に生活できるように補助するデバイスである。人感センサーでお年寄りの動きを記録し生存確認をし、温度センサーで部屋が高温もしくは低温になったときにエアコンの使用を促し命を守る。また距離センサーで外出回数を記録する。RSS を使うことで健康に生きるために必要な自治体からの情報や、地域のイベント情報をディスプレイに表示できる。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/tottori/team-c2.jpg
+    - /static/images/2019/tottori/team-c1.jpg
+  award:
+
+- location: 鳥取
+  team_id: D
+  team_name: D
+  title: IoT お片付け BOX
+  description: 子育て王国鳥取としてアピールしている鳥取県で、お片付けを楽しくすることで育児を手助けする目的のデバイスである。作品の箱にはタイマーがついていて、子供自身が自分で遊ぶ時間を設定し、遊ぶ時間の管理ができるようになっている。また、箱に取り付けられているカメラで子供が遊んでいる様子などを親がSlackを通じて確認できるようにもなっている。職場など家から離れているときにも、子供がどうしているのかを確認できるため、親が安心できる。
+  categories:
+    - 子育て・少子化
+  images:
+    - /static/images/2019/tottori/team-d2.jpg
+    - /static/images/2019/tottori/team-d1.jpg
+  award:
+
+- location: 鳥取
+  team_id: E
+  team_name: 星取大学科学部
+  title: Instargram ～より優れた観測地を求めて～
+  description: 鳥取県では星取県として星の観測のしやすさ、美しさをアピールしている。より観測に適した場所の発見、観測の予定を組むことを手助けするデバイスである。光量センサ、温湿度気圧センサを用いてデバイス周辺の照度・温度・湿度・気圧を測定することで、その観測地が現在星の観測に適しているかどうかの判断を行う。また、ネットワークから月齢の情報、現在地の天候状況を取得し、5 段階評価で観測地の評価を行い、より優れた天体観測地を利用者へ伝えることができる。
+  categories:
+    - 気候・空調
+  images:
+    - /static/images/2019/tottori/team-e2.jpg
+    - /static/images/2019/tottori/team-e1.jpg
+  award:
+
+- location: 鳥取
+  team_id: F
+  team_name: u20
+  title: IoT ウォーターサーバー
+  description: 高齢化に伴い、良質なケアを求める要介護者が増大し看護と共に事務処理も増大している。ケアワーカーの仕事の一つである、患者一人ひとりの水分摂取量や排泄量を記録する業務を自動化する目的を持っている。各介護施設利用者の目標水分摂取量と水消費量を自動で記録し、異常値がでた時にケアワーカーに通知する。温度センサーで取得した気温から目標水分摂取量を提示する機能、一定量の水 (500mL ~ 2L) からの水の減少量を計測する機能、水減少量が目標水分摂取量に満たない場合管理者に音声と光による警告が出る機能を備えている。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/tottori/team-f2.jpg
+    - /static/images/2019/tottori/team-f1.jpg
+  award:
+
+- location: 鳥取
+  team_id: G
+  team_name: Snow Inc.
+  title: 雪と墨
+  description: 鳥取をはじめ、積雪が発生しやすい地域では積雪によるビニールハウスの損壊が問題となっている。ビニールハウスは高額であり、農業従事者にとって重要な設備である。本デバイスはビニールハウスを積雪による損壊から保護することを目的としている。センサーを用いてビニールハウスの屋根に積もった雪を検出、また、インターネットから天気情報と屋根に積もる雪の量で雪が屋根に与える影響を判断する。昼間に雪がつもり過ぎだとと検出された場合、屋根上でのシステムから墨と水を混ぜた液体が散布される。液体中の墨が太陽熱を吸収して雪を溶かし、屋根の荷重を減らすことでビニールハウスを保護する。
+  categories:
+    - 農業・園芸
+    - 気候・空調
+  images:
+    - /static/images/2019/tottori/team-g2.jpg
+    - /static/images/2019/tottori/team-g1.jpg
+  award: 最優秀賞
+
+- location: 徳島
+  team_id: 1
+  team_name: おへんろさんぽ
+  title: おへんろさんぽ
+  description: 散歩をしている高齢者が急に倒れたとしても、周囲にいる人に自身が危険であると知らせることができる。加速度センサとネオピクセルを使用し、体勢が変わることで胸元についているセンサが感知し、頭に被っている笠の LED とネオピクセルで×や△といった記号を光で表現し LED を光らせる。笠が光ることで夜間でも目立つよう工夫されている。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/tokushima/team-a2.jpg
+    - /static/images/2019/tokushima/team-a1.jpg
+  award:
+
+- location: 徳島
+  team_id: 2
+  team_name: 徳島会場 2 班
+  title: 阿波踊りアドバイザー
+  description: マイクロビットの加速度センサーを使用し、X 軸 Y 軸の測定とリズムにより踊りの採点システムを搭載している。フルカラーの LED ライトを使用することにより得点の結果発表をより派手な演出を行うことを可能とした。阿波踊りと IoT を組み合わせられないかと考え、マイクロビットの加速度センサを利用した採点システムやフルカラー LED による派手な結果発表など採点化したことによるゲーム性を含むことで工夫されている。
+  categories:
+    - 観光・地域活性化
+    - ゲーム・エンタメ
+  images:
+    - /static/images/2019/tokushima/team-b2.jpg
+    - /static/images/2019/tokushima/team-b1.jpg
+  award:
+
+- location: 徳島
+  team_id: 3
+  team_name: 徳島会場 3 班
+  title: みちびきお遍路
+  description: お遍路さんが道に迷ったまたは正しいコースを外れてしまった際に進むべき方角を示してくれるデバイス。お遍路さんには外国人の方も多く、日本人とのコミュニケ―ションに困る場面があることや、スマホを持っておらず現在地の確認が困難な方がいる背景がある。そこでお遍路さんが困ることなく正しい遍路道へと導くことのできるデバイスとして考えた。お遍路さんが持ち歩くため小型軽量化され低コストで作成できるよう工夫されている。
+  categories:
+    - 観光・地域活性化
+    - 乗り物・交通
+  images:
+    - /static/images/2019/tokushima/team-c2.jpg
+    - /static/images/2019/tokushima/team-c1.jpg
+  award:
+
+- location: 徳島
+  team_id: 4
+  team_name: はかまの
+  title: 声だけで、注文してみよう
+  description: 徳島県では労働力不足が問題となっている。特に飲食業界では約 8 割が労働力不足となっている。開発したデバイスは料理を注文する際に、店員が動かずお客さんの声で注文できるシステムになっている。お客さんがマイクに向かい話すと厨房にいる店員のスマートフォン上の LINE アプリに注文内容が届くようになっている。既存のタッチパネル入力方式は多額の費用が発生するが、音声入力方式の場合使用する機材は Raspberry Pi とマイクのみのためチェーン店、小さな個人店でも導入しやすい工夫が行われている。
+  categories:
+    - ビジネス
+  images:
+    - /static/images/2019/tokushima/team-d2.jpg
+    - /static/images/2019/tokushima/team-d1.jpg
+  award:
+
+- location: 徳島
+  team_id: 5
+  team_name: Team Real Mean
+  title: Awaodorizer
+  description: 阿波踊りの魅力の 1 つは終盤にかけての音と踊りのテンポアップである。通常の阿波踊りでは音のテンポに合わせて人間が躍るが、開発したシステムは踊りに合わせ音のテンポが決まる。Raspberry Pi に接続された団扇型ジャイロセンサにより踊りのテンポを測定し、接続している PC から連動して音が鳴る。PC の画面には BPM などステータスが表示され、BPM が高くなるほど団扇に搭載されている LED の点灯の激しさや点滅速度が変化することで踊りの激しさをより視覚的に伝えることができる。イベント会場などに設置することで、より多くの集客や徳島の文化を広げることができる。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/tokushima/team-e2.jpg
+    - /static/images/2019/tokushima/team-e1.jpg
+  award: 最優秀賞
+
+- location: 徳島
+  team_id: 6
+  team_name: なるテック 2019
+  title: おいでやす
+  description: 徳島のイベントを盛り上げるため、イベントに入場する人数を知りその風景を web 上で知らせる必要性を考え作成した。Raspberry Pi と ESP-WROOM-02 間で通信した。wifi Mosquitto (モスキート) を用いて超音波センサーの値を出力している。また 40cm 以内に検知された際に「人が来たよ」と通知し、そうでない場合は計測した数値を表示する。ESP8266 と超音波センサーを使用した人を感知するような仕組みとそれを Raspberry Pi に送信する工夫をしている。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/tokushima/team-f2.jpg
+    - /static/images/2019/tokushima/team-f1.jpg
+  award:
+
+- location: 徳島
+  team_id: 7
+  team_name: チーム神山
+  title: 見守りチェアー
+  description: この作品は高齢者の方々に向けて作られており、人が実際イスに座っているかどうかを認識する。感圧センサーを用いてアナログ信号を読み取る。そのアナログ信号をプログラム内で取得し既定の 2 カ所が反応すれば、Web ページ上に「座っています。」というコメントが表示され、常時は「座っていません。」というコメントを表示する。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2019/tokushima/team-g2.jpg
+    - /static/images/2019/tokushima/team-g1.jpg
+  award:
+
+- location: 香川
+  team_id: A
+  team_name: SYOWA
+  title: インテリジビエで焼き肉を
+  description: イノシシなどの動物と人の生活域を位置情報によるバーチャルフェンスによって分けるとともに、食肉としての活用を容易にする仕組みを提供する IoT システム。動物が設定された生活エリアから外れた場合に、スピーカーから警告音を出し、生活エリアに戻るよう誘導する。活動状況や体形などに関する情報を収集するほか、バーチャルフェンスの範囲を変更することで、食用に好適な個体を狩猟に適した場所へ誘導し食肉の安定供給に繋げる。イノシシなどの有害獣が増え、農作物被害だけでなくけが人などの被害も増える一方、ジビエの需要に狩猟が追いつかず、捕獲しても廃棄されることが大半であるという現状を解消する策として制作された作品。
+  categories:
+    - ペット・動物
+    - 食品・調理
+    - 農業・園芸
+  images:
+    - /static/images/2019/kagawa/team-a2.jpg
+    - /static/images/2019/kagawa/team-a1.jpg
+  award: 最優秀賞
+
+- location: 香川
+  team_id: B
+  team_name: ITTT
+  title: ITTT.4989.1056194
+  description: 持病を持った人 (被支援者) が外出先で体調不良になった際、近くの助けてくれそうな人 (支援者) や家族に通知するシステム。被支援者を発見した方 (発見者) が被支援者の持っているタグを読み取ることで、あらかじめ登録された家族や半径 300m 以内にいる支援者に支援要請する。支援者が被支援者の元へ到着した際は、再度タグを読み取ることで到着を家族に通知する。支援の必要が無い状態になった場合は家族が支援要請を解除する。障がい者は障がい者手帳やヘルプカードを持ち歩いている。それを利用して、何かあった時に近くにいる病気に関する知識を持った方などに助けを求めたり、家族へ通知したりしてくれるシステムがあると助かるという発想から考えられた作品。
+  categories:
+    - 医療・健康
+  images:
+    - /static/images/2019/kagawa/team-b2.jpg
+    - /static/images/2019/kagawa/team-b1.jpg
+  award:
+
+- location: 香川
+  team_id: C
+  team_name: OKN
+  title: お薬飲めたかな？
+  description: 認知症の方に対応した内服薬の管理をする作品。服薬管理により病態の進行を防ぐことが可能なことや、介護者の内服管理負担が軽減が本作品の制作背景。1. 時間の感覚がない方に対し、内服時間になったらお知らせする、2. お知らせ後ボタンを押すと 1 回分づつ取り出せる、3. お薬を取り出した時間を記録し、管理画面から確認を行う、4. お薬を取り出したらLEDランプでお知らせすることで後から本人が確認できる、といった 4 つの機能を備えた作品。
+  categories:
+    - 医療・健康
+  images:
+    - /static/images/2019/kagawa/team-c2.jpg
+    - /static/images/2019/kagawa/team-c1.jpg
+  award:
+
+- location: 香川
+  team_id: D
+  team_name: Team るんるん
+  title: IoT ゴミ箱
+  description: ゴミ箱の中のゴミの量を測り Web 上で管理できる IoT システム。ゴミ箱の蓋の内側に超音波センサーを取り付け、ゴミまでの距離を計測する。計測データは、データベース (FIWARE) を通じて Web 上で取り込み、画面に表示することで管理できる。また、2 台のゴミ箱を並べて設置し、ゴミの量で投票できるシステムを作った。サーボモーターを動かしてゴミの量の可視化もできる。ゴミ箱の見回りの負担軽減による人件費の抑制・人手不足の解消にも役立つ。さらに、投票システムで興味を持ってもらい、ポイ捨てなどの環境問題の解決にも役立ててもらいたいと思い制作した作品。
+  categories:
+    - ごみ・資源物
+  images:
+    - /static/images/2019/kagawa/team-d2.jpg
+    - /static/images/2019/kagawa/team-d1.jpg
+  award:
+
+- location: 香川
+  team_id: E
+  team_name: e ちーむ
+  title: のるとレシピ
+  description: 人生 100 年時代をおいしく健康に過ごすことを目標に、毎日の健康管理、食材リストからレシピを提案する装置は、近い未来、スーパー、家庭に 1 台必要になるのではないかとの発想から、疲れた時や健康を害した時は、体調に合った食材を手軽にとれる新たな仕組みとして、人類が永続的に健康的な生活を送れるよう、手助けができればと考え制作された作品。「のるとレシピ」に乗って約 30 秒待つだけで、健康志向情報を提供する。「あなたの身体に必要な食材リストをスマホに提供し、食材リストからレシピを提案します。」
+  categories:
+    - 医療・健康
+    - 食品・調理
+  images:
+    - /static/images/2019/kagawa/team-e2.jpg
+    - /static/images/2019/kagawa/team-e1.jpg
+  award:
+
+- location: 沖縄
+  team_id: A
+  team_name: 伝説のうまっち
+  title: 沖縄における首里城・識名園等の世界遺産を守る防災・防犯システムの構築
+  description: 温湿度センサーや煙センサーなどによって、火災を検知、人感センサーと敷地侵入検知部によって防犯するシステム。Web サイトでログを確認でき、1 時間ごとに LINE で温度と湿度を通知する。煙を検知したら、IoT 技術を駆使して、リアルタイムでユーザーに LINE で通知をしたり、スピーカーから警報を出したりして火災の発生を伝える。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/okinawa/team-a2.jpg
+    - /static/images/2019/okinawa/team-a1.jpg
+  award:
+
+- location: 沖縄
+  team_id: B
+  team_name: MEMEs
+  title: 美ら海まもる君
+  description: 多くの人が訪れる沖縄の海での死亡事故を防止する作品。ラズパイにボタンと GPS をつけたモジュールをベルトで遊泳客に装着。遊泳時に動けなくなった際など、身の危険を感じた時にモジュールの SOS ボタンを押すと陸上のライフセーバーに警告音と共にボタンを押した場所の位置情報が送信され、ライフセーバーがいち早く救助に向かうことができる。人間の目では見落としてしまうような事故も防ぐことが可能。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2019/okinawa/team-b2.jpg
+    - /static/images/2019/okinawa/team-b1.jpg
+  award:
+
+- location: 沖縄
+  team_id: C
+  team_name: TAMAKI.Lab (改)
+  title: 遠隔地の植物管理システム
+  description: 作物の生育状況やその周りの環境情報を Raspberry Pi に取り付けたセンサーを用いてデータ化して収集・解析を行い、それに応じたフィードバックを遠隔地からリアルタイムに行うことを目的とした作品。フィードバックの具体的な内容は、成長度合いに応じた散水・灌水または LED 光量の制御。これにより作物の安定した生産性を実現でき、安価での提供、ひいてはその作物の普及推進が期待できると考えている。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2019/okinawa/team-c2.jpg
+    - /static/images/2019/okinawa/team-c1.jpg
+  award:
+
+- location: 沖縄
+  team_id: D
+  team_name: えだ豆ファクトリ
+  title: GPS を用いた民間タクシー
+  description: 観光地にマップでピン立てて、近くの車に乗って別の観光地に移動。法的に営業できないと言われてしまえばそれまでですが、オーバーツーリズムが進む沖縄を特別区にして、実験的に運用することができれば実験データも取れ、これからの発展に繋がると考え本作品の制作を行った。
+  categories:
+    - 乗り物・交通
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/okinawa/team-d2.jpg
+    - /static/images/2019/okinawa/team-d1.jpg
+  award:
+
+- location: 沖縄
+  team_id: E
+  team_name: 安里ゼミ一番弟子
+  title: 観光設置カメラ
+  description: 沖縄の観光名所や撮影スポットの建物自体や人が通れない箇所に定点カメラをつけることで、スマホからでは撮影できない位置や場所の良さを最大限に活かした写真をラズベリーパイや無線の送受信を使い撮影することができるようにする作品。撮った写真を SNS アカウントからオンライン掲載することができれば、観光地のさらなる PR にもつなげることができると考えた。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2019/okinawa/team-e2.jpg
+    - /static/images/2019/okinawa/team-e1.jpg
+  award:
+
+- location: 沖縄
+  team_id: F
+  team_name: KOZA  DOJO
+  title: 高級高機能ハブ捕獲器
+  description: ハブ捕獲器の IoT 化。超音波センサーやカメラを設置し、侵入してきたハブを感知し、カメラで撮影。遠方にいる人へ情報を発信し、ハブ捕獲状況を知らせる高機能なハブ捕獲器。また、ネズミの動きや熱等をラズベリーパイから発生させる疑似マウスを設置することで、クリーンなハブトラップにする。
+  categories:
+    - ペット・動物
+  images:
+    - /static/images/2019/okinawa/team-f2.jpg
+    - /static/images/2019/okinawa/team-f1.jpg
+  award: 最優秀賞

@@ -1,0 +1,423 @@
+- location: 仙台
+  team_id:
+  team_name: QWake Up!
+  title: (無題)
+  description: 授業のポイントとなるところでペン立てから一定人数がペンを抜くと、他の人の席のペン立てが光り、数秒後に腕のバンドが振動。居眠りをしている学生を要所で起こしてくれるツール
+  categories:
+    - 学校・教育
+  images:
+    - /static/images/2017/sendai/team-a-1.jpg
+    - /static/images/2017/sendai/team-a-2.jpg
+  award:
+
+- location: 仙台
+  team_id:
+  team_name: Smile 1000
+  title: (無題)
+  description: 他の部屋にいる友人が退屈をしてハンドスピナーを回すと、Web 画面上に暇の度合いが表示され、話しかけてよい状態を示す。空気を読みすぎてしまう人向けの会話支援ツール。
+  categories:
+    - コミュニケーション
+  images:
+    - /static/images/2017/sendai/team-b-1.jpg
+    - /static/images/2017/sendai/team-b-2.jpg
+  award: 最優秀賞
+
+- location: 仙台
+  team_id:
+  team_name: トイレの神様
+  title: (無題)
+  description: 外出時などのトイレで紙がない状態を防ぐため、紙が切れると予備を自動的に補充し、ストックが減っていることを外部に発信。不測の事態を事前に防ぐアラートを挙げてくれるツール。
+  categories:
+    - 住宅・家電
+  images:
+    - /static/images/2017/sendai/team-c-1.jpg
+    - /static/images/2017/sendai/team-c-2.jpg
+  award:
+
+- location: 仙台
+  team_id:
+  team_name: Connect Family
+  title: (無題)
+  description: 物理的に距離の離れた親子が、遠隔で一緒に遊べる積木スタイルの IoT おもちゃ。片方が操作した情報を、もう片方の相手に光などで通知して、一緒にモノを使って遊ぶことができる。
+  categories:
+    - 子育て・少子化
+  images:
+    - /static/images/2017/sendai/team-d-1.jpg
+    - /static/images/2017/sendai/team-d-2.jpg
+  award:
+
+- location: 仙台
+  team_id:
+  team_name: Team F
+  title: (無題)
+  description: 盗難や紛失した状態になると、自分でその状態を発信してくれるバッグ。バッグにセンサーが内蔵され、盗難にあうと自動で通報もしてくれる。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2017/sendai/team-e-1.jpg
+    - /static/images/2017/sendai/team-e-2.jpg
+  award:
+
+- location: 仙台
+  team_id:
+  team_name: SL 制作チーム
+  title: (無題)
+  description: 混雑時の食堂や教室で空席を見つけることができるツール。座布団に感圧センサーが内蔵されていて、その席に人が座ると空きではなくなったことが Web 上で通知される。
+  categories:
+    - コミュニケーション
+    - 学校・教育
+  images:
+    - /static/images/2017/sendai/team-f-1.jpg
+    - /static/images/2017/sendai/team-f-2.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: A
+  team_name: 生徒の味方
+  title: 双方向型授業・プレゼン支援ツール
+  description: 授業の進行が速い・遅いといった感想を、生徒がフットスイッチを使用して先生に伝えることができるシステム。生徒の進行速度の感じ方の割合が 64 個 (8 × 8) の LED ディスプレイにリアルタイムで表現されるため、先生は直感的に生徒たちの理解度を知ることができる。
+  categories:
+    - 学校・教育
+  images:
+    - /static/images/2017/maebashi/team-a.jpg
+  award: 最優秀賞
+
+- location: 群馬・前橋
+  team_id: B
+  team_name: あんぱんまん
+  title: お知らせだるまくんと洗濯物
+  description: 洗濯物が乾いたことを、高崎名物のだるまが知らせてくれる IoT 作品。水分が蒸発し軽くなったことを竿の圧力センサーで検知すると、洗濯物が乾いたと判断。だるまが激しく揺れながら、「かわいた」としゃべって知らせてくれる。
+  categories:
+    - 衣類・洗濯
+  images:
+    - /static/images/2017/maebashi/team-b.jpg
+  award: 特別賞
+
+- location: 群馬・前橋
+  team_id: C
+  team_name: カーヴス
+  title: センタクファイター vs 雨風
+  description: 群馬特有の、冬季に吹く乾燥した冷たい強風「赤城おろし」。その対策として、洗濯物を自動回収することを目標とした作品。レーダーに取り付けられた風量センサー (測距センサー) および、屋外に設置された雨センサーによって風や雨を感知し、モーターが作動して洗濯物を干した台車が室内に回収される。
+  categories:
+    - 衣類・洗濯
+    - 気候・空調
+  images:
+    - /static/images/2017/maebashi/team-c.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: D
+  team_name: 前工大
+  title: AQUA SENSOR
+  description: 熱帯魚の水槽を監視し、飼育を補助するためのシステム。温度・水位・pH センサー、そして水質を調べる為の赤外線センサーを使用し、水槽の環境を把握する。熱帯魚に最適な環境でなければ警告を発する。計測したデータの解析結果は、Web ページ上にグラフを表示される。
+  categories:
+    - ペット・動物
+  images:
+    - /static/images/2017/maebashi/team-d.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: E
+  team_name: team cats
+  title: 繁盛感知！招き猫
+  description: 高崎の工芸品「招き猫」に着目した、商売繁盛を感知する IoT 作品。招き猫を設置した客席などが賑わっている (笑い声や歓声が高まる) と、その音をセンサーで感知し、招き猫が「ニャー」と鳴く。鳴いた時刻をリアルタイムにスマホに表示するアプリも同時に作成。
+  categories:
+    - ビジネス
+  images:
+    - /static/images/2017/maebashi/team-e.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: F
+  team_name: チーム フィクサー
+  title: 見守りちょうちんクン
+  description: 子どもやペット、高齢者の様子をリアルタイムで見守り、記念・記録として画像保存することも可能な IoT 作品。ぬいぐるみのチョウチンアンコウの内部に、Web カメラ、マイク、スピーカー、サーボモーターを取り付けた Raspberry Pi を内蔵。ちょうちん部分にカメラを設置することで、自然に見えるよう工夫されている。
+  categories:
+    - 高齢者・介護
+    - 子育て・少子化
+    - ペット・動物
+  images:
+    - /static/images/2017/maebashi/team-f.jpg
+  award:
+
+- location: 群馬・前橋
+  team_id: G
+  team_name: トゲアリトゲナシトゲトゲ
+  title: ぐんまちゃん 2.0
+  description: 群馬県の PR キャラクターである「ぐんまちゃん」に、各種センサーやカメラ、マイク、スピーカーを搭載。【焼きまんじゅう奉行モード】が搭載されており、「焼きまんじゅうの焼き方、知りたいね！」という質問に「はい」と答えると、つくり方を指南してくれる。指示に従うと、まんじゅうがおいしく焼ける。
+  categories:
+    - 食品・調理
+  images:
+    - /static/images/2017/maebashi/team-g.jpg
+  award: 特別賞
+
+- location: 横須賀
+  team_id: A
+  team_name: T 次郎
+  title: (無題)
+  description: 見通しの悪い T 字路で、車の往来を見える化する看板。センサーは数 10cm おきに計 3 つあり、その前を車が遮ると、看板に描かれた道路と車の絵のうち、位置に対応する車の絵が発光する。また、速度を測定しサーバーにアップロードし、Web 上で確認できる。
+  categories:
+    - 犯罪・事故防止
+  images:
+    - /static/images/2017/yokosuka/team-a.jpg
+  award:
+
+- location: 横須賀
+  team_id: B
+  team_name: Hackathon Team B Matrix
+  title: 車両混雑状況おしらせシステム
+  description: 駅に到着する電車の車両ごとの乗客人数をカウントし、混雑状況を知らせる他、車両内の温度と湿度の情報を取得し不快指数を通知。駅ホームでの掲示に加え Web でも確認ができる。また、空いている車両に乗客を自発的に誘導することで、事故の防止に繋げる。
+  categories:
+    - 乗り物・交通
+    - 気候・空調
+    - 犯罪・事故防止
+  images:
+    - /static/images/2017/yokosuka/team-b.jpg
+  award:
+
+- location: 横須賀
+  team_id: C
+  team_name: raspberrypi09
+  title: 路上駐車お知らせシステム
+  description: 検知した不正な路上駐車を Web ページ上にマッピングし、タップすると詳細な住所や経過時間を表示する。また、一定時間が経過するごとにカメラで写真を撮影しデータベースに保存する。
+  categories:
+    - 乗り物・交通
+    - 犯罪・事故防止
+  images:
+    - /static/images/2017/yokosuka/team-c.jpg
+  award:
+
+- location: 横須賀
+  team_id: D
+  team_name: D チーム
+  title: (無題)
+  description: 高齢者見守りシステム。「室温の異常検出」「外出、帰宅のログ取得」「スイッチによる緊急メッセージ転送」「空調機器のリモート操作」の 4 つを行うことのできるシステム。身内などにこれらのデータやメッセージを送ることで、高齢者の見守りを行うことができる。
+  categories:
+    - 高齢者・介護
+    - 気候・空調
+  images:
+    - /static/images/2017/yokosuka/team-d.jpg
+  award:
+
+- location: 横須賀
+  team_id: E
+  team_name: RBS
+  title: (無題)
+  description: 谷戸で暮らす高齢者や観光客のためのバスシステム。利用者が停留所に来たら、その停留所の座標と、近隣のバスの座標を共有し、その段階での停留所に最も近いバスが向かえるようにする。
+  categories:
+    - 乗り物・交通
+    - 高齢者・介護
+    - 観光・地域活性化
+  images:
+    - /static/images/2017/yokosuka/team-e.jpg
+  award:
+
+- location: 横須賀
+  team_id: F
+  team_name: F
+  title: (無題)
+  description: 保護者や介護者が近くにいない時、一人でいる高齢者や子に対して、簡単なメッセージを送ることで、安否などを確認できる IoT 作品。介護者が Raspberry Pi にメールを送り、中身を表示。超音波センサーで人の検知を行い、ボタンの押された回数によってメールの定型文を返す。
+  categories:
+    - 高齢者・介護
+    - 子育て・少子化
+  images:
+    - /static/images/2017/yokosuka/team-f.jpg
+  award:
+
+- location: 横須賀
+  team_id: G
+  team_name: グリーンパイ
+  title: 入退店監視システム
+  description: 店舗の混雑状況をセンサーを用いて、可視化する。超音波センサーを 2 つ用いて、入り口方向と出口方向に向けて、人物の入退をモニタリングする。この計測したデータをグラフに描画することで、時間ごとの混雑状況を可視化する。また、カメラを併用することで、より高精度な計測を実現した。
+  categories:
+    - ビジネス
+  images:
+    - /static/images/2017/yokosuka/team-g.jpg
+  award:
+
+- location: 横須賀
+  team_id: G
+  team_name: フランボワーズ
+  title: 鬼は外　家 (ウチ) は無事
+  description: 高齢者の安否や留守宅の不安を解消する IoT 作品。見守りモードでは、一定時間動きがない部屋の様子を自動撮影しスマホに送信する。さらに、玄関にどのくらい動いていないのかをライトの色で知らせ、近隣の人が家の様子を確認できる。防犯モードでは、部屋で動きが検知されると、連続して写真を撮影し送信する。
+  categories:
+    - 高齢者・介護
+  images:
+    - /static/images/2017/yokosuka/team-h.jpg
+  award:
+
+- location: 鳥取
+  team_id: A
+  team_name: きよちゃん
+  title: きよちゃん
+  description: 生後からオムツ卒業までの赤ちゃんの育児をサポートするシステム。Bluetooth、Wi-Fi、Web GPIO API、Web I2C API、Firebase 等の技術を使用した。
+  categories:
+    - 子育て・少子化
+  images:
+    - /static/images/2017/tottori/15.jpg
+  award: 最優秀賞
+
+- location: 鳥取
+  team_id: B
+  team_name: b6
+  title: 新感線
+  description: 鳥取県の新しいブランド梨「新甘泉」を監視・観測するシステム。列車に見立てた装置が梨の木を支えるワイヤーを移動しながらデータを収集する。収集したデータは、Google スプレッドシートを用いてリアルタイムでグラフ化される。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2017/tottori/16.jpg
+  award:
+
+- location: 鳥取
+  team_id: C
+  team_name: 配線いっぱい
+  title: SSA (Small Smart Agriculture)
+  description: 箱の中に入れた植物を継時的にセンシングし、その情報をもとに適切な管理を促すシステム。Wi-Fi を用いた携帯との連携、Web GPIO API、Web I2C API、WebSocket 等の技術を使用した。
+  categories:
+    - 農業・園芸
+  images:
+    - /static/images/2017/tottori/17.jpg
+  award:
+
+- location: 鳥取
+  team_id: D
+  team_name: Fine D
+  title: Fine Day
+  description: 冬場、雨や雪が多い鳥取で気分が沈んだときに人を楽しませることを目的とした作品。センサーを用いて気温等のデータを収集し、必要に応じて人を楽しませるためのギミックが作動する。
+  categories:
+    - 気候・空調
+    - ゲーム・エンタメ
+  images:
+    - /static/images/2017/tottori/18.jpg
+  award:
+
+- location: 鳥取
+  team_id: E
+  team_name: トリプロ
+  title: 慰めマリリン
+  description: 携帯電話の充電器に、バイブレーションを感知する機能を実装。一定時間通知がない場合に慰めの言葉をかける機能や、AWS 等を利用し、友人に連絡を催促する機能の実装を目指した。
+  categories:
+    - コミュニケーション
+    - リマインダー
+  images:
+    - /static/images/2017/tottori/19.jpg
+  award:
+
+- location: 鳥取
+  team_id: F
+  team_name: レペゼン鳥取
+  title: 真実の薬箱
+  description: 鳥取県が抱える問題である高齢化社会に着目。「真実の口」をイメージした外装で、高齢者の薬の飲みすぎを抑制する機能を実装。センサーにより薬を取り出したことをメールで知らせる機能も備える。
+  categories:
+    - 高齢者・介護
+    - 医療・健康
+  images:
+    - /static/images/2017/tottori/20.jpg
+  award:
+
+- location: 鳥取
+  team_id: G
+  team_name: 片山聡生と愉快な仲間たち
+  title: IoP ～Internet of Pole～
+  description: 物干し竿に、洗濯物の状態の変化をセンシングする機能を実装。乾いた洗濯物は自動で取り込み、LINE への通知も行う。
+  categories:
+    - 衣類・洗濯
+  images:
+    - /static/images/2017/tottori/21.jpg
+  award:
+
+- location: 沖縄
+  team_id: A
+  team_name: KNS
+  title: 畑 まもるくん
+  description: 畑を監視して鳥獣を畑から追い払うシステム。畑に鳥獣が侵入すると、レーダーセンターで検出してメールでお知らせする。また、メールを確認後、メールに貼られている URL を開くことで、畑の状態を確認し、IP カメラで畑を確認しながら鳥獣を追い払うことができる。PC、スマートフォン、タブレット、AI スピーカーなどの様々な情報端末で、操作することができ、鳥獣を検出したデータをクラウドに保存することにより、過去のデータを確認することが可能。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-a.jpg
+  award: グッドで賞
+
+- location: 沖縄
+  team_id: B
+  team_name: Penguino (ペングイーノ)
+  title: お手軽カラス撃退装置 (増えるよ)
+  description: 東村の農作物を救え！ 赤外線センサーでカラスを感知し、LED レーザーとネコ科の鳴き声で追い払う。同じ LAN 内でいくらでも増設ができ、広大な畑もカバーできる！ WiFi モジュールと Arduino UNO および各センサー、出力を 1 セットとし、同じ WiFi の下、ひとつのサーバーで複数のセットをアクセス、制御するため、広大な東村の畑に複数設置し、隅々までカバーし、作物をカラスから守ることができる。流す音声の種類、長さはプログラムを書き直せば調整可能。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-b.jpg
+  award:
+
+- location: 沖縄
+  team_id: C
+  team_name: チーム名なし
+  title: すごいカカシ
+  description: 環境センシングとカラスやイノシシの撃退の二役の機能を備えたかかし。温度、気圧、光量、水の環境センシングでデータを蓄積し、統計的に病気等の作物の状態を予測する。また、何かが接近すると、ブザーと LED ライトで威嚇し作物を動物の被害から守る。ブザーの音色を変えることで慣れを防止する工夫も施されている。見ているとだんだん愛着が湧き、着せ替えも可能な作品。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-c.jpg
+  award: グッドで賞
+
+- location: 沖縄
+  team_id: E
+  team_name: Rubbish
+  title: HateSound
+  description: 対象が近づいた時、サーバー側で保存している音を流して追い払う。また襲撃があった時に、その時間と対象との距離を取得して表示し、どの時間帯に襲撃があるかユーザーが把握することができるシステム。当初目指していたのは、あらゆるパターンの音楽をサーバー側で Web から取得して襲撃があった時に流し、音楽毎に追い払えたかどうかを把握、効果のあった音楽を次の襲撃に流し、音で完全に追い払う態勢の構築だった。また、時間帯や気候といったより詳しい襲撃の状況のデータを集めることで、次に襲撃のある時を予測し、人員の配置を Web から行えることも目指していた。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-e.jpg
+  award:
+
+- location: 沖縄
+  team_id: F
+  team_name: wml
+  title: イノシシを検知するよ！！
+  description: センサーでイノシシを検知すると、カメラで写真を撮影し、住所と写真を添付して Twitter でツイートする作品。Twitter を利用することで農業関係者以外の行政関係者や一般の人にも注意をうながすことができる。Arduino が置くことができればネットでなくても柵などがあれば設置できる。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-f.jpg
+  award: グッドで賞
+
+- location: 沖縄
+  team_id: G
+  team_name: GRAVITY
+  title: 愛しのエリー
+  description: センサーがイノシシを検知するとエリーちゃん (カカシ) に信号を送る。信号を受け取ったエリーちゃんは突然起き上がり、音を鳴らし回転することでイノシシたちを怖がらせ、追い払う。イノシシを検知した記録は、Web ページでも確認ができる。普通のカカシではイノシシにはお見通しになってしまうため、3 つのアクションをつける事で不気味さを演出。突如起き上がり、音を鳴らしながら回転した後は、しばらくそのまま静止して予測できないタイミングで倒れるようになっていることが普通のカカシにはない IoT ならではのポイント。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-g.jpg
+  award: 最優秀賞
+
+- location: 沖縄
+  team_id: H
+  team_name: チーム名なし
+  title: ボアキラーP
+  description: センサーに反応すると、自動的にスプレーを発射する装置。リアルタイムでサーバー通信する点やスプレーのコストパフォーマンスがアピールポイントの作品。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-h.jpg
+  award:
+
+- location: 沖縄
+  team_id: I
+  team_name: ぽちこちゃん
+  title: バーチャルのいのしし YouTuber
+  description: 畑に害獣が来たのを超音波センサーで判別し、動画撮影し、YouTube にアップロード。時間、摩擦など収集したデータは、自作 Web サーバーにアップロードし、スマートフォンのブラウザアプリなど、Web からの情報閲覧を可能にした。出現位置などの情報から生息位置の割り出しを目指した。
+  categories:
+    - ペット・動物
+    - 農業・園芸
+  images:
+    - /static/images/2017/okinawa/team-i.jpg
+  award:

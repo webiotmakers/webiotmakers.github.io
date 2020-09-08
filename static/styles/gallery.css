@@ -1,0 +1,153 @@
+#gallery-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 32px;
+}
+
+#filters {
+  outline: 0;
+  flex: none;
+  width: 240px;
+}
+
+#filters section {
+  overflow: hidden;
+  margin: 16px 0;
+}
+
+#filters ul {
+  float: left;
+  margin: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+#filters li {
+  margin: 0 16px;
+  padding: 0;
+}
+
+#filters a {
+  cursor: pointer;
+  user-select: none;
+}
+
+#filters a[aria-checked="true"] {
+  font-weight: bold;
+}
+
+#works-container {
+  outline: 0;
+  flex: auto;
+  width: 100%; /* for IE11 */
+}
+
+#works-container > ul {
+  margin: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+#works-container > ul > li {
+  padding: 0;
+  padding: 16px;
+  background: #EEE;
+}
+
+#works-container > ul > li [role="button"] {
+  display: inline-block;
+  outline: 0;
+  margin: 0 2px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 0 8px;
+  background-color: #FFF;
+}
+
+#works-container ul ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#works-container ul ul > li {
+  margin: 8px 0;
+  padding: 0;
+}
+
+#works-container h4 {
+  margin: 16px 0 8px;
+}
+
+#works-container img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  #works-container > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #works-container > ul > li {
+    width: calc(50% - 32px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #filter-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #gallery-container {
+    margin: 32px 0;
+  }
+
+  #filters {
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    z-index: 100;
+    width: auto;
+    overflow: auto;
+    border-radius: 8px;
+    padding: 16px 0;
+    background: #F1EFE8;
+    box-shadow: 0 0 80px rgba(0, 0, 0, .5);
+  }
+
+  #filters ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #filters li {
+    width: 12em;
+  }
+
+  #filters.active {
+    display: block;
+  }
+
+  #filter-button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    border-top: 1px solid rgba(0, 0, 0, .2);;
+    padding: 8px;
+    background: #F1EFE8;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #filter-button {
+    left: 0;
+  }
+}

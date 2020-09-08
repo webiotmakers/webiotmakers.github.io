@@ -1,0 +1,73 @@
+---
+layout: 2019
+id: gallery
+title: Web×IoT メイカーズチャレンジ 作品ギャラリー
+description: 2017 年度以降、全国各地で開催された講習会＆ハッカソンにご参加いただいた皆さんの作品集です。
+style: gallery.css
+script: gallery.js
+---
+<article>
+  <div id="about-header-outer" class="outer outer-2">
+    <div class="inner">
+      <header id="header">
+        <h1><span>Web×IoT</span> <span>メイカーズ</span><span>チャレンジ</span> <span>作品ギャラリー</span></h1>
+        <p>2017 年度以降、全国各地で開催された講習会＆ハッカソンにご参加いただいた皆さんの作品集です。</p>
+      </header>
+    </div>
+  </div>
+  <div id="body-outer" class="outer outer-1">
+    <div id="gallery-container">
+      <aside id="filters" tabindex="0" role="radiogroup" aria-controls="works-container">
+        <h3>絞り込み表示</h3>
+        <section id="filter-general">
+          <ul role="none"></ul>
+        </section>
+        <section id="filter-categories">
+          <h4>テーマ</h4>
+          <ul role="none"></ul>
+        </section>
+        <section id="filter-years">
+          <h4>開催年度</h4>
+          <ul role="none"></ul>
+        </section>
+        <section id="filter-locations">
+          <h4>開催地域</h4>
+          <ul role="none"></ul>
+        </section>
+      </aside>
+      <div id="works-container" tabindex="0">
+        <h2>すべて</h2>
+        <ul>
+        {%- for _hash in site.data.works %}
+          {%- assign year = _hash[0] %}
+          {%- for work in _hash[1] %}
+            <li data-categories="{{ work.categories | join: ' ' }}" data-year="{{ year }}"
+                data-location="{{ work.location }}" data-award="{{ work.award }}">
+              <img alt="" data-src="{{ work.images[0] }}">
+              <h4>{{ work.title }}</h4>
+              <ul>
+                <li>{{ work.description }}</li>
+                <li>
+                  カテゴリ:
+                  {%- for category in work.categories %}
+                    <a href="#" role="button" aria-controls="works" data-category="{{ category }}">{{ category }}</a>
+                  {%- endfor %}
+                </li>
+                <li>
+                  開催年度・地域:
+                  <a href="#" role="button" aria-controls="works" data-year="{{ year }}">{{ year }}</a>
+                  <a href="#" role="button" aria-controls="works" data-location="{{ work.location }}">{{ work.location }}</a>
+                  {%- if work.award %}
+                  <a href="#" role="button" aria-controls="works" data-award="{{ work.award }}">{{ work.award }}</a>
+                  {%- endif %}
+                </li>
+              </ul>
+            </li>
+          {%- endfor %}
+        {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>
+<a id="filter-button" href="#" aria-controls="filters"><span class="icon fa" aria-hidden="true">&#xf0b0;</span> 絞り込み表示</a>
