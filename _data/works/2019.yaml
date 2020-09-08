@@ -224,7 +224,7 @@
   images:
     - /static/images/2019/gunma/team-c2.jpg
     - /static/images/2019/gunma/team-c1.jpg
-  award: 特別賞
+  award:
 
 - location: 群馬・前橋
   team_id: D
@@ -359,7 +359,7 @@
   images:
     - /static/images/2019/shinshu/team-b2.jpg
     - /static/images/2019/shinshu/team-b1.jpg
-  award: 特別賞
+  award:
 
 - location: 信州
   team_id: C
@@ -395,7 +395,7 @@
   images:
     - /static/images/2019/shinshu/team-e2.jpg
     - /static/images/2019/shinshu/team-e1.jpg
-  award: 特別賞
+  award:
 
 - location: 信州
   team_id: F
@@ -765,8 +765,8 @@
     - 乗り物・交通
     - 観光・地域活性化
   images:
-    - /static/images/2019/okinawa/team-d2.jpg
     - /static/images/2019/okinawa/team-d1.jpg
+    - /static/images/2019/okinawa/team-d2.jpg
   award:
 
 - location: 沖縄
@@ -777,8 +777,8 @@
   categories:
     - 観光・地域活性化
   images:
-    - /static/images/2019/okinawa/team-e2.jpg
     - /static/images/2019/okinawa/team-e1.jpg
+    - /static/images/2019/okinawa/team-e2.jpg
   award:
 
 - location: 沖縄

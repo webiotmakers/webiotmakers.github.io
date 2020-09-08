@@ -13,7 +13,7 @@
 - location: 仙台
   team_id:
   team_name: Smile 1000
-  title: (無題)
+  title: コミュくる
   description: 他の部屋にいる友人が退屈をしてハンドスピナーを回すと、Web 画面上に暇の度合いが表示され、話しかけてよい状態を示す。空気を読みすぎてしまう人向けの会話支援ツール。
   categories:
     - コミュニケーション
@@ -79,6 +79,7 @@
   categories:
     - 学校・教育
   images:
+    - /static/images/2017/maebashi/team-a-deliverable.jpg
     - /static/images/2017/maebashi/team-a.jpg
   award: 最優秀賞
 
@@ -90,8 +91,9 @@
   categories:
     - 衣類・洗濯
   images:
+    - /static/images/2017/maebashi/team-b-deliverable.jpg
     - /static/images/2017/maebashi/team-b.jpg
-  award: 特別賞
+  award:
 
 - location: 群馬・前橋
   team_id: C
@@ -148,8 +150,9 @@
   categories:
     - 食品・調理
   images:
+    - /static/images/2017/maebashi/team-g-deliverable.jpg
     - /static/images/2017/maebashi/team-g.jpg
-  award: 特別賞
+  award:
 
 - location: 横須賀
   team_id: A
@@ -165,15 +168,16 @@
 - location: 横須賀
   team_id: B
   team_name: Hackathon Team B Matrix
-  title: 車両混雑状況おしらせシステム
+  title: 車両混雑状況お知らせシステム
   description: 駅に到着する電車の車両ごとの乗客人数をカウントし、混雑状況を知らせる他、車両内の温度と湿度の情報を取得し不快指数を通知。駅ホームでの掲示に加え Web でも確認ができる。また、空いている車両に乗客を自発的に誘導することで、事故の防止に繋げる。
   categories:
     - 乗り物・交通
     - 気候・空調
     - 犯罪・事故防止
   images:
+    - /static/images/2017/landing/yokosuka.jpg
     - /static/images/2017/yokosuka/team-b.jpg
-  award:
+  award: 最優秀賞
 
 - location: 横須賀
   team_id: C
@@ -254,6 +258,7 @@
   categories:
     - 子育て・少子化
   images:
+    - /static/images/2017/landing/tottori.jpg
     - /static/images/2017/tottori/15.jpg
   award: 最優秀賞
 
@@ -335,8 +340,9 @@
     - ペット・動物
     - 農業・園芸
   images:
+    - /static/images/2017/okinawa/team-a-deliverable-1.jpg
     - /static/images/2017/okinawa/team-a.jpg
-  award: グッドで賞
+  award:
 
 - location: 沖縄
   team_id: B
@@ -359,8 +365,9 @@
     - ペット・動物
     - 農業・園芸
   images:
+    - /static/images/2017/okinawa/team-c-deliverable-1.jpg
     - /static/images/2017/okinawa/team-c.jpg
-  award: グッドで賞
+  award:
 
 - location: 沖縄
   team_id: E
@@ -383,8 +390,9 @@
     - ペット・動物
     - 農業・園芸
   images:
+    - /static/images/2017/okinawa/team-f-deliverable-1.jpg
     - /static/images/2017/okinawa/team-f.jpg
-  award: グッドで賞
+  award:
 
 - location: 沖縄
   team_id: G
@@ -395,6 +403,7 @@
     - ペット・動物
     - 農業・園芸
   images:
+    - /static/images/2017/okinawa/team-g-deliverable-2.jpg
     - /static/images/2017/okinawa/team-g.jpg
   award: 最優秀賞
 

@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function () {
     </li> \
     <li role="none"> \
       <a href="#" role="radio" aria-checked="false" data-award="*"> \
-        受賞作品 (' + works.filter(function (work) { return work.dataset.award; }).length + ') \
+        最優秀賞受賞作品 (' + works.filter(function (work) { return work.dataset.award; }).length + ') \
       </a> \
     </li> \
   ';
@@ -152,7 +152,7 @@ window.addEventListener('DOMContentLoaded', function () {
         $radio.setAttribute('aria-checked', !!$radio.dataset.award);
       });
 
-      $title.textContent = '受賞作品';
+      $title.textContent = '最優秀賞受賞作品';
     }
 
     if (category) {

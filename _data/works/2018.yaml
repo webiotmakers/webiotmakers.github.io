@@ -59,7 +59,7 @@
   images:
     - /static/images/2018/sapporo/teams-09.jpg
     - /static/images/2018/sapporo/teams-10.jpg
-  award:
+  award: 最優秀賞
 
 - location: 仙台
   team_id: A
@@ -69,8 +69,8 @@
   categories:
     - スポーツ
   images:
-    - /static/images/2018/sendai/teams-01a.jpg
     - /static/images/2018/sendai/teams-01b.jpg
+    - /static/images/2018/sendai/teams-01a.jpg
   award:
 
 - location: 仙台
@@ -81,8 +81,8 @@
   categories:
     - スポーツ
   images:
-    - /static/images/2018/sendai/teams-02a.jpg
     - /static/images/2018/sendai/teams-02b.jpg
+    - /static/images/2018/sendai/teams-02a.jpg
   award:
 
 - location: 仙台
@@ -93,8 +93,8 @@
   categories:
     - スポーツ
   images:
-    - /static/images/2018/sendai/teams-03a.jpg
     - /static/images/2018/sendai/teams-03b.jpg
+    - /static/images/2018/sendai/teams-03a.jpg
   award:
 
 - location: 仙台
@@ -105,8 +105,8 @@
   categories:
     - 医療・健康
   images:
-    - /static/images/2018/sendai/teams-04a.jpg
     - /static/images/2018/sendai/teams-04b.jpg
+    - /static/images/2018/sendai/teams-04a.jpg
   award: 最優秀賞
 
 - location: 仙台
@@ -117,20 +117,20 @@
   categories:
     - スポーツ
   images:
-    - /static/images/2018/sendai/teams-05a.jpg
     - /static/images/2018/sendai/teams-05b.jpg
+    - /static/images/2018/sendai/teams-05a.jpg
   award:
 
 - location: 仙台
   team_id: F
   team_name: fisherman
-  title: 無題
+  title: (無題)
   description: スタジアムで観客のスマホに単色の画像を送付し、全員でかざすと巨大な画が浮かぶ。グッズを持たない初心者でも周囲の観客と観戦を楽しめる。
   categories:
     - スポーツ
   images:
-    - /static/images/2018/sendai/teams-06a.jpg
     - /static/images/2018/sendai/teams-06b.jpg
+    - /static/images/2018/sendai/teams-06a.jpg
   award:
 
 - location: 茨城
@@ -167,8 +167,8 @@
     - 学校・教育
     - コミュニケーション
   images:
-    - /static/images/2018/ibaraki/teams-03a.jpg
     - /static/images/2018/ibaraki/teams-03b.jpg
+    - /static/images/2018/ibaraki/teams-03a.jpg
   award:
 
 - location: 茨城
@@ -179,8 +179,8 @@
   categories:
     - 医療・健康
   images:
-    - /static/images/2018/ibaraki/teams-04a.jpg
     - /static/images/2018/ibaraki/teams-04b.jpg
+    - /static/images/2018/ibaraki/teams-04a.jpg
   award:
 
 - location: 茨城
@@ -203,9 +203,9 @@
   categories:
     - 観光・地域活性化
   images:
-    - /static/images/2018/ibaraki/teams-06a.jpg
     - /static/images/2018/ibaraki/teams-06b.jpg
-  award:
+    - /static/images/2018/ibaraki/teams-06a.jpg
+  award: 最優秀賞
 
 - location: 茨城
   team_id: G
@@ -216,8 +216,8 @@
     - ごみ・資源物
     - 高齢者・介護
   images:
-    - /static/images/2018/ibaraki/teams-07a.jpg
     - /static/images/2018/ibaraki/teams-07b.jpg
+    - /static/images/2018/ibaraki/teams-07a.jpg
   award:
 
 - location: 茨城
@@ -228,8 +228,8 @@
   categories:
     - 農業・園芸
   images:
-    - /static/images/2018/ibaraki/teams-08a.jpg
     - /static/images/2018/ibaraki/teams-08b.jpg
+    - /static/images/2018/ibaraki/teams-08a.jpg
   award:
 
 - location: 群馬・前橋
@@ -252,6 +252,7 @@
   categories:
     - 農業・園芸
   images:
+    - /static/images/2018/landing/winner-maebashi.jpg
     - /static/images/2018/maebashi/teams-02.jpg
   award: 最優秀賞
 
@@ -265,7 +266,7 @@
     - 学校・教育
   images:
     - /static/images/2018/maebashi/teams-03.jpg
-  award: 特別賞 (クライム賞)
+  award:
 
 - location: 群馬・前橋
   team_id: E
@@ -298,7 +299,7 @@
     - 医療・健康
   images:
     - /static/images/2018/maebashi/teams-06.jpg
-  award: GPA 賞
+  award:
 
 - location: 東京
   team_id: A
@@ -309,8 +310,8 @@
     - 医療・健康
     - ゲーム・エンタメ
   images:
-    - /static/images/2018/tokyo/teams-01.jpg
     - /static/images/2018/tokyo/teams-02.jpg
+    - /static/images/2018/tokyo/teams-01.jpg
   award:
 
 - location: 東京
@@ -347,7 +348,7 @@
   images:
     - /static/images/2018/tokyo/teams-07.jpg
     - /static/images/2018/tokyo/teams-08.jpg
-  award:
+  award: 最優秀賞
 
 - location: 東京
   team_id: E
@@ -357,8 +358,8 @@
   categories:
     - 犯罪・事故防止
   images:
-    - /static/images/2018/tokyo/teams-09.jpg
     - /static/images/2018/tokyo/teams-10.jpg
+    - /static/images/2018/tokyo/teams-09.jpg
   award:
 
 - location: 東京
@@ -405,8 +406,8 @@
   categories:
     - 観光・地域活性化
   images:
-    - /static/images/2018/yokosuka/teams-01.jpg
     - /static/images/2018/yokosuka/teams-02.jpg
+    - /static/images/2018/yokosuka/teams-01.jpg
   award:
 
 - location: 横須賀
@@ -417,8 +418,8 @@
   categories:
     - 高齢者・介護
   images:
-    - /static/images/2018/yokosuka/teams-03.jpg
     - /static/images/2018/yokosuka/teams-04.jpg
+    - /static/images/2018/yokosuka/teams-03.jpg
   award:
 
 - location: 横須賀
@@ -429,8 +430,8 @@
   categories:
     - ビジネス
   images:
-    - /static/images/2018/yokosuka/teams-05.jpg
     - /static/images/2018/yokosuka/teams-06.jpg
+    - /static/images/2018/yokosuka/teams-05.jpg
   award:
 
 - location: 横須賀
@@ -442,8 +443,8 @@
     - 乗り物・交通
     - 気候・空調
   images:
-    - /static/images/2018/yokosuka/teams-07.jpg
     - /static/images/2018/yokosuka/teams-08.jpg
+    - /static/images/2018/yokosuka/teams-07.jpg
   award:
 
 - location: 横須賀
@@ -454,9 +455,9 @@
   categories:
     - 住宅・家電
   images:
-    - /static/images/2018/yokosuka/teams-09.jpg
     - /static/images/2018/yokosuka/teams-10.jpg
-  award:
+    - /static/images/2018/yokosuka/teams-09.jpg
+  award: 最優秀賞
 
 - location: 横須賀
   team_id: F
@@ -466,8 +467,8 @@
   categories:
     - 乗り物・交通
   images:
-    - /static/images/2018/yokosuka/teams-11.jpg
     - /static/images/2018/yokosuka/teams-12.jpg
+    - /static/images/2018/yokosuka/teams-11.jpg
   award:
 
 - location: 鳥取
@@ -479,6 +480,7 @@
     - ごみ・資源物
     - 高齢者・介護
   images:
+    - /static/images/2018/tottori/winners-02.jpg
     - /static/images/2018/tottori/teams-01.jpg
   award: 最優秀賞
 
@@ -490,8 +492,9 @@
   categories:
     - 高齢者・介護
   images:
+    - /static/images/2018/tottori/winners-04.jpg
     - /static/images/2018/tottori/teams-02.jpg
-  award: 特別賞
+  award:
 
 - location: 鳥取
   team_id: C
@@ -592,8 +595,9 @@
   categories:
     - 観光・地域活性化
   images:
+    - /static/images/2018/landing/winner-kagawa.jpg
     - /static/images/2018/kagawa/teams-02.jpg
-  award:
+  award: 最優秀賞
 
 - location: 香川
   team_id: C
@@ -720,6 +724,6 @@
   categories:
     - 農業・園芸
   images:
+    - /static/images/2018/landing/winner-okinawa.jpg
     - /static/images/2018/okinawa/teams-13.jpg
-    - /static/images/2018/okinawa/teams-14.jpg
-  award:
+  award: 最優秀賞
