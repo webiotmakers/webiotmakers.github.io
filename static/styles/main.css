@@ -121,9 +121,14 @@ ul.grid.labels li {
 }
 
 ul.grid.logos li {
-  margin: 16px;
+  align-items: flex-start;
+  margin: 16px 32px;
   width: auto;
   max-width: 100%
+}
+
+ul.grid.logos li figcaption {
+  margin: 0;
 }
 
 ul.grid.pics li {
@@ -212,6 +217,10 @@ figure img {
 
 .inner > section > section {
   margin: 40px 0;
+}
+
+.inner > section > section > section {
+  margin: 32px 0;
 }
 
 #header {
