@@ -1,7 +1,7 @@
+/* eslint-disable object-shorthand */
 /* eslint-disable prefer-arrow-callback */
 /* eslint-disable prefer-destructuring */
 /* eslint-disable prefer-template */
-/* eslint-disable require-jsdoc */
 
 'use strict';
 
@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', function () {
   const $filter_categories = $filters.querySelector('#filter-categories ul');
   const $filter_years = $filters.querySelector('#filter-years ul');
   const $filter_locations = $filters.querySelector('#filter-locations ul');
+  // eslint-disable-next-line require-jsdoc
   const sorter = function (a, b) { return a[0] > b[0]; };
 
   // Randomize the works
@@ -88,8 +89,6 @@ window.addEventListener('DOMContentLoaded', function () {
     </li> \
   ';
 
-  console.info(Object.entries(_categories).sort(sorter));
-
   $filter_categories.innerHTML = Object.entries(_categories).sort(sorter).map(function (args) {
     const category = args[0];
     const count = args[1];
@@ -129,19 +128,29 @@ window.addEventListener('DOMContentLoaded', function () {
     ';
   }).join('');
 
-  $container.addEventListener('click', function (event) {
-    const $target = event.target;
-
-    if (!$target.matches('a')) {
+  /**
+   * Replace the current URL with the given search params.
+   * @param {Object} init Params.
+   */
+  const update_location = function (init) {
+    if (!('URLSearchParams' in window)) {
       return;
     }
 
-    event.preventDefault();
+    history.replaceState({}, '', '?' + (new URLSearchParams(init)).toString());
+  };
 
-    const award = $target.dataset.award;
-    const category = $target.dataset.category;
-    const year = $target.dataset.year;
-    const location = $target.dataset.location;
+  /**
+   * Apply a filter to the work list, and update the view accordingly. Multiple filters like year+location are not
+   * supported at this time.
+   * @param {Object} filter Filtering condition in the form of key-value pairs, where keys are `award`, `category`,
+   * `year` and `location`.
+   */
+  const apply_filter = function (filter) {
+    const award = filter.award;
+    const category = filter.category;
+    const year = filter.year;
+    const location = filter.location;
 
     if (award) {
       works.forEach(function ($work) {
@@ -153,6 +162,9 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       $title.textContent = '最優秀賞受賞作品';
+      update_location({ award: '最優秀賞' });
+
+      return;
     }
 
     if (category) {
@@ -165,6 +177,9 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       $title.textContent = category;
+      update_location({ category: category });
+
+      return;
     }
 
     if (year) {
@@ -177,6 +192,9 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       $title.textContent = year;
+      update_location({ year: year });
+
+      return;
     }
 
     if (location) {
@@ -189,7 +207,25 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       $title.textContent = location;
+      update_location({ location: location });
     }
+  };
+
+  $container.addEventListener('click', function (event) {
+    const $target = event.target;
+
+    if (!$target.matches('a')) {
+      return;
+    }
+
+    event.preventDefault();
+
+    apply_filter({
+      award: $target.dataset.award,
+      category: $target.dataset.category,
+      year: $target.dataset.year,
+      location: $target.dataset.location,
+    });
 
     $filters.classList.remove('active');
 
@@ -197,6 +233,21 @@ window.addEventListener('DOMContentLoaded', function () {
       $page_wrapper.scrollTo(0, 0);
       $works_container.focus();
     }, 100);
+  });
+
+  window.addEventListener('load', function () {
+    if (!('URLSearchParams' in window)) {
+      return;
+    }
+
+    const params = new URLSearchParams(location.search);
+
+    apply_filter({
+      award: params.get('award'),
+      category: params.get('category'),
+      year: params.get('year'),
+      location: params.get('location'),
+    });
   });
 
   document.querySelector('#filter-button').addEventListener('click', function () {
