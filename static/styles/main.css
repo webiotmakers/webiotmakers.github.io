@@ -223,6 +223,22 @@ figure img {
   margin: 32px 0;
 }
 
+aside.latest-link {
+  padding: 16px;
+  color: #FFF;
+  background-color: #096CB3;
+  text-align: center;
+}
+
+aside.latest-link p {
+  margin: 0;
+}
+
+aside.latest-link a {
+  color: inherit;
+  font-weight: bold;
+}
+
 #header {
   text-align: center;
 }
