@@ -70,18 +70,54 @@
       <main>
         <div class="drawer outer-2" id="locations" hidden>
           <a href="#" class="close" role="button" aria-controls="locations" aria-label="閉じる"><span aria-hidden="true">×</span></a>
-          <section class="location" id="location-ibaraki" hidden>
+          <section class="location" id="location-ibaraki" hidden itemtype="http://schema.org/Event">
             <hgroup>
-              <h3><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 茨城</span></h3>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 茨城</span></h3>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を茨城県で昨年度に引き続き開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2020/template/ogp.jpg">
+              <meta itemprop="startDate" content="2021-01-30">
+              <meta itemprop="endDate" content="2021-02-28">
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OnlineEventAttendanceMode">
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation"></span>
             </hgroup>
             <section>
               <h5>主催</h5>
               <ul class="plain">
-                <li>総務省関東総合通信局</li>
-                <li>Web×IoT メイカーズチャレンジ<br>茨城運営委員会</li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">総務省関東総合通信局</span>
+                </li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>茨城運営委員会</span>
+                </li>
               </ul>
             </section>
-            <p>詳細は決定次第ご案内いたします。</p>
+            <section>
+              <h5>開催形態</h5>
+              <p>チームごとの複数拠点にて分散開催、<br>一部オンデマンド講習</p>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>
+                <time datetime="2021-01-30" itemprop="startDate endDate">2021 年 1 月 30 日 (土)</time>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>
+                <time datetime="2021-02-27" itemprop="startDate">2021 年 2 月 27 日 (土)</time> –
+                <time datetime="2021-02-28" itemprop="endDate">28 日 (日)</time>
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <p>参加チームごとに会場を準備し<br>Web ビデオ接続</p>
+              <p>※原則、高校、大学、専門学校等、<br>チーム単位での募集となります。</p>
+            </section>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <p>11 月上旬頃より募集開始予定。<br>詳細は決定次第ご案内いたします。</p>
+            </section>
             <section>
               <h5>過去の開催</h5>
               <ul class="plain">
