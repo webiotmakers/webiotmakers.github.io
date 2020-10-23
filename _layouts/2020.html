@@ -361,23 +361,75 @@
               <p>10 月末頃情報公開予定</p>
             </section>
           </section>
-          <section class="location" id="location-tottori" hidden>
+          <section class="location" id="location-tottori" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
-              <h3><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 鳥取</span></h3>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 鳥取</span></h3>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を鳥取県で昨年度に引き続き開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2020/template/ogp.jpg">
+              <meta itemprop="startDate" content="2021-01-09">
+              <meta itemprop="endDate" content="2021-02-14">
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
             <section>
               <h5>主催</h5>
               <ul class="plain">
-                <li>Web×IoT メイカーズチャレンジ<br>鳥取運営委員会</li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>鳥取運営委員会</span>
+                </li>
               </ul>
             </section>
             <section>
-              <h5>共催</h5>
+              <h5>開催形態</h5>
+              <p>2 会場にて分散開催</p>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="tottori-location-1 tottori-location-2">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>
+                <time datetime="2021-01-09" itemprop="startDate">2021 年 1 月 9 日 (土)</time> –
+                <time datetime="2021-01-10" itemprop="endDate">10 日 (日)</time>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="tottori-location-1 tottori-location-2">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>
+                <time datetime="2021-02-13" itemprop="startDate">2021 年 2 月 13 日 (土)</time> –
+                <time datetime="2021-02-14" itemprop="endDate">14 日 (日)</time>
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <p>(ハンズオン講習会・アイデアソン＆<br>ハッカソン共に 2 会場にて同時開催)</p>
               <ul class="plain">
-                <li>Web×IoT メイカーズチャレンジ<br>実行委員会</li>
+                <li id="tottori-location-1">
+                  鳥取市：
+                  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <a href="https://www.tottori-u.ac.jp/1795.htm" itemprop="url">
+                      <span itemprop="name">鳥取大学 鳥取キャンパス</span>
+                    </a>
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                      <meta itemprop="addressRegion" content="鳥取県">
+                      <meta itemprop="addressLocality" content="鳥取市">
+                    </span>
+                  </span>
+                </li>
+                <li id="tottori-location-2">
+                  米子市：
+                  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    調整中
+                    <span itemprop="name"></span>
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                      <meta itemprop="addressRegion" content="鳥取県">
+                      <meta itemprop="addressLocality" content="米子市">
+                    </span>
+                  </span>
+                </li>
               </ul>
             </section>
-            <p>詳細は決定次第ご案内いたします。</p>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <p>11 月末頃情報公開予定</p>
+            </section>
             <section>
               <h5>過去の開催</h5>
               <ul class="plain">
