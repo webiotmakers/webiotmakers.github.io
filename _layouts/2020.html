@@ -582,17 +582,87 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-kagawa" hidden>
+          <section class="location" id="location-kagawa" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
-              <h3><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 香川</span></h3>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 香川</span></h3>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を香川県で昨年度に引き続き開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2020/template/ogp.jpg">
+              <meta itemprop="startDate" content="2020-11-22">
+              <meta itemprop="endDate" content="2021-02-23">
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
             <section>
               <h5>主催</h5>
               <ul class="plain">
-                <li>Web×IoT メイカーズチャレンジ<br>香川運営委員会</li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>香川運営委員会</span>
+                </li>
               </ul>
             </section>
-            <p>詳細は決定次第ご案内いたします。</p>
+            <section>
+              <h5>共催</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">総務省四国総合通信局</span>
+                </li>
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">かがわ情報化推進協議会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>開催形態</h5>
+              <p>2 会場にて分散開催</p>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="kagawa-location-1 kagawa-location-2">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>
+                <time datetime="2020-11-22" itemprop="startDate">2020 年 11 月 22 日 (土)</time> –
+                <time datetime="2020-12-19" itemprop="endDate">12 月 19 日 (日)</time> の期間で 5 種類の講習会を実施
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="kagawa-location-1 kagawa-location-2">
+              <h5 itemprop="name">アイデアソン＆ハッカソン</h5>
+              <div>
+                <time datetime="2021-01-23" itemprop="startDate">2021 年 1 月 23 日 (土)</time> /
+                <time datetime="2021-02-23" itemprop="endDate">2 月 23 日 (火・祝)</time>
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <p>(ハンズオン講習会・アイデアソン＆<br>ハッカソン共に 2 会場にて同時開催)</p>
+              <ul class="plain">
+                <li id="kagawa-location-1">
+                  高松会場：
+                  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <a href="https://www.e-topia-kagawa.jp/" itemprop="url">
+                      <span itemprop="name">e-とぴあ・かがわ</span>
+                    </a>
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                      <meta itemprop="addressRegion" content="香川県">
+                      <meta itemprop="addressLocality" content="高松市">
+                    </span>
+                  </span>
+                </li>
+                <li id="kagawa-location-2">
+                  三豊会場：
+                  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <a href="https://www.maizm.or.jp/" itemprop="url">
+                      <span itemprop="name">MAiZM (マイズム)</span>
+                    </a>
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                      <meta itemprop="addressRegion" content="香川県">
+                      <meta itemprop="addressLocality" content="三豊市">
+                    </span>
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <p>10 月末頃情報公開予定</p>
+            </section>
             <section>
               <h5>過去の開催</h5>
               <ul class="plain">
