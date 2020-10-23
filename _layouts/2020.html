@@ -292,18 +292,74 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-ogaki" hidden>
+          <section class="location" id="location-ogaki" hidden itemscope itemtype="http://schema.org/Event" itemref="ogaki-location-1 ogaki-location-2">
             <hgroup>
-              <h3><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 大垣</span></h3>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 大垣</span></h3>
+              <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を岐阜県で初開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2020/template/ogp.jpg">
+              <meta itemprop="startDate" content="2020-11-28">
+              <meta itemprop="endDate" content="2020-12-20">
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
             <section>
               <h5>主催</h5>
               <ul class="plain">
-                <li>総務省東海総合通信局</li>
-                <li>Web×IoT メイカーズチャレンジ<br>大垣運営委員会</li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">総務省東海総合通信局</span>
+                </li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>大垣運営委員会</span>
+                </li>
               </ul>
             </section>
-            <p>詳細は決定次第ご案内いたします。</p>
+            <section>
+              <h5>開催形態</h5>
+              <p>人数を制限しオンサイト開催</p>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>
+                <time datetime="2020-11-28" itemprop="startDate">2020 年 11 月 28 日 (土)</time> –
+                <time datetime="2020-11-29" itemprop="endDate">29 日 (日)</time>
+              </div>
+              <div id="ogaki-location-1">
+                会場：
+                <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <a href="https://www.softopia.info/access/" itemprop="url">
+                    <span itemprop="name">ソフトピアジャパンセンター</span>
+                  </a>
+                  <br>ドリーム・コア 3 階 実習室
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="岐阜県">
+                    <meta itemprop="addressLocality" content="大垣市">
+                  </span>
+                </span>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>
+                <time datetime="2020-12-19" itemprop="startDate">2020 年 12 月 19 日 (土)</time> –
+                <time datetime="2020-12-20" itemprop="endDate">20 日 (日)</time>
+              </div>
+              <div id="ogaki-location-2">
+                会場：
+                <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <a href="http://midoribashi.jp/" itemprop="url">
+                    <span itemprop="name">ennoie ミドリバシ</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="岐阜県">
+                    <meta itemprop="addressLocality" content="大垣市">
+                  </span>
+                </span>
+              </div>
+            </section>
+            <section>
+              <h5>詳細・お申込み</h5>
+              <p>10 月末頃情報公開予定</p>
+            </section>
           </section>
           <section class="location" id="location-tottori" hidden>
             <hgroup>
