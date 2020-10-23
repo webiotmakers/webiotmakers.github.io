@@ -70,7 +70,7 @@
       <main>
         <div class="drawer outer-2" id="locations" hidden>
           <a href="#" class="close" role="button" aria-controls="locations" aria-label="閉じる"><span aria-hidden="true">×</span></a>
-          <section class="location" id="location-ibaraki" hidden itemtype="http://schema.org/Event">
+          <section class="location" id="location-ibaraki" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 茨城</span></h3>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を茨城県で昨年度に引き続き開催します！">
@@ -78,8 +78,10 @@
               <meta itemprop="startDate" content="2021-01-30">
               <meta itemprop="endDate" content="2021-02-28">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
-              <meta itemprop="eventAttendanceMode" content="https://schema.org/OnlineEventAttendanceMode">
-              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation"></span>
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/MixedEventAttendanceMode">
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
             </hgroup>
             <section>
               <h5>主催</h5>
@@ -98,12 +100,18 @@
             </section>
             <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
               <h5 itemprop="name">ハンズオン講習会</h5>
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
               <div>
                 <time datetime="2021-01-30" itemprop="startDate endDate">2021 年 1 月 30 日 (土)</time>
               </div>
             </section>
             <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
               <h5 itemprop="name">ハッカソン</h5>
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
               <div>
                 <time datetime="2021-02-27" itemprop="startDate">2021 年 2 月 27 日 (土)</time> –
                 <time datetime="2021-02-28" itemprop="endDate">28 日 (日)</time>
@@ -126,7 +134,7 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-ishikawa" hidden itemtype="http://schema.org/Event">
+          <section class="location" id="location-ishikawa" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 石川</span></h3>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を石川県で昨年度に引き続き開催します！">
@@ -135,7 +143,9 @@
               <meta itemprop="endDate" content="2020-12-13">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
               <meta itemprop="eventAttendanceMode" content="https://schema.org/OnlineEventAttendanceMode">
-              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation"></span>
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
             </hgroup>
             <section>
               <h5>主催</h5>
@@ -159,6 +169,7 @@
                 <time datetime="2020-11-22" itemprop="endDate">22 日 (日)</time>
               </div>
               <div itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
                 会場：オンデマンド配信と教材で期間中に各自で学習いただきます
               </div>
             </section>
@@ -168,6 +179,7 @@
                 <time datetime="2020-11-23" itemprop="startDate endDate">2020 年 11 月 23 日 (月)</time>
               </div>
               <div itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
                 会場：オンライン
               </div>
             </section>
@@ -178,6 +190,7 @@
                 <time datetime="2020-12-13" itemprop="endDate">13 日 (日)</time>
               </div>
               <div itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
                 会場：オンライン
               </div>
             </section>
@@ -196,7 +209,7 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-shinshu" hidden itemtype="http://schema.org/Event">
+          <section class="location" id="location-shinshu" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 信州</span></h3>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を長野県で昨年度に引き続き開催します！">
@@ -221,14 +234,14 @@
               <h5>開催形態</h5>
               <p>3 つのサテライト会場にて分散開催</p>
             </section>
-            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location-1 shinshu-location-2 shinshu-location-3">
               <h5 itemprop="name">ハンズオン講習会</h5>
               <div>
                 <time datetime="2020-11-07" itemprop="startDate">2020 年 11 月 7 日 (土)</time> –
                 <time datetime="2020-11-08" itemprop="endDate">8 日 (日)</time>
               </div>
             </section>
-            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location-1 shinshu-location-2 shinshu-location-3">
               <h5 itemprop="name">ハッカソン</h5>
               <div>
                 <time datetime="2020-12-05" itemprop="startDate">2020 年 12 月 5 日 (土)</time> –
@@ -239,7 +252,7 @@
               <h5>会場</h5>
               <p>(ハンズオン講習会・ハッカソン共に<br>3 会場にて同時開催)</p>
               <ul class="plain">
-                <li>
+                <li id="shinshu-location-1">
                   塩尻会場：
                   <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                     <a href="http://sip.shiojiri.com/access/" itemprop="url">
@@ -251,7 +264,7 @@
                     </span>
                   </span>
                 </li>
-                <li>
+                <li id="shinshu-location-2">
                   長野会場：
                   <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                     <a href="https://www.futurecraft.jp/about/facility/#access" itemprop="url">
@@ -263,7 +276,7 @@
                     </span>
                   </span>
                 </li>
-                <li>
+                <li id="shinshu-location-3">
                   上田会場：
                   <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                     <a href="https://www.pit-nagano.ac.jp/campus/access" itemprop="url">
@@ -439,7 +452,7 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-okayama" hidden itemtype="http://schema.org/Event">
+          <section class="location" id="location-okayama" hidden itemscope itemtype="http://schema.org/Event" itemref="okayama-location-1 okayama-location-2">
             <hgroup>
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 岡山</span></h3>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を岡山県で初開催します！">
@@ -470,7 +483,7 @@
                 <time datetime="2020-11-22" itemprop="startDate">2020 年 11 月 22 日 (日)</time> –
                 <time datetime="2020-11-23" itemprop="endDate">23 日 (月・祝)</time>
               </div>
-              <div>
+              <div id="okayama-location-1">
                 会場：
                 <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                   <a href="https://momosta.com/access" itemprop="url">
@@ -488,7 +501,7 @@
               <div>
                 <time datetime="2020-12-20" itemprop="startDate endDate">2020 年 12 月 20 日 (日)</time>
               </div>
-              <div>
+              <div id="okayama-location-2">
                 会場：
                 <span itemprop="location" itemscope itemtype="http://schema.org/Place">
                   <a href="https://togitogi.net/access/" itemprop="url">
@@ -504,7 +517,9 @@
             <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
               <meta itemprop="name" content="中間報告会">
               <meta itemprop="startDate endDate" content="2020-12-13">
-              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation"></span>
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
               <div>※ 12/13 (日) にオンライン中間報告会を開催します。</div>
             </section>
             <section class="links">
@@ -521,7 +536,7 @@
               </ul>
             </section>
           </section>
-          <section class="location" id="location-tokushima" hidden itemtype="http://schema.org/Event">
+          <section class="location" id="location-tokushima" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>2020-21 in 徳島</span></h3>
               <meta itemprop="description" content="学生や若手エンジニアを対象とした IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を徳島県で昨年度に引き続き開催します！">
@@ -530,7 +545,9 @@
               <meta itemprop="endDate" content="2020-11-29">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
               <meta itemprop="eventAttendanceMode" content="https://schema.org/OnlineEventAttendanceMode">
-              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation"></span>
+              <span itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
+              </span>
             </hgroup>
             <section>
               <h5>主催</h5>
@@ -554,6 +571,7 @@
                 <time datetime="2020-10-25" itemprop="endDate">25 日 (日)</time>
               </div>
               <div itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
                 会場：オンライン
               </div>
             </section>
@@ -564,6 +582,7 @@
                 <time datetime="2020-11-29" itemprop="endDate">29 日 (日)</time>
               </div>
               <div itemprop="location" itemscope itemtype="http://schema.org/VirtualLocation">
+                <meta itemprop="url" content="undefined">
                 会場：オンライン
               </div>
             </section>
