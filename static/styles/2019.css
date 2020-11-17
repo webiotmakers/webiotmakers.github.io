@@ -131,6 +131,10 @@ body {
   margin: 16px 0;
 }
 
+#menu nav img {
+  width: 100%;
+}
+
 #menu ul {
   margin: 12px 0;
   padding: 0;
@@ -160,8 +164,15 @@ body {
   padding: 8px;
 }
 
-#side-organizers img {
-  width: 100%;
+#side-links {
+  margin-top: 24px !important;
+  border-top: 2px solid #000;
+  padding-top: 12px;
+}
+
+#side-links h2 {
+  position: absolute;
+  left: -99999px;
 }
 
 #menu .twitter {
