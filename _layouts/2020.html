@@ -9,12 +9,13 @@
     <meta property="og:description" content="{{ page.description }}">
     <meta property="og:image" content="https://webiotmakers.github.io/static/images/2020/template/ogp.jpg">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/static/styles/main.css">
-    <link rel="stylesheet" href="/static/styles/2020.css">
-    <link rel="stylesheet" href="/static/styles/local.css">
-    <link rel="stylesheet" href="/static/styles/report.css">
+    <link rel="stylesheet" href="/static/styles/main.css?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/static/styles/2019.css?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/static/styles/2020.css?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/static/styles/local.css?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="/static/styles/report.css?v={{ site.time | date: '%s' }}">
 {%- if page.style %}
-    <link rel="stylesheet" href="/static/styles/{{ page.style }}">
+    <link rel="stylesheet" href="/static/styles/{{ page.style }}?v={{ site.time | date: '%s' }}">
 {%- endif %}
     <link rel="icon" type="image/png" href="/static/images/general/favicon.png">
     <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png">
@@ -737,10 +738,10 @@
     </div>
     <script src="https://platform.twitter.com/widgets.js" async defer></script>
     <script src="https://use.typekit.net/yfn4cbp.js"></script>
-    <script src="/static/scripts/main.js"></script>
-    <script src="/static/scripts/2019.js"></script>
+    <script src="/static/scripts/main.js?v={{ site.time | date: '%s' }}"></script>
+    <script src="/static/scripts/2019.js?v={{ site.time | date: '%s' }}"></script>
 {%- if page.script %}
-    <script src="/static/scripts/{{ page.script }}"></script>
+    <script src="/static/scripts/{{ page.script }}?v={{ site.time | date: '%s' }}"></script>
 {%- endif %}
   </body>
 </html>
