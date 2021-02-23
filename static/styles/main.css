@@ -419,6 +419,11 @@ aside.latest-link a {
     background-size: contain;
   }
 
+  #header hgroup h3 {
+    margin: .5em 0 0;
+    font-weight: normal;
+  }
+
   #footer {
     margin: 40px 16px;
   }

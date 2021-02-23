@@ -243,7 +243,7 @@ main {
   box-sizing: border-box;
   width: auto;
   max-width: 960px;
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 #hero {
