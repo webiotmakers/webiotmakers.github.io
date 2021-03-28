@@ -122,6 +122,16 @@ window.addEventListener('DOMContentLoaded', function() {
     let autoplay = 0;
 
     const scroll = function(index, manual) {
+      if (typeof requestAnimationFrame === 'function') {
+        window.requestAnimationFrame(function() {
+          scroll_delay(index, manual);
+        });
+      } else {
+        scroll_delay(index, manual);
+      }
+    };
+
+    const scroll_delay = function(index, manual) {
       if (index === current_index) {
         return;
       }
@@ -242,7 +252,7 @@ window.addEventListener('DOMContentLoaded', function() {
         } else {
           window.clearInterval(autoplay);
         }
-      }).observe($winner);
+      }).observe($slider);
     } else {
       autoplay = window.setInterval(function() {
         scroll();

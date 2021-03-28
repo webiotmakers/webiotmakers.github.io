@@ -47,6 +47,10 @@
     background-image: none !important;
   }
 
+  #header h1 + p {
+    margin-top: 48px;
+  }
+
   #awards h3 + p {
     text-align: center;
   }
@@ -167,6 +171,10 @@
 
   #header h1 {
     font-size: 32px;
+  }
+
+  #header h1 + p {
+    margin-top: 24px;
   }
 
   #teams h4 {

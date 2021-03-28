@@ -352,6 +352,11 @@ aside.latest-link a {
     width: 448px;
   }
 
+  .col.full {
+    margin: 0 16px;
+    width: 100%;
+  }
+
   .columns {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -452,6 +457,10 @@ aside.latest-link a {
   .col {
     margin: 16px 0;
     width: 100%;
+  }
+
+  .col.full {
+    margin: 16px 0;
   }
 
   .columns {

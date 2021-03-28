@@ -427,6 +427,11 @@ section.winner .description h2 {
   text-align: left;
 }
 
+section.winner .description h2 span.note {
+  font-size: 2rem;
+  vertical-align: .2rem;
+}
+
 section.winner .description dt {
   margin: 16px 0 0;
 }
@@ -692,5 +697,10 @@ section.winner .pictures .thumbnails img[aria-selected="true"] {
 @media screen and (max-width: 639px) {
   #home-winners .button.cta {
     font-size: 1rem;
+  }
+
+  section.winner .description h2 span.note {
+    font-size: 1.6rem;
+    vertical-align: .2rem;
   }
 }
