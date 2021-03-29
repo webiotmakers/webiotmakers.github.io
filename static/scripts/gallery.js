@@ -191,7 +191,7 @@ window.addEventListener('DOMContentLoaded', function () {
         $radio.setAttribute('aria-checked', $radio.dataset.year === year);
       });
 
-      $title.textContent = year;
+      $title.textContent = year + ' 年度';
       update_location({ year: year });
 
       return;
