@@ -41,6 +41,7 @@
   description: 物理的に距離の離れた親子が、遠隔で一緒に遊べる積木スタイルの IoT おもちゃ。片方が操作した情報を、もう片方の相手に光などで通知して、一緒にモノを使って遊ぶことができる。
   categories:
     - 子育て・少子化
+    - コミュニケーション
   images:
     - /static/images/2017/sendai/team-d-1.jpg
     - /static/images/2017/sendai/team-d-2.jpg
@@ -64,7 +65,7 @@
   title: (無題)
   description: 混雑時の食堂や教室で空席を見つけることができるツール。座布団に感圧センサーが内蔵されていて、その席に人が座ると空きではなくなったことが Web 上で通知される。
   categories:
-    - コミュニケーション
+    - 通知・リマインダー
     - 学校・教育
   images:
     - /static/images/2017/sendai/team-f-1.jpg
@@ -124,7 +125,7 @@
   title: 繁盛感知！招き猫
   description: 高崎の工芸品「招き猫」に着目した、商売繁盛を感知する IoT 作品。招き猫を設置した客席などが賑わっている (笑い声や歓声が高まる) と、その音をセンサーで感知し、招き猫が「ニャー」と鳴く。鳴いた時刻をリアルタイムにスマホに表示するアプリも同時に作成。
   categories:
-    - ビジネス
+    - 公共・商業施設
   images:
     - /static/images/2017/maebashi/team-e.jpg
   award:
@@ -234,7 +235,7 @@
   title: 入退店監視システム
   description: 店舗の混雑状況をセンサーを用いて、可視化する。超音波センサーを 2 つ用いて、入り口方向と出口方向に向けて、人物の入退をモニタリングする。この計測したデータをグラフに描画することで、時間ごとの混雑状況を可視化する。また、カメラを併用することで、より高精度な計測を実現した。
   categories:
-    - ビジネス
+    - 公共・商業施設
   images:
     - /static/images/2017/yokosuka/team-g.jpg
   award:
@@ -303,7 +304,7 @@
   description: 携帯電話の充電器に、バイブレーションを感知する機能を実装。一定時間通知がない場合に慰めの言葉をかける機能や、AWS 等を利用し、友人に連絡を催促する機能の実装を目指した。
   categories:
     - コミュニケーション
-    - リマインダー
+    - 通知・リマインダー
   images:
     - /static/images/2017/tottori/19.jpg
   award:
@@ -327,6 +328,7 @@
   description: 物干し竿に、洗濯物の状態の変化をセンシングする機能を実装。乾いた洗濯物は自動で取り込み、LINE への通知も行う。
   categories:
     - 衣類・洗濯
+    - 通知・リマインダー
   images:
     - /static/images/2017/tottori/21.jpg
   award:

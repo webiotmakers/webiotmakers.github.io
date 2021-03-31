@@ -1,0 +1,516 @@
+- location: 茨城
+  team_id: A
+  team_name: KLIS (ケーリス)
+  title: never 再配達
+  description: EC 需要が増大する中、再配達による宅配業者への負担が非常に大きく、社会問題となっていることや、利用者にとっても荷物がすぐに受け取れないといったデメリットも発生していることに着目し、再配達ゼロの実現を目指した「never 再配達」を開発した。重さセンサーや LINE Notify などを活用して、従来の宅配ボックスに、荷物が届いたことの通知機能や、持ち逃げ防止のアラーム (実装中) といった機能を加えた。
+  categories:
+    - 住宅・家電
+    - 犯罪・事故防止
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ibaraki/team-a1.jpg
+    - /static/images/2020/ibaraki/team-a2.jpg
+  award:
+
+- location: 茨城
+  team_id: B
+  team_name: 単発
+  title: 卓上白杖
+  description: 視覚障がい者の方が装着することで、指先と対象物の距離感を触れずに知覚できる IoT デバイスを制作した。対象物と指先の距離は、指先に取り付けた測距センサーで測り、知覚作用は振動センサーを用いて実現。手先や腕にラズパイを取り付けると邪魔になるため、手首に巻く BLE デバイスでラズパイと通信するようにした。
+  categories:
+    - 医療・健康
+    - 高齢者・介護
+  images:
+    - /static/images/2020/ibaraki/team-b1.jpg
+    - /static/images/2020/ibaraki/team-b2.jpg
+  award:
+
+- location: 茨城
+  team_id: C
+  team_name: mast20
+  title: Turin (チューリン)
+  description: スマホ端末から現在地情報を JavaScript で取得して最も近く、最も空きがある駐輪場を紹介するアプリを作成した。駐輪場における空き情報は自転車を停める箇所に置かれた距離センサーで判別し、距離センサーで取得した値がある値を下回ると、自転車を停めたと判断し、空き情報を保存しているサーバーにリクエストを送る。また、ある値を上回ると、自転車を出したと判断し、サーバーにリクエストを送る。これらの情報をアプリ上でリアルタイムに閲覧することが可能となる。
+  categories:
+    - 乗り物・交通
+  images:
+    - /static/images/2020/ibaraki/team-c1.jpg
+    - /static/images/2020/ibaraki/team-c2.jpg
+  award:
+
+- location: 茨城
+  team_id: D
+  team_name: みそにこみ university
+  title: テレダンス
+  description: コロナ禍により「外出規制による運動不足が引き起こす健康被害」と「ラウンドワンのような場所で友人と運動して遊ぶ機会の損失」という課題を解決すべく、見本のポーズをまねして運動ができる「テレポーズ」というゲームを作成した。具備した機能は、“手かざし検知機能”、“ポーズ類似度判定機能”、“ポーズの写真のアップロード機能”。ポーズの写真アップロード機能では、ポーズ類似度で良判定が出たものを Google ドライブにアップロードすることで、会う機会や話す機会が減っている友人との会話のきっかけとすることを企図した。
+  categories:
+    - ゲーム・エンタメ
+    - スポーツ
+    - 医療・健康
+  images:
+    - /static/images/2020/ibaraki/team-d1.jpg
+    - /static/images/2020/ibaraki/team-d2.jpg
+  award:
+
+- location: 茨城
+  team_id: E
+  team_name: 電子のたまご
+  title: バリバリ運ぶ バリキャリくん
+  description: 仕事中に離席する時間を極力減らすことによる仕事の効率向上を目指し、「商品の自動配送・管理」と「購入商品の履歴管理」機能を持ったオフィス用移動自販機の制作を行った。Web ページから購入する商品を選択すると、ロボットが指定の場所まで届けてくれることを目指した。さらには、社員証などで購入者を認証し、誰がどこで何を購入したかたのデータをとることも目指した。
+  categories:
+    - オフィス・ビジネス
+    - 住宅・家電
+  images:
+    - /static/images/2020/ibaraki/team-e1.jpg
+    - /static/images/2020/ibaraki/team-e2.jpg
+  award:
+
+- location: 茨城
+  team_id: F
+  team_name: ほげ
+  title: Non-Waiting BUS
+  description: バスの運転席等にラズパイを設置するだけの簡単導入でバスが今どこにいるのかをスマホで確認、かつバスの現在地と実際の時刻表を比較して、最新の予測時刻表を作成・スマホで確認できるシステムを開発した。コロナ禍ということもあり、バスの現在地と予測時刻表に加え、そのバスの人口密度も確認できるようにした。バスに設置したラズパイがデータを取り、モバイルルーターを経由してサーバーに送信、サーバーにユーザーがアクセスして様々な情報を確認できる仕組みとなっている。
+  categories:
+    - 乗り物・交通
+  images:
+    - /static/images/2020/ibaraki/team-f1.jpg
+    - /static/images/2020/ibaraki/team-f2.jpg
+  award: 最優秀賞
+
+- location: 石川
+  team_id: A
+  team_name: キコーデネート
+  title: キコーデネート
+  description: 朝や外出前に、余裕をもって出かけられるようアシストするシステム。あらかじめ時間割や、天気・気温情報に合わせて必要な持ち物をユーザーが設定し、M5Stack のボタンを押すと、その日の曜日や OpenWeatherMap の天気予報情報に基づき設定された持ち物を MQTT から取得し、LINE にメッセージとして送信する。不安定な気候の地域で生活するうえで、学校の準備以外に天気に合わせた持ち物をチョイスする手間を軽減したいという思いから発想した。
+  categories:
+    - 住宅・家電
+    - 気候・空調
+    - 衣類・洗濯
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ishikawa/team-a2.jpg
+    - /static/images/2020/ishikawa/team-a1.jpg
+  award:
+
+- location: 石川
+  team_id: B
+  team_name: 快眠のすヽめ
+  title: 快眠のすヽめ
+  description: 眠たいのに眠れない、寝不足の悪循環を解決する装着型デバイス。デバイスを手首に取り付け、年齢・性別を入力すると心拍センサーが心拍数を計測する。心拍数が睡眠に適した値を超えている場合、複式呼吸のレクチャーを LINE に届けることができる。適した数値になると一定時間音楽が流れ α 波によるリラックスを促す。起床時には LINE へ一言メッセージが届く。幅広い年代を想定した設定画面、クラウドへ送信した心拍数の平均値を正常・異常か評価する機能、指に取り付けたサーボモーターで腹式呼吸のアシストを行うなど、幅広いサポートを実装。
+  categories:
+    - 住宅・家電
+    - 医療・健康
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ishikawa/team-b2.jpg
+    - /static/images/2020/ishikawa/team-b1.jpg
+  award:
+
+- location: 石川
+  team_id: C
+  team_name: VS クマ
+  title: AI カメラによる熊の検出及び位置情報の通知
+  description: 県内でクマの目撃・被害報告が増加しているため、未然に被害を防ぐシステムを開発。街中に設置した AI カメラでクマを検出し、M5Stack から曲を鳴らしてクマに忌避させたり、GPS 情報を Ambient に送り住民へクマの出没位置の情報を開示し注意を促す。出没位置は Ambient に蓄積してグラフとして表示することができる。カメラと M5Stack の設置は人がいる可能性が高い街灯下や農耕用電源がある場所を想定し、大量設置と電源確保を見込める。
+  categories:
+    - ペット・動物
+    - 犯罪・事故防止
+    - 農業・園芸
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ishikawa/team-c2.jpg
+    - /static/images/2020/ishikawa/team-c1.jpg
+  award:
+
+- location: 石川
+  team_id: D
+  team_name: KOHETSU
+  title: どんとたっち
+  description: コロナ禍のためむやみに物に触らなくて済むようにしたい、管理が面倒なものをスマートにしたいをテーマにジェスチャー操作するデバイスを開発。ToF センサーで手の近づき具合を判別し、モーターを通して操作する。消毒液ポンプの場合は小さい動作なら液が少量しか出ないようにするなどのジェスチャーの調整を行った。また Google Apps Script やスプレッドシートへログを送信することでモノの状況を監視し、液の残量を推定したり利用頻度の統計を作成し活用できる。
+  categories:
+    - 住宅・家電
+    - 医療・健康
+  images:
+    - /static/images/2020/ishikawa/team-d2.jpg
+    - /static/images/2020/ishikawa/team-d1.jpg
+  award:
+
+- location: 石川
+  team_id: E
+  team_name: チーム E
+  title: れいぞうこのなか かんりシステム fridger
+  description: 食品買い出しでの 2 度買いや物忘れを防ぎ、スムーズな献立作りを助けるため、冷蔵庫内の在庫を Web に登録・管理し、出先で確認できるシステム。会員登録でシステムを利用開始し、管理画面で在庫一覧を確認できるほか、通知ボタンからは Slack に賞味期限が近い在庫リストを送信できる。食品の登録方法はバーコード読み取りのほか、多様なパターンを想定してアイデアを練った。
+  categories:
+    - 住宅・家電
+    - 通知・リマインダー
+    - 食品・調理
+  images:
+    - /static/images/2020/ishikawa/team-e2.jpg
+    - /static/images/2020/ishikawa/team-e1.jpg
+  award:
+
+- location: 石川
+  team_id: F
+  team_name: がらがらどん
+  title: 白やぎ黒やぎ DX
+  description: コロナ禍で普及したオンラインコミュニケーションにおいて、相手の状況がわからない・話しかけるキッカケがない等の気まずさ解消を目的とする多機能デバイス。自分の都合設定機能は、M5Stack 本体の置き方を内部の加速度センサーで検知し通話可能・不可・不在の状態を示し、通話相手はノック機能でその状態を確認することができる。話題の提供機能では日付に基づく占い情報や、会話相手の現在地の天気を取得し表示する。表情送信機能では、M5StickV を使って嬉しい・悲しい等の表情を読み取り絵文字で表示、音声のみ通話でも様子を伺うことができる。
+  categories:
+    - ゲーム・エンタメ
+    - コミュニケーション
+    - 気候・空調
+  images:
+    - /static/images/2020/ishikawa/team-f2.jpg
+    - /static/images/2020/ishikawa/team-f1.jpg
+  award: 最優秀賞
+
+- location: 信州
+  team_id: A
+  team_name: チームマスクマン
+  title: With コロナでソーシャルディスタンスを守ろうセット！！
+  description: 人とのソーシャルディスタンスを保つための IoT デバイス。人との距離が近いと、メガネ部の LED と振動モーターが自分に警告、スマートウォッチ (M5stack) にディスタンスを守れなかった回数などが記録・表示される。距離の判断は、人感センサー、距離センサー、サーモグラフィ等の各種センサーを活用。将来的には、日々の記録をクラウド上に保存し活用することも考えている。コロナ禍で普段身につけないといけないマスクを楽しく身に着けられるようにと考え始めたのが本作品づくり原点となった。
+  categories:
+    - 医療・健康
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/shinshu/team-a2.jpg
+    - /static/images/2020/shinshu/team-a1.jpg
+  award: 最優秀賞
+
+- location: 信州
+  team_id: B
+  team_name: ハードマンズ
+  title: IoT 腕相撲システム
+  description: コロナ禍ででも人と楽しくコミュニケーションをとりたい！ という希望を満たすために作った、オンライン用腕相撲デバイス。圧力センサーを使って、双方の腕図もデバイスにかかる力を随時読み取り、デバイスの動きを制御する。エアシリンダーをつかったので、大人が目一杯力を入れても大丈夫。将来的には、腕相撲の結果をクラウド上に保存し、一人プレイもできるような仕組みに発展することを目指したい。
+  categories:
+    - ゲーム・エンタメ
+    - コミュニケーション
+  images:
+    - /static/images/2020/shinshu/team-b2.jpg
+    - /static/images/2020/shinshu/team-b1.jpg
+  award:
+
+- location: 信州
+  team_id: C
+  team_name: しおしー
+  title: はこぶん☆彡
+  description: 集合住宅や雑居ビルのような環境で、人と人が接触せずに宅配の荷物を受け渡すための配達システムのミニチュア版。荷物の配送時にアルコールスプレーを噴射する機能を備えている点もポイントとなっている。電車のおもちゃを改造し、4 台の micro:bit を使ってモノを運ぶ電車の制御、届ける駅の検出、アルコール液を散布する機能を実装した。DC モーター (電車の制御)、ホールセンサー (電車の位置検出)、サーボモーター (消毒液の散布)、圧力センサー (モノを電車に乗せたかを検出する) など活用した。
+  categories:
+    - 公共・商業施設
+    - 医療・健康
+  images:
+    - /static/images/2020/shinshu/team-c2.jpg
+    - /static/images/2020/shinshu/team-c1.jpg
+  award:
+
+- location: 信州
+  team_id: D
+  team_name: JANBI
+  title: COVIDiffuser
+  description: 居室内の除菌作業を支援するシステム。居室内に設置する監視カメラが部屋にいる人の数を監視し、除菌が必要な場合に配送ロボが除菌スプレーを部屋まで届ける。温度・湿度も監視し、除菌の判断をコンピューターが決めるので、人が何度も面倒な除菌をする必要がなくなる。除菌記録などを管理するスマホアプリも制作。シンプルで使いやすい UI にこだわった点もポイント。将来的には、無人部屋を感知して、自動で除菌作業を行うオートパイロットオプションの実装などにチャレンジしたい。
+  categories:
+    - 医療・健康
+    - 気候・空調
+    - 公共・商業施設
+  images:
+    - /static/images/2020/shinshu/team-d2.jpg
+    - /static/images/2020/shinshu/team-d1.jpg
+  award:
+
+- location: 信州
+  team_id: E
+  team_name: K&K
+  title: 3 密検出、自動回避システム
+  description: 居室内の環境を監視し、必要に応じて定期的な窓の開閉、換気扇、エアコンの自動運転を行うシステム。監視カメラや各種センサーが、居室内の温度、湿度、人の数やマスク非装着者の数を監視し、危険度を判定する。危険度が高いほど窓の開閉頻度が高くなる。状況をモニタリングできる Web ページも作成した。学校授業や試験のときのコロナ対策について考えたことが、作品づくりのきっかけ。
+  categories:
+    - 医療・健康
+    - 気候・空調
+    - 公共・商業施設
+  images:
+    - /static/images/2020/shinshu/team-e2.jpg
+    - /static/images/2020/shinshu/team-e1.jpg
+  award:
+
+- location: 信州
+  team_id: F
+  team_name: 小山ズ+α
+  title: 汚部屋チクリン
+  description: コロナ禍在宅ワークが増えた結果、部屋が汚くなりがちだという課題を解決するためのアイテムを制作した。走行ロボットが部屋の状況を監視・汚れを計測して PC に計測結果を表示する。汚れの計測には、カメラ、照度センサー、温湿度センサー、距離センサーなどを活用した。自分自身が部屋の状況を監視する以外に、管理人が部屋の状況を監視することも発展系として活用が可能。
+  categories:
+    - 医療・健康
+    - 住宅・家電
+  images:
+    - /static/images/2020/shinshu/team-f2.jpg
+    - /static/images/2020/shinshu/team-f1.jpg
+  award:
+
+- location: 信州
+  team_id: G
+  team_name: 世界を救い隊
+  title: アルコールさせ台
+  description: アルコール消毒の励行を支援するアイテム。自作したペダル式アルコールスタンドに、人感センサーや重量センサーを設置。人を感知し、かつ重量センサーがアルコール噴霧を感知したら感謝の音を鳴らす。逆にアルコール噴霧を確認できない場合は警告を鳴らし、アルコール消毒を促す。コロナ禍で色んな場所にアルコール消毒が置かれたにも関わらず、利用していない人がいる点に着目して考案した。
+  categories:
+    - 公共・商業施設
+    - 医療・健康
+  images:
+    - /static/images/2020/shinshu/team-g2.jpg
+    - /static/images/2020/shinshu/team-g1.jpg
+  award:
+
+- location: 大垣
+  team_id: A
+  team_name: A.lab
+  title: カメラによる冷蔵庫の内容物確認システム
+  description: 外出先等で冷蔵庫内の状況を確認できるシステム。リードスイッチでドアの開閉を検知して閉めたときに冷蔵庫内をカメラで撮影という流れを Raspberry Pi 上で制御。撮影した画像を Raspberry Pi 経由で指定した時間にユーザーの LINE に対して通知する。
+  categories:
+    - 住宅・家電
+    - 食品・調理
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ogaki/team-a2.jpg
+    - /static/images/2020/ogaki/team-a1.jpg
+  award:
+
+- location: 大垣
+  team_id: B
+  team_name: WIKIC
+  title: もちべアゲリーター
+  description: モチベの低い人たちが、どうすればモチベが高くなるかをテーマにした。そこで、お互いのモチベを高め合うために、モチベを高めてくれるワニ型デバイスを、それぞれが玄関に置き、例えば A さんが出掛ければ B さんのワニが「A くんが出掛けたよ、B くんも出掛けてみる？」と話し、B さんが帰宅すれば「おかえりっ！お疲れ様」と応援してくれるような機能を搭載した。
+  categories:
+    - コミュニケーション
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ogaki/team-b2.jpg
+    - /static/images/2020/ogaki/team-b1.jpg
+  award:
+
+- location: 大垣
+  team_id: C
+  team_name: nuko
+  title: I miz U
+  description: 飲食店で、水のピッチャーが席に置いていない場合、水を注いでもらうために、その都度店員を呼ばないといけない。本デバイスは、歪みゲージというセンサーでコップの重さを測定し、水の量を判定する。水やコップの有無を判定し、水が少なくなったとき、電光掲示板にテーブル番号を表示して店員に知らせる。
+  categories:
+    - 公共・商業施設
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ogaki/team-c2.jpg
+    - /static/images/2020/ogaki/team-c1.jpg
+  award: 最優秀賞
+
+- location: 大垣
+  team_id: D
+  team_name: ソフトピア共同研究室
+  title: 家事管理システム「カジオー」
+  description: 家族で家事をするときに作業の重複や忘れていることがある。家事の見える化をすることにより、家族内の家事内容を共有、把握、効率化しようと考えた。 IoT 機器が接続されている家電の始動と停止の情報を専用のスマホアプリで受け取ることができる。
+  categories:
+    - 住宅・家電
+    - 衣類・洗濯
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/ogaki/team-d2.jpg
+    - /static/images/2020/ogaki/team-d1.jpg
+  award:
+
+- location: 大垣
+  team_id: E
+  team_name: さかなかま
+  title: 友錠
+  description: 家の鍵の不便を改良するアイデア。 デバイスを持ってドアノブを握ることで鍵の開け閉めができるようになる。また、鍵の貸し借りはデバイスでデータとして渡せるので面倒な鍵の管理をなくすことができる。
+  categories:
+    - 住宅・家電
+    - 犯罪・事故防止
+  images:
+    - /static/images/2020/ogaki/team-e2.jpg
+    - /static/images/2020/ogaki/team-e1.jpg
+  award:
+
+- location: 鳥取
+  team_id: A
+  team_name: 鳥取チーム a
+  title: スマート窓
+  description: コロナ対策として天気情報や人数、CO₂ 濃度などを参考に窓を適切に自動で開け閉めして換気をする機能と、その窓から差し込む太陽光の照度と天気に対応してブラインドが上げ下げする機能を持った IoT デバイス。コロナ予防のため室内の換気を十分にするように呼びかけられているが、オフィスで換気をついつい忘れがちであったり、寒いので他の人に換気をしづらかったりする。これを解消するために自動で窓を開けて換気をする IoT を開発した。さらに、照度や天気によってブラインドが自動で上下する仕組みを追加して、オフィスにおける窓周りの自動化を図った。
+  categories:
+    - オフィス・ビジネス
+    - 気候・空調
+  images:
+    - /static/images/2020/tottori/team-a2.jpg
+    - /static/images/2020/tottori/team-a1.jpg
+  award:
+
+- location: 鳥取
+  team_id: B
+  team_name: スタジオ ベッド
+  title: IoT ベッド
+  description: コロナ禍の中で、家にいることが多く運動不足になったり、学校が休みになったりで、規則的な生活を送るための補助をすることを目的とした IoT デバイス。ベットに IoT を導入にして、主に 3 つの機能を付けた。1 つ目は睡眠を促す機能。自動で設定した時間の 7 時間前に電気毛布が起動し布団を温め、睡眠を促す癒しの音楽を流す。2 つ目は起こす機能。加速度センサーで睡眠の状態を計測し、睡眠が浅いタイミングで音楽を流す。3 つ目は、運動をさせる機能。起こす時に流す音楽を、ラジオ体操の音楽にして、運動を促す。
+  categories:
+    - 医療・健康
+  images:
+    - /static/images/2020/tottori/team-b2.jpg
+    - /static/images/2020/tottori/team-b1.jpg
+  award:
+
+- location: 鳥取
+  team_id: C
+  team_name: Count Master yokoyama
+  title: Count Master
+  description: コロナウイルスの影響による人数制限等への対策として、行きたい場所の現在の人数状況が見られる IoT システム。この作品の主な機能は人数をカウントしたい場所の出入り口にレーザー距離センサーを取り付けそのセンサーが入手した情報を Raspberry Pi に送り、そこから Web 上に情報を送り専用のホームページで人数を知ることができるといったものである。コロナウイルスの影響で人の出入りに対する制限が厳しくなり、行きたい場所に行っても人数制限により入れなっかたり、人が多くて自主的に入るのを避けたりするケースが増えた。なので、行きたい場所の人数がわかる作品には需要があるだろうと考え制作に至った。
+  categories:
+    - 医療・健康
+    - 公共・商業施設
+  images:
+    - /static/images/2020/tottori/team-c2.jpg
+    - /static/images/2020/tottori/team-c1.jpg
+  award:
+
+- location: 鳥取
+  team_id: D
+  team_name: Maっりーs
+  title: Taっ Maya～
+  description: 「鳥取県をもっと盛り上げるためにどうするか」ということを考え、コロナ禍の地元の祭の中止をヒントに、Web 上の“祭”を再現した。鳥取市のしゃんしゃん祭りとがいな祭りをイメージしている。モーターを用いて傘を回したり、ネオピクセルによる花火のようなものを作ったり、万灯を作ったり等の祭りの様子を Web で操作ができるようにした。Web で操作できるようにすることで参加型という要素を付加し、ただ見るだけによる飽きを防止した。ハッカソンのオンライン開催への変更で、各自が自宅で花火を光らせるという発想転換を行い、自宅で祭の楽しみを共有する作品になった。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2020/tottori/team-d2.jpg
+    - /static/images/2020/tottori/team-d1.jpg
+  award: 最優秀賞
+
+- location: 岡山
+  team_id: A
+  team_name: べあーず
+  title: ぬくぬくま
+  description: 単純に携帯電話で会話するのではなく、ぬいぐるみを用いて会話を行うことで、リモートで肉体的な安らぎを得ることを提供する作品。お互いに抱きしめているように、温かさを感じて会話ができる今までにないコミュニケーションツール。「抱きしめられる」ことで通話を開始し、着信したときは「抱きしめる」ことによって通知してくれる。キーとなる「抱きつき」の検知は曲げセンサーを使用。
+  categories:
+    - コミュニケーション
+  images:
+    - /static/images/2020/okayama/team-a2.jpg
+    - /static/images/2020/okayama/team-a1.jpg
+  award:
+
+- location: 岡山
+  team_id: B
+  team_name: ばいきんまん
+  title: 手洗いチェッカー TEGOSHI
+  description: コロナ禍での面倒な手洗いをいかに楽しくできるかを目標に開発した手洗い促進のための IoT 洗面台。画像認識、水流、距離センサー、時間計測の 4 つの要素できちんと手を洗っているかを判定。距離センサーで人検知、Web カメラで顔認証、水流センサーで水が出ているかを検知し、手洗い成功案内、手洗い不十分案内、水出しっぱなし案内を鏡であるディスプレイに表示する。さらには、幼稚園児や小学生が自ら進んで手を洗いたくなるように音声や画像エフェクトにも工夫を行った。
+  categories:
+    - 医療・健康
+  images:
+    - /static/images/2020/okayama/team-b2.jpg
+    - /static/images/2020/okayama/team-b1.jpg
+  award: 最優秀賞
+
+- location: 岡山
+  team_id: C
+  team_name: C-BREAKERZ.
+  title: 鬼が監視するコロナ退治
+  description: 「コロナ渦でも安心して過ごす」をモットーに作られた作品。人形に付属している、カメラによって、その施設の感染危険度と、人形に写っている個人の感染危険度から、総合的な感染危険度を算出し、ディスプレイに表示する。Web システムに AWS や Firebase などの最新技術を総動員した。
+  categories:
+    - 医療・健康
+    - 公共・商業施設
+  images:
+    - /static/images/2020/okayama/team-c2.jpg
+    - /static/images/2020/okayama/team-c1.jpg
+  award:
+
+- location: 岡山
+  team_id: D
+  team_name: エーカーズ
+  title: ショッピングカート
+  description: ショッピングカートに入れたものの合計金額を把握して無駄遣いを減らすことを目的にした製品。ショッピングカートに入れる商品の検知は商品に貼っている QR をカートに付属しているカメラで読み取って行う、ロードセルを用いた商品の重さの管理も併用している。使用者の安全を確保するために、持ち手の部分に温度センサーを装着し、体温を測ることも行った。
+  categories:
+    - 医療・健康
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/okayama/team-d2.jpg
+    - /static/images/2020/okayama/team-d1.jpg
+  award:
+
+- location: 岡山
+  team_id: E
+  team_name: ポットパイ
+  title: HOT PIPE
+  description: コロナ渦を考慮した、体温測定機能付き非接触型インターホン。触れることなく呼び鈴を鳴らすことができ、さらにその人の体温も測定できる。家主はその人が来たことをスマホを介して通知されるので、仮に家にいなくてもその人と会話をすることができる。機能面だけでなく可愛らしいデザインも同時に評価された。
+  categories:
+    - コミュニケーション
+    - 医療・健康
+    - 住宅・家電
+  images:
+    - /static/images/2020/okayama/team-e2.jpg
+    - /static/images/2020/okayama/team-e1.jpg
+  award:
+
+- location: 岡山
+  team_id: F
+  team_name: チーム F
+  title: IoT マスク
+  description: 近日、頻発しているマスクによるコミュニケーションエラーを解決するためにマスクを IoT 化。臭気センサー、温度センサー、湿度センサーを用いた健康チェックを行うことができる。また、マスクの前面にある液晶画面をスマホでコントロールでき、文字だけでなく画像も表示させることができ新しいファッションの開拓も見込める。
+  categories:
+    - コミュニケーション
+    - 医療・健康
+  images:
+    - /static/images/2020/okayama/team-f2.jpg
+    - /static/images/2020/okayama/team-f1.jpg
+  award:
+
+- location: 徳島
+  team_id: A
+  team_name: 曽根先生と愉快な仲間達
+  title: 紙相撲 NEXT☆GENERATION
+  description: micro:bit をコントローラとして紙相撲を行う作品。コロナ禍のなか、実際に会うことが制限される中で、なにかしらコミュニケーションを誘発するものとして作成された。micro:bit の加速度センサーの値を利用して、振動モーターの on/off を制御することで力士を動かす。紙相撲にすることで、力士の作成は紙で作成可能。また操作も micro:bit を振るだけと簡単な操作のため、誰でも参加しやすく世代を越えて遊べる作品になっている。
+  categories:
+    - ゲーム・エンタメ
+    - コミュニケーション
+  images:
+    - /static/images/2020/tokushima/team-a2.jpg
+    - /static/images/2020/tokushima/team-a1.jpg
+  award:
+
+- location: 徳島
+  team_id: B
+  team_name: ER
+  title: PILLINK
+  description: 動物の体毛のようなふわふわな質感の毛糸で包んだデバイスと入力デバイスがセット。ユーザーが入力デバイスに触れ人肌程度に温めると、離れた毛糸デバイスがその温度を再現しほんのりあたたかくなったり、ユーザーの心拍数を入力検知して拍動したりする。デバイスを通じて遠隔地でも生き物らしい温かみあるふれあいが再現できることを目指した。ヒトの体温を直接送信すると如何せん生々しいので、再現側デバイスを毛糸で包みかわいらしい見た目作りを意識した。自粛期間で対面コミュニケーションが減ったため、遠隔でも人間らしく、生き物らしく触れ合い、遠隔では伝えにくい情報を伝えたい (映像と音声以外) という思いから考えられた。
+  categories:
+    - コミュニケーション
+  images:
+    - /static/images/2020/tokushima/team-b2.jpg
+    - /static/images/2020/tokushima/team-b1.jpg
+  award: 最優秀賞
+
+- location: 徳島
+  team_id: C
+  team_name: AMABIE
+  title: どこでも体温ミマモル君
+  description: 学校での体温測定時間の短縮や高齢者の見守りをテーマに作成。自分の好きな場所に作成した非接触型温度センサーを取り付け、顔を近づけるだけで自動で体温を測定し記録する。体温が一定値 (今回は 37.0°C) を超えるとオリジナルの LINEbot の「見守り体温チャンネル」が見守り主に体温データを転送するシステム。現在コロナウイルスが蔓延しており、その影響で学校では毎朝体温を記入した紙を提出しなければならないといった背景から作成。
+  categories:
+    - 医療・健康
+    - 学校・教育
+    - 高齢者・介護
+  images:
+    - /static/images/2020/tokushima/team-c2.jpg
+    - /static/images/2020/tokushima/team-c1.jpg
+  award:
+
+- location: 徳島
+  team_id: D
+  team_name: Hawks
+  title: 見守りサービス
+  description: カーテンの開閉・トイレの使用をセンサーで検知し、micro:bit と Bluetooth 接続した PC または Raspberry Pi からサーバーに送信してデータを蓄積する。利用者はウェブページもしくはスマホアプリからグラフ化されたデータを見ることで、生活状況を見守ることができる。また、あらかじめ設定している危険な状態 (長期間動きがない等) になると LINEbot から通知が送られる。高齢者やひとり暮らしの若者はセルフケアが不十分になりやすい。そこでセンサーを用いて集めたデータにより生活状況を視覚化することで、家族や本人自身がケアしやすい環境ができると考えた。
+  categories:
+    - 医療・健康
+    - 通知・リマインダー
+    - 高齢者・介護
+  images:
+    - /static/images/2020/tokushima/team-d2.jpg
+    - /static/images/2020/tokushima/team-d1.jpg
+  award:
+
+- location: 徳島
+  team_id: E
+  team_name: 害駆蓮-GAIKUREN
+  title: 害虫駆除装置 (害駆装-GAIKUSOU)
+  description: 部屋の中で害虫が発生することによって、安心して過ごすことができないため、それがストレスになっている (メンバーの多くが田舎に在住) と考え作成。害虫を視認した際に、害虫専用の何かしらの動作を行うことにより、その害虫の駆除機能が作動する (スマートインセクトキラー) また、害虫の発生場所と種類、発生数のデータを蓄積、閲覧することができ害虫速報としての Web サイトを構築。入り口として「害虫」を発端としているが、ゆくゆくは多様な昆虫に対応させる想定 (レアなチョウチョなど)。環境保全や町おこしを目標とした全国昆虫分布図へ派生させる予定 (ムカデ前線、蚊やハエ前線のように見える様にしたい)。
+  categories:
+    - ペット・動物
+    - 通知・リマインダー
+    - 観光・地域活性化
+  images:
+    - /static/images/2020/tokushima/team-e2.jpg
+    - /static/images/2020/tokushima/team-e1.jpg
+  award:
