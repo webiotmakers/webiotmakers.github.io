@@ -527,3 +527,95 @@
     - /static/images/2020/tokushima/team-e2.jpg
     - /static/images/2020/tokushima/team-e1.jpg
   award:
+
+- location: 香川
+  team_id: A
+  team_name: I’m 無戦略本部
+  title: 取ろーガー
+  description: 自転車やベビーカーなどに取り付け、GPS とジャイロセンサーから路面状況と位置を調べる。現在の状態では 5 秒間に一回取得した値をデータベースに書き込むようにしている。そして、データベースの値からマップに路面情報をわかりやすく表示する。車いすやベビーカーを利用している人に向けて、安全な道や移動しやすい道の情報を提供できる。
+  categories:
+    - 乗り物・交通
+    - 犯罪・事故防止
+  images:
+    - /static/images/2020/kagawa/team-a2.jpg
+    - /static/images/2020/kagawa/team-a1.jpg
+  award: 最優秀賞
+
+- location: 香川
+  team_id: C
+  team_name: Merry IN TOY
+  title: medir coaster★
+  description: 飲み物の重さを取得できる IoT コースターを作成。飲み物の重量データを取得、ラズパイを通じ、ルーターに無線通信。サーバーでデータ保存するとともに、各デバイス (スマホ/i-Pad 等) より閲覧可能。お店側は飲量のデータを元に、オーダーを適切なタイミングで行える。また、会計時期を予測し、お客さんの 3 密回避、待ち時間短縮に利用できる。
+  categories:
+    - 公共・商業施設
+    - 通知・リマインダー
+  images:
+    - /static/images/2020/kagawa/team-c2.jpg
+    - /static/images/2020/kagawa/team-c1.jpg
+  award:
+
+- location: 香川
+  team_id: E
+  team_name: Handymen
+  title: TCM (Temperature Collect Mask)
+  description: 温度センサーを取り付けたマスクによって継続的に体温を測定し続けるシステム。さらに測定した温度をゲートに送り、その値によってゲートを開閉することによって施設に入る際の検温を人手を使わずに行うことができる。マスクをウェアラブルデバイスのように使うことでリアルタイムで温度を測定するので継続的な測定データを得ることが可能になる。ウェアラブルデバイスにすることで継続的なデータから正確な体温を得られたり、例えば店内のゲートで滞在時間を測ったりといった様々なデータの応用例を考えることができる。
+  categories:
+    - 公共・商業施設
+    - 医療・健康
+  images:
+    - /static/images/2020/kagawa/team-e2.jpg
+    - /static/images/2020/kagawa/team-e1.jpg
+  award:
+
+- location: 香川
+  team_id: F
+  team_name: daremo
+  title: どこでもだれでも IoT
+  description: 水道メーター BOX 内のパイロット (八面体) 回転を反射型光電センサーで検出して同信号を子機 (太陽電池駆動) から Private LoRa で送信、同信号を受信した親機の Wi-Fi ゲートウェイ機能で水道流量を Web (Ambient) で見える化、設定時間内で設定流量超過が連続している場合は漏水、設定流量未満の場合は住人安否確認の指標となるため、子機から受信した各事象を LINE で関係者にメッセージを通知する。他にも気象観測、観光客カウント、カラス飛来や観光地でのスタンプ利用、イノシシ罠動作などの事象を見える化したり、LINE 通知する機能を容易に拡張できる。
+  categories:
+    - 通知・リマインダー
+    - 住宅・家電
+    - 気候・空調
+    - 観光・地域活性化
+  images:
+    - /static/images/2020/kagawa/team-f2.jpg
+    - /static/images/2020/kagawa/team-f1.jpg
+  award:
+
+- location: 香川
+  team_id: G
+  team_name: Made in Twilight
+  title: おかえりなさいませ、ご主人様
+  description: 顔認証機能を用い、ドアの鍵を自動的に開閉してくれるシステム。ドアの案内はメイドをモチーフにしたキャラクターが行ってくれて、登録済みの人物であれば主人として、未登録の人物であれば友人として対応を行う。また、メイドに応援メッセージを送信できる機能も搭載しており、メッセージを送信するとメイドが反応する。この機能を拡張すれば、外部からメイドに指示を送り、鍵の開け閉めなどを遠隔で行うことができると考えている。
+  categories:
+    - 住宅・家電
+    - コミュニケーション
+  images:
+    - /static/images/2020/kagawa/team-g2.jpg
+    - /static/images/2020/kagawa/team-g1.jpg
+  award:
+
+- location: 香川
+  team_id: H
+  team_name: 来年こそ高松へ
+  title: 電脳旅行
+  description: 観光地を撮影した動画をリアルタイムで配信し、疑似的な旅行を体験するサービス。具体的には、ドローンに装備したカメラで観光ルートを撮影、動画をリアルタイムに配信する。リアルタイム配信のためプライバシーへの配慮が課題となるが、ドローン端末側で画像処理を行う (＝サーバー側へは人物映像はマスクして送信する) ことで解決を試みる。加えて、人物映像を観光地に合わせたキャラクターに変換して表示することで、エンターテインメント性向上や、自治体とのタイアップに等によるブランディングを図る。
+  categories:
+    - 観光・地域活性化
+  images:
+    - /static/images/2020/kagawa/team-h2.jpg
+    - /static/images/2020/kagawa/team-h1.jpg
+  award:
+
+- location: 香川
+  team_id: I
+  team_name: おぬ
+  title: SwitchBot を活用した自動開閉する箱
+  description: 触れることなく箱を開閉する IoT システム。超音波センサーを使って人の手を検知し、状況に応じて箱を自動で開閉する。超音波センサーから 15cm 以内に物体が存在すればラズベリーパイ経由で SwitchBot に信号が送られる。信号を検知した SwitchBot のスイッチを押し出すシステムを利用して箱を開閉する。手の接触を避けたい、箱を開けるのが面倒くさい、手が汚れているときに箱を汚さずに開閉したい、という思いから作成した。
+  categories:
+    - 住宅・家電
+    - 医療・健康
+  images:
+    - /static/images/2020/kagawa/team-i2.jpg
+    - /static/images/2020/kagawa/team-i1.jpg
+  award:
