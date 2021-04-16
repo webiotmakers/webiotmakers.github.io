@@ -4,7 +4,7 @@
   title: (無題)
   description: 授業のポイントとなるところでペン立てから一定人数がペンを抜くと、他の人の席のペン立てが光り、数秒後に腕のバンドが振動。居眠りをしている学生を要所で起こしてくれるツール
   categories:
-    - 学校・教育
+    - 子育て・教育
   images:
     - /static/images/2017/sendai/team-a-1.jpg
     - /static/images/2017/sendai/team-a-2.jpg
@@ -40,7 +40,7 @@
   title: (無題)
   description: 物理的に距離の離れた親子が、遠隔で一緒に遊べる積木スタイルの IoT おもちゃ。片方が操作した情報を、もう片方の相手に光などで通知して、一緒にモノを使って遊ぶことができる。
   categories:
-    - 子育て・少子化
+    - 子育て・教育
     - コミュニケーション
   images:
     - /static/images/2017/sendai/team-d-1.jpg
@@ -66,7 +66,7 @@
   description: 混雑時の食堂や教室で空席を見つけることができるツール。座布団に感圧センサーが内蔵されていて、その席に人が座ると空きではなくなったことが Web 上で通知される。
   categories:
     - 通知・リマインダー
-    - 学校・教育
+    - 子育て・教育
   images:
     - /static/images/2017/sendai/team-f-1.jpg
     - /static/images/2017/sendai/team-f-2.jpg
@@ -78,7 +78,7 @@
   title: 双方向型授業・プレゼン支援ツール
   description: 授業の進行が速い・遅いといった感想を、生徒がフットスイッチを使用して先生に伝えることができるシステム。生徒の進行速度の感じ方の割合が 64 個 (8 × 8) の LED ディスプレイにリアルタイムで表現されるため、先生は直感的に生徒たちの理解度を知ることができる。
   categories:
-    - 学校・教育
+    - 子育て・教育
   images:
     - /static/images/2017/maebashi/team-a-deliverable.jpg
     - /static/images/2017/maebashi/team-a.jpg
@@ -125,7 +125,7 @@
   title: 繁盛感知！招き猫
   description: 高崎の工芸品「招き猫」に着目した、商売繁盛を感知する IoT 作品。招き猫を設置した客席などが賑わっている (笑い声や歓声が高まる) と、その音をセンサーで感知し、招き猫が「ニャー」と鳴く。鳴いた時刻をリアルタイムにスマホに表示するアプリも同時に作成。
   categories:
-    - 公共・商業施設
+    - 店舗・公共施設
   images:
     - /static/images/2017/maebashi/team-e.jpg
   award:
@@ -137,7 +137,7 @@
   description: 子どもやペット、高齢者の様子をリアルタイムで見守り、記念・記録として画像保存することも可能な IoT 作品。ぬいぐるみのチョウチンアンコウの内部に、Web カメラ、マイク、スピーカー、サーボモーターを取り付けた Raspberry Pi を内蔵。ちょうちん部分にカメラを設置することで、自然に見えるよう工夫されている。
   categories:
     - 高齢者・介護
-    - 子育て・少子化
+    - 子育て・教育
     - ペット・動物
   images:
     - /static/images/2017/maebashi/team-f.jpg
@@ -224,7 +224,7 @@
   description: 保護者や介護者が近くにいない時、一人でいる高齢者や子に対して、簡単なメッセージを送ることで、安否などを確認できる IoT 作品。介護者が Raspberry Pi にメールを送り、中身を表示。超音波センサーで人の検知を行い、ボタンの押された回数によってメールの定型文を返す。
   categories:
     - 高齢者・介護
-    - 子育て・少子化
+    - 子育て・教育
   images:
     - /static/images/2017/yokosuka/team-f.jpg
   award:
@@ -235,7 +235,7 @@
   title: 入退店監視システム
   description: 店舗の混雑状況をセンサーを用いて、可視化する。超音波センサーを 2 つ用いて、入り口方向と出口方向に向けて、人物の入退をモニタリングする。この計測したデータをグラフに描画することで、時間ごとの混雑状況を可視化する。また、カメラを併用することで、より高精度な計測を実現した。
   categories:
-    - 公共・商業施設
+    - 店舗・公共施設
   images:
     - /static/images/2017/yokosuka/team-g.jpg
   award:
@@ -257,7 +257,7 @@
   title: きよちゃん
   description: 生後からオムツ卒業までの赤ちゃんの育児をサポートするシステム。Bluetooth、Wi-Fi、Web GPIO API、Web I2C API、Firebase 等の技術を使用した。
   categories:
-    - 子育て・少子化
+    - 子育て・教育
   images:
     - /static/images/2017/landing/tottori.jpg
     - /static/images/2017/tottori/15.jpg
@@ -292,7 +292,7 @@
   description: 冬場、雨や雪が多い鳥取で気分が沈んだときに人を楽しませることを目的とした作品。センサーを用いて気温等のデータを収集し、必要に応じて人を楽しませるためのギミックが作動する。
   categories:
     - 気候・空調
-    - ゲーム・エンタメ
+    - スポーツ・エンタメ
   images:
     - /static/images/2017/tottori/18.jpg
   award:

@@ -41,7 +41,8 @@ script: gallery.js
         {%- for _hash in site.data.works %}
           {%- assign year = _hash[0] %}
           {%- for work in _hash[1] %}
-            <li data-categories="{{ work.categories | join: ' ' }}" data-year="{{ year }}"
+            {%- assign categories = work.categories | sort %}
+            <li data-categories="{{ categories | join: ' ' }}" data-year="{{ year }}"
                 data-location="{{ work.location }}" data-award="{{ work.award }}">
               <img alt="" data-src="{{ work.images[0] }}">
               <h4>{{ work.title }}</h4>
@@ -49,7 +50,7 @@ script: gallery.js
                 <li>{{ work.description }}</li>
                 <li>
                   テーマ:
-                  {%- for category in work.categories %}
+                  {%- for category in categories %}
                     <a href="#" role="button" aria-controls="works" data-category="{{ category }}">{{ category }}</a>
                   {%- endfor %}
                 </li>
