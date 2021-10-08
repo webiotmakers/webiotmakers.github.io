@@ -52,8 +52,15 @@ p, li, th, td, dt, dd {
 }
 
 table {
+  margin: 16px 0;
   width: 100%;
   border-collapse: collapse;
+}
+
+caption {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 th, td {
@@ -121,7 +128,6 @@ ul.grid.labels li {
 }
 
 ul.grid.logos li {
-  align-items: flex-start;
   margin: 16px 32px;
   width: auto;
   max-width: 100%

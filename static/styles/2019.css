@@ -112,7 +112,7 @@ body {
   overflow: auto;
   box-sizing: border-box;
   padding: 16px;
-  width: 200px;
+  width: 240px;
   background-color: #F5CE52;
   text-align: center;
   -webkit-overflow-scrolling: touch;
@@ -124,7 +124,8 @@ body {
 }
 
 #menu h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  color: #353E47;
 }
 
 #menu nav section {
@@ -139,7 +140,7 @@ body {
   margin: 12px 0;
   padding: 0;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 #menu li {
@@ -156,12 +157,14 @@ body {
 
 #side-locations li {
   flex: none;
-  width: 50%;
+  width: 5rem;
 }
 
 #side-organizers li {
   background-color: #FFF;
+  margin: 4px auto;
   padding: 8px;
+  max-width: 160px;
 }
 
 #side-links {
@@ -188,7 +191,7 @@ main {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 200px;
+  left: 240px;
   overflow: hidden;
 }
 
@@ -215,8 +218,9 @@ main {
   margin: 32px 0;
 }
 
-#locations .location section section {
-  margin: 16px 0;
+#locations .location section h5 {
+  padding: 4px;
+  background-image: linear-gradient(to right, transparent 0%, #fff2 50%, transparent 100%);
 }
 
 #locations .location section.links h5 {
@@ -227,6 +231,19 @@ main {
 #locations .location section ul.plain li,
 #locations .location section div {
   margin: 8px 0;
+  line-height: 1.75;
+}
+
+#locations .location section section {
+  margin: 8px;
+  border: 1px solid #fff3;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #0001;
+}
+
+#locations .location section section div {
+  margin: 0;
 }
 
 #main-pages {
@@ -628,16 +645,16 @@ section.winner .pictures .thumbnails img[aria-selected="true"] {
     height: 200px;
   }
 
-  #side-locations li {
-    width: 33%;
-  }
-
   main {
     left: 0;
   }
 
   #locations {
     width: 320px;
+  }
+
+  #locations .location {
+    padding: 64px 16px 16px;
   }
 
   #main-pages {
