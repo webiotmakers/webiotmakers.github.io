@@ -99,6 +99,10 @@ ul.plain li {
   padding: 0;
 }
 
+ul.plain.spaced li {
+  margin: 8px 0;
+}
+
 ul.grid {
   display: flex;
   flex-wrap: wrap;
