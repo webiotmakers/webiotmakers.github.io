@@ -53,7 +53,7 @@
   title: (無題)
   description: 盗難や紛失した状態になると、自分でその状態を発信してくれるバッグ。バッグにセンサーが内蔵され、盗難にあうと自動で通報もしてくれる。
   categories:
-    - 犯罪・事故防止
+    - 防災・防犯・安全
   images:
     - /static/images/2017/sendai/team-e-1.jpg
     - /static/images/2017/sendai/team-e-2.jpg
@@ -161,7 +161,7 @@
   title: (無題)
   description: 見通しの悪い T 字路で、車の往来を見える化する看板。センサーは数 10cm おきに計 3 つあり、その前を車が遮ると、看板に描かれた道路と車の絵のうち、位置に対応する車の絵が発光する。また、速度を測定しサーバーにアップロードし、Web 上で確認できる。
   categories:
-    - 犯罪・事故防止
+    - 防災・防犯・安全
   images:
     - /static/images/2017/yokosuka/team-a.jpg
   award:
@@ -174,7 +174,7 @@
   categories:
     - 乗り物・交通
     - 気候・空調
-    - 犯罪・事故防止
+    - 防災・防犯・安全
   images:
     - /static/images/2017/landing/yokosuka.jpg
     - /static/images/2017/yokosuka/team-b.jpg
@@ -187,7 +187,7 @@
   description: 検知した不正な路上駐車を Web ページ上にマッピングし、タップすると詳細な住所や経過時間を表示する。また、一定時間が経過するごとにカメラで写真を撮影しデータベースに保存する。
   categories:
     - 乗り物・交通
-    - 犯罪・事故防止
+    - 防災・防犯・安全
   images:
     - /static/images/2017/yokosuka/team-c.jpg
   award:
