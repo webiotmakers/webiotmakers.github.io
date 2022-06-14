@@ -409,6 +409,11 @@ aside.latest-link a {
     font-size: 24px;
   }
 
+  .button.cta[aria-disabled="true"] {
+    pointer-events: none;
+    filter: grayscale(1) opacity(.5);
+  }
+
   #header-outer {
     display: flex;
     justify-content: center;

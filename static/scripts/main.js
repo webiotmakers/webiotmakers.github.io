@@ -19,6 +19,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
   [].forEach.call(document.querySelectorAll('a[href^="http"]'), function ($link) {
     $link.addEventListener('click', function (event) {
+      if ($link.getAttribute('aria-disabled') === 'true') {
+        event.preventDefault();
+        return false;
+      }
+
       ga('send', 'event', 'Outbound Link', 'click', $link.href, {
         'transport': 'beacon',
         'hitCallback': function () { document.location = $link.href; }
