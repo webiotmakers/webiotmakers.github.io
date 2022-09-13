@@ -153,11 +153,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 #side-locations li {
   flex: none;
-  width: 4rem;
+  min-width: 4rem;
+}
+
+#side-locations li.more {
+  font-size: 14px;
 }
 
 #side-organizers li {
@@ -357,6 +362,8 @@ main {
 }
 
 #home-news iframe {
+  display: block;
+  margin: 0 auto;
   max-width: 600px !important;
 }
 
