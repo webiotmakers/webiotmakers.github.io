@@ -1,0 +1,8 @@
+{
+  "name": "webiotmakers.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "jekyll serve",
+    "build": "jekyll build"
+  }
+}
