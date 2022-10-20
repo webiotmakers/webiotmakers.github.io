@@ -23,20 +23,6 @@
   text-align: center;
 }
 
-#organizers .logos {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-#organizers .logos figure {
-  margin: 8px 16px;
-  font-size: 14px;
-}
-
-#organizers figcaption {
-  margin-top: 8px;
-}
-
 @media screen {
   body.wimc17 #header h1 {
     background-image: url(/static/images/2017/template/wordmark.png);
@@ -495,14 +481,6 @@
   #organizers ul.grid.logos img {
     max-width: 100%;
     height: auto;
-  }
-
-  #organizers .logos figure {
-    margin: 8px 0;
-  }
-
-  #organizers .logos figcaption {
-    margin: 8px 0 0;
   }
 
   #grant {

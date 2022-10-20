@@ -132,10 +132,21 @@ ul.grid.labels li {
   margin: 0 16px;
 }
 
+ul.grid.logos {
+  margin: 64px 0;
+  gap: 64px;
+  justify-content: space-evenly;
+}
+
 ul.grid.logos li {
-  margin: 16px 32px;
+  margin: 0;
   width: auto;
   max-width: 100%
+}
+
+ul.grid.logos li figure,
+ul.grid.logos li figure img {
+  margin: 0;
 }
 
 ul.grid.logos li figcaption {
@@ -557,6 +568,11 @@ aside.latest-link a {
 
   ul.grid.labels li {
     margin: 0;
+  }
+
+  ul.grid.logos {
+    margin: 48px 0;
+    gap: 48px;
   }
 
   #outline th {
