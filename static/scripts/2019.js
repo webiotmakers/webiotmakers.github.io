@@ -6,7 +6,7 @@
 window.addEventListener('DOMContentLoaded', function() {
   'use strict';
 
-  const mql = window.matchMedia('screen and (max-width: 767px)');
+  const mql = window.matchMedia('screen and (max-width: 1023px)');
   const $menu = document.querySelector('#menu');
   const $home = document.querySelector('#home') || document.createElement('div');
   const $about = document.querySelector('#about') || document.createElement('div');
@@ -259,4 +259,23 @@ window.addEventListener('DOMContentLoaded', function() {
       }, 3000);
     }
   });
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  if (typeof IntersectionObserver === 'function') {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          target.classList.toggle('visible', isIntersecting);
+        });
+      },
+      {
+        threshold: [0, 0.5, 1],
+      },
+    );
+
+    document.querySelectorAll('.animate').forEach((element) => {
+      observer.observe(element);
+    });
+  }
 });

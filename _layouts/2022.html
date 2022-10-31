@@ -35,6 +35,7 @@
           <section id="side-locations">
             <h2><span>2022 年度</span> <span>開催地域</span></h2>
             <ul>
+              <li><a href="#location-tokyo" role="button" aria-controls="locations location-tokyo">東京</a></li>
               <li><a href="#location-shinshu" role="button" aria-controls="locations location-shinshu">信州</a></li>
               <li><a href="#location-tottori" role="button" aria-controls="locations location-tottori">鳥取</a></li>
               <li><a href="#location-okayama" role="button" aria-controls="locations location-okayama">岡山</a></li>
@@ -42,13 +43,13 @@
               <li><a href="#location-kagawa" role="button" aria-controls="locations location-kagawa">香川</a></li>
               <li><a href="#location-ehime" role="button" aria-controls="locations location-kagawa">愛媛</a></li>
               <li><a href="#location-okinawa" role="button" aria-controls="locations location-kagawa">沖縄</a></li>
-              <li class="more">ほか調整中</li>
             </ul>
           </section>
           <section id="side-about">
             <h2><span>本イベント</span><span>について</span></h2>
             <ul>
               <li><a href="/2022/about/">開催概要</a></li>
+              <li><a href="/2022/materials/">教材集</a></li>
               <li><a href="https://twitter.com/WebIoTmakers" class="twitter" aria-label="Twitter"><span class="icon fa" aria-hidden="true">&#xf099;</span></a></li>
             </ul>
           </section>
@@ -74,21 +75,110 @@
       <main>
         <div class="drawer outer-2" id="locations" hidden>
           <a href="#" class="close" role="button" aria-controls="locations" aria-label="閉じる"><span aria-hidden="true">×</span></a>
-          <section class="location" id="location-shinshu" hidden itemscope itemtype="http://schema.org/Event">
+          <section class="location" id="location-tokyo" hidden itemscope itemtype="http://schema.org/Event">
             <hgroup>
-              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 信州</span></h3>
-              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を長野県で昨年度に引き続き開催します！">
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 東京</span></h3>
+              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を東京都で 4 年ぶりに開催！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg">
               <meta itemprop="startDate" content="">
               <meta itemprop="endDate" content="">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
               <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>PLUS 中央実行委員会</span>
+                </li>
+              </ul>
+            </section>
             <div>
-              詳細近日発表！
+              東京では、社会人を主な対象とし、2023 年 1 月 ～ 2 月上旬を目処にハンズオン講習会とハッカソンを開催予定です。<br><br>
+              ※ 日程や会場等の詳細、募集開始については、12 月上旬にご案内いたします。
             </div>
-            <section class="links">
-              <h5>リンク</h5>
+            <section>
+              <h5>過去の開催報告</h5>
+              <ul class="plain">
+                <li><a href="/2018/tokyo/">2018 年度の開催報告はこちら</a></li>
+              </ul>
+            </section>
+          </section>
+          <section class="location" id="location-shinshu" hidden itemscope itemtype="http://schema.org/Event">
+            <hgroup>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 信州</span></h3>
+              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を長野県で昨年度に引き続き開催します！">
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg">
+              <meta itemprop="startDate" content="2023-02-11">
+              <meta itemprop="endDate" content="2023-03-05">
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
+            </hgroup>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>PLUS 信州運営委員会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>共催</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">塩尻市</span>
+                </li>
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">信州大学</span>
+                </li>
+              </ul>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>標準技術と OSS 利活用についての基礎講義、Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習</div>
+              <div>
+                <time datetime="2023-02-11" itemprop="startDate">2023 年 2 月 11 日 (土・祝)</time> –
+                <time datetime="2023-02-12" itemprop="endDate">12 日 (日)</time>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>チームでの作品制作、成果発表</div>
+              <div>
+                <time datetime="2023-03-04" itemprop="startDate">2023 年 3 月 4 日 (土)</time> –
+                <time datetime="2023-03-05" itemprop="endDate">5 日 (日)</time>
+                <br>10:00 – 17:00 (予定)
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <div id="shinshu-location">
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜須坂会場＞</h6>
+                  <span itemprop="name">株式会社 Goolight</span> (調整中)
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="岡山県">
+                    <meta itemprop="addressLocality" content="岡山市">
+                  </span>
+                </div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜塩尻会場＞</h6>
+                  <a href="https://sip.shiojiri.com/" itemprop="url">
+                    <span itemprop="name">塩尻インキュベーションプラザ</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="長野県">
+                    <meta itemprop="addressLocality" content="塩尻市">
+                  </span>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h5>詳細・参加申し込み</h5>
+              <div>2023 年 1 月上旬頃に募集開始予定</div>
+            </section>
+            <section>
+              <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2021/shinshu/">2021 年度の開催報告はこちら</a></li>
                 <li><a href="/2020/shinshu/">2020 年度の開催報告はこちら</a></li>
@@ -101,16 +191,89 @@
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 鳥取</span></h3>
               <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を鳥取県で昨年度に引き続き開催します！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg">
-              <meta itemprop="startDate" content="">
-              <meta itemprop="endDate" content="">
+              <meta itemprop="startDate" content="2022-12-17">
+              <meta itemprop="endDate" content="2023-01-22">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
               <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
-            <div>
-              詳細近日発表！
-            </div>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>PLUS 鳥取運営委員会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>共催</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">鳥取県</span>
+                </li>
+              </ul>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>標準技術と OSS 利活用についての基礎講義、Raspberry Pi 4 を使った JavaScript によるハードウェア制御の実習</div>
+              <div>
+                <time datetime="2022-12-17" itemprop="startDate">2022 年 12 月 17 日 (土)</time> –
+                <time datetime="2022-12-18" itemprop="endDate">18 日 (日)</time>
+              </div>
+              <div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜東部会場＞</h6>
+                  <a href="https://www.tottori-u.ac.jp/1796.htm#tottori" itemprop="url">
+                    <span itemprop="name">鳥取大学 鳥取キャンパス</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="鳥取県">
+                    <meta itemprop="addressLocality" content="鳥取市">
+                  </span>
+                </div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜西部会場＞</h6>
+                  <a href="https://www.yonago-k.ac.jp/a058/a061/" itemprop="url">
+                    <span itemprop="name">米子工業高等専門学校</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="鳥取県">
+                    <meta itemprop="addressLocality" content="米子市">
+                  </span>
+                </div>
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>チームでの作品制作、成果発表。ハッカソンは東部・西部合同で行います。</div>
+              <div>
+                <time datetime="2023-01-21" itemprop="startDate">2023 年 1 月 21 日 (土)</time> –
+                <time datetime="2023-01-22" itemprop="endDate">22 日 (日)</time>
+              </div>
+              <div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜会場＞</h6>
+                  <a href="https://www.tottori-u.ac.jp/1796.htm#tottori" itemprop="url">
+                    <span itemprop="name">鳥取大学 鳥取キャンパス</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="鳥取県">
+                    <meta itemprop="addressLocality" content="鳥取市">
+                  </span>
+                </div>
+              </div>
+            </section>
             <section class="links">
               <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <meta itemprop="price" content="0">
+                  <a href="https://webiotmakers.connpass.com/event/263336/" class="button cta" itemprop="url">詳細・参加申し込み</a>
+                  <small>(connpass サイトに移動します)</small>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2021/tottori/">2021 年度の開催報告はこちら</a></li>
                 <li><a href="/2020/tottori/">2020 年度の開催報告はこちら</a></li>
@@ -197,7 +360,7 @@
                 <li><a href="/static/docs/2022/okayama-flyer.pdf">告知チラシ (PDF)</a></li>
               </ul>
             </section>
-            <section class="links">
+            <section>
               <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2021/okayama/">2021 年度の開催報告はこちら</a></li>
@@ -268,7 +431,7 @@
                 </li>
               </ul>
             </section>
-            <section class="links">
+            <section>
               <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2021/tokushima/">2021 年度の開催報告はこちら</a></li>
@@ -364,7 +527,7 @@
                 </li>
               </ul>
             </section>
-            <section class="links">
+            <section>
               <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2021/kagawa/">2021 年度の開催報告はこちら</a></li>
@@ -454,16 +617,92 @@
               <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 沖縄</span></h3>
               <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoTメイカーズチャレンジ」を沖縄県で再び開催します！">
               <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg">
-              <meta itemprop="startDate" content="">
-              <meta itemprop="endDate" content="">
+              <meta itemprop="startDate" content="2022-12-10">
+              <meta itemprop="endDate" content="2023-01-14">
               <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
               <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
             </hgroup>
-            <div>
-              詳細近日発表！
-            </div>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">沖縄 IoT ハッカソン 2022 運営委員会</span>
+                </li>
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">沖縄情報通信懇談会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>共催</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">一般社団法人 頑張る地域支援し隊</span>
+                </li>
+              </ul>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>誰でもできる IoT 開発基礎 ～ CHIRIMEN Raspberry Pi Zero W チュートリアル ～</div>
+              <meta itemprop="startDate" content="2022-12-10">
+              <meta itemprop="endDate" content="2022-12-17">
+              <div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜中南部会場＞</h6>
+                  <time datetime="2022-12-10">2022 年 12 月 10 日 (土)</time> 午後<br>
+                  <a href="https://www.okiu.ac.jp/access" itemprop="url">
+                    <span itemprop="name">沖縄国際大学</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="沖縄県">
+                    <meta itemprop="addressLocality" content="宜野湾市">
+                  </span>
+                </div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜北部会場＞</h6>
+                  <time datetime="2022-12-17">2022 年 12 月 17 日 (土)</time> 午後<br>
+                  <a href="https://www3.jeed.go.jp/okinawa/poly/center.html" itemprop="url">
+                    <span itemprop="name">北部雇用能力総合センター</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="沖縄県">
+                    <meta itemprop="addressLocality" content="名護市">
+                  </span>
+                </div>
+              </div>
+              <div>※ その他、IoT 作品製作に必要な電子工作などの基礎知識についての「基礎講座」を受講者のリクエストに応じて実施します。</div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>チームでの作品制作、成果発表＆審査</div>
+              <div>
+                <time datetime="2023-01-14" itemprop="startDate endDate">2023 年 1 月 14 日 (土)</time> (予定)
+              </div>
+              <div>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <h6>＜会場＞</h6>
+                  <a href="https://www3.jeed.go.jp/okinawa/college/access.html" itemprop="url">
+                    <span itemprop="name">沖縄職業能力開発大学校</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="沖縄県">
+                    <meta itemprop="addressLocality" content="沖縄市">
+                  </span>
+                </div>
+              </div>
+            </section>
             <section class="links">
               <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <meta itemprop="price" content="0">
+                  <a href="https://okinawa-iot2022.hp.peraichi.com/" class="button cta" itemprop="url">詳細・参加申し込み</a>
+                  <small>沖縄 IoT ハッカソン 2022 サイトにて<br>ご案内しています。</small>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>過去の開催報告</h5>
               <ul class="plain">
                 <li><a href="/2019/okinawa/">2019 年度の開催報告はこちら</a></li>
                 <li><a href="/2018/okinawa/">2018 年度の開催報告はこちら</a></li>
