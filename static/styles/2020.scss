@@ -2,15 +2,15 @@
 ---
 
 body.wimc-19 #menu h1 {
-  background-image: url(/static/images/2019/template/logo-320.png);
+  background-image: url('/static/images/2019/template/logo-320.png');
 }
 
 body.wimc-20 #menu h1 {
-  background-image: url(/static/images/2020/template/logo-320.png);
+  background-image: url('/static/images/2020/template/logo-320.png');
 }
 
 body.wimc-plus #menu h1 {
-  background-image: url(/static/images/2021/template/logo-320.png);
+  background-image: url('/static/images/2021/template/logo-320.png');
 }
 
 #menu h3 {
@@ -50,7 +50,7 @@ body.wimc-plus #menu h1 {
     z-index: 10;
     width: 160px;
     height: 160px;
-    background-image: url(/static/images/general/logo-320.png);
+    background-image: url('/static/images/general/logo-320.png');
     background-repeat: no-repeat;
     background-size: contain;
     content: '';
@@ -89,12 +89,12 @@ body.wimc-plus #menu h1 {
 
       &::before {
         left: calc(50% - 56px);
-        background-image: url(/static/images/misc/html5-logo.svg);
+        background-image: url('/static/images/misc/html5-logo.svg');
       }
 
       &::after {
         left: calc(50% + 8px);
-        background-image: url(/static/images/misc/javascript-logo.svg);
+        background-image: url('/static/images/misc/javascript-logo.svg');
       }
     }
   }
@@ -154,15 +154,15 @@ body.wimc-plus #menu h1 {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
   body.wimc-19 #menu h1 {
-    background-image: url(/static/images/2019/template/logo-320@2x.png);
+    background-image: url('/static/images/2019/template/logo-320@2x.png');
   }
 
   body.wimc-20 #menu h1 {
-    background-image: url(/static/images/2020/template/logo-320@2x.png);
+    background-image: url('/static/images/2020/template/logo-320@2x.png');
   }
 
   body.wimc-plus #menu h1 {
-    background-image: url(/static/images/2021/template/logo-320@2x.png);
+    background-image: url('/static/images/2021/template/logo-320@2x.png');
   }
 }
 

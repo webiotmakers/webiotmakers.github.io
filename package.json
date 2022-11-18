@@ -3,6 +3,25 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "jekyll serve",
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "npm-run-all lint:*",
+    "lint:prettier": "prettier --check --plugin-search-dir=. .",
+    "lint:eslint": "eslint --ignore-path .gitignore .",
+    "lint:stylelint": "stylelint '**/*.{css,scss}'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-processor-ignore-front-matter": "^1.0.3",
+    "stylelint-scss": "^4.3.0"
   }
 }

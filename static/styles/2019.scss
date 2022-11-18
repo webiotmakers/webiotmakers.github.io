@@ -71,7 +71,6 @@ body {
   z-index: 20;
   padding: 8px;
   height: 64px;
-  display: none;
   background-color: #f5ce52;
 
   .menu {
@@ -93,7 +92,7 @@ body {
     margin: 4px auto;
     width: 160px;
     height: 40px;
-    background-image: url(/static/images/general/wordmark-200.png);
+    background-image: url('/static/images/general/wordmark-200.png');
   }
 }
 
@@ -115,7 +114,7 @@ body {
 
   h1 {
     height: 176px;
-    background-image: url(/static/images/2019/template/logo-320.png);
+    background-image: url('/static/images/2019/template/logo-320.png');
   }
 
   h2 {
@@ -357,15 +356,15 @@ main {
 }
 
 #home-intro-outer {
-  background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+  background-image: url('/static/images/backgrounds/board-texture-1.jpg');
 }
 
 #home-hackathon-outer {
-  background-image: url(/static/images/backgrounds/board-texture-2.jpg);
+  background-image: url('/static/images/backgrounds/board-texture-2.jpg');
 }
 
 #about-header-outer {
-  background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+  background-image: url('/static/images/backgrounds/board-texture-1.jpg');
 }
 
 #about-header {
@@ -392,7 +391,7 @@ main {
 }
 
 #about-dates-outer {
-  background-image: url(/static/images/backgrounds/board-texture-2.jpg);
+  background-image: url('/static/images/backgrounds/board-texture-2.jpg');
 }
 
 body#about #contact {
@@ -407,15 +406,15 @@ section.winner {
   padding: 64px;
 
   &:nth-of-type(3n) {
-    background-image: url(/static/images/backgrounds/board-texture-1.jpg);
+    background-image: url('/static/images/backgrounds/board-texture-1.jpg');
   }
 
   &:nth-of-type(3n + 1) {
-    background-image: url(/static/images/backgrounds/board-texture-3.jpg);
+    background-image: url('/static/images/backgrounds/board-texture-3.jpg');
   }
 
   &:nth-of-type(3n + 2) {
-    background-image: url(/static/images/backgrounds/board-texture-2.jpg);
+    background-image: url('/static/images/backgrounds/board-texture-2.jpg');
   }
 
   .location-marker {
@@ -529,11 +528,11 @@ section.winner {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
   #mobile-header h1 {
-    background-image: url(/static/images/general/wordmark-200@2x.png);
+    background-image: url('/static/images/general/wordmark-200@2x.png');
   }
 
   #menu h1 {
-    background-image: url(/static/images/2019/template/logo-320@2x.png);
+    background-image: url('/static/images/2019/template/logo-320@2x.png');
   }
 }
 

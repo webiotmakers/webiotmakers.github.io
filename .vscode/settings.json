@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": ["source.formatDocument", "source.organizeImports", "source.fixAll"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "scss.validate": false,
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,568 @@
+---
+---
+
+#report {
+  h2 {
+    position: absolute;
+    left: -99999px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  h4,
+  h5 {
+    line-height: 1.5;
+  }
+
+  figure.large {
+    margin-top: 32px;
+  }
+}
+
+#news,
+#organizers,
+#outline section,
+#contact {
+  text-align: center;
+}
+
+@media screen {
+  body.wimc17 {
+    #header h1 {
+      background-image: url('/static/images/2017/template/wordmark.png');
+    }
+  }
+
+  body.wimc18 {
+    #header h1 {
+      background-image: url('/static/images/2018/template/wordmark.png');
+    }
+
+    #intro ul.grid li {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    #intro .button.cta span {
+      display: inline-block;
+      pointer-events: none;
+    }
+  }
+
+  #header {
+    .description,
+    .locations {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+
+    .description span {
+      display: block;
+    }
+
+    .locations strong {
+      display: block;
+      font-size: 2rem;
+    }
+  }
+
+  #report {
+    .col.closing {
+      section {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      a {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  #news h2,
+  #intro h2,
+  #organizers h2 {
+    position: absolute;
+    left: -9999px;
+  }
+
+  #news .hashtag {
+    font-size: 1.5rem;
+  }
+
+  .twitter-timeline {
+    max-width: 640px !important;
+  }
+
+  #intro-outer {
+    background-image: url('/static/images/backgrounds/board-texture-2.jpg');
+  }
+
+  #intro,
+  #locations {
+    position: relative;
+  }
+
+  #intro p {
+    margin: 0 0 12px;
+  }
+
+  #locations {
+    background-image: url('/static/images/backgrounds/map.png');
+    background-repeat: no-repeat;
+    background-size: 570px 600px;
+  }
+
+  #location-map {
+    .location {
+      .marker span {
+        display: block;
+        width: 32px;
+        text-align: center;
+        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+        font-family: FontAwesome;
+        font-size: 32px;
+        line-height: 1;
+        color: #db3232;
+      }
+
+      .content {
+        display: block;
+      }
+
+      h3 {
+        margin: 0;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      p {
+        margin: 0;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  #organizers h3 small {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  #grant {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    padding: 32px 0;
+    font-size: 14px;
+
+    a {
+      flex: none;
+      display: block;
+      margin: 0 32px 0 0;
+    }
+  }
+
+  #outline {
+    table + p {
+      text-align: center;
+    }
+
+    h3 {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+      padding-bottom: 16px;
+    }
+
+    .location {
+      position: relative;
+      overflow: hidden;
+      margin: 16px 0;
+      padding: 32px;
+      background: rgba(0, 0, 0, 0.1);
+
+      & > :last-child {
+        margin-bottom: 0;
+      }
+
+      .marker {
+        position: absolute;
+        top: -32px;
+        right: -16px;
+        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+        font-family: FontAwesome;
+        font-size: 200px;
+        line-height: 1;
+        color: rgba(0, 0, 0, 0.1);
+      }
+
+      h4 ~ * {
+        margin: 24px 0 0;
+      }
+
+      .details * {
+        margin: 0;
+      }
+
+      .buttons li {
+        margin-bottom: 0;
+      }
+
+      strong.call {
+        font-size: 1.2rem;
+        letter-spacing: -0.03em;
+        color: #ed7d31;
+      }
+    }
+  }
+
+  #contact-outer {
+    background-image: url('/static/images/backgrounds/board-texture-3.jpg');
+  }
+
+  .location .marker {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #report .col.closing {
+    display: flex;
+    align-items: center;
+
+    section :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #intro {
+    z-index: 2;
+    margin-right: 320px;
+    margin-bottom: -200px;
+  }
+
+  #locations {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.wimc18 #header-outer {
+    height: 720px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        transparent 25%,
+        transparent 75%,
+        rgba(0, 0, 0, 0.7) 100%
+      ),
+      url('/static/images/2018/template/cover@2x.jpg');
+  }
+
+  #locations {
+    z-index: 1;
+    margin: 48px auto;
+    width: 600px;
+    height: 600px;
+    background-position: center left;
+
+    h2 {
+      position: absolute;
+      bottom: 80px;
+      right: 0;
+    }
+  }
+
+  #location-map {
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 600px;
+
+    .location {
+      position: absolute;
+
+      .marker {
+        position: absolute;
+        bottom: 0;
+        left: -16px;
+        z-index: 1;
+        height: 32px;
+
+        span {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: 0.2s all;
+        }
+      }
+
+      &:hover .marker span {
+        font-size: 40px;
+        color: #ff3b3b;
+      }
+
+      .content {
+        position: absolute;
+        white-space: nowrap;
+        padding: 4px;
+        background-color: rgba(46, 58, 66, 0.5);
+      }
+    }
+  }
+
+  #location-maebashi .content *,
+  #location-tottori .content *,
+  #location-kagawa .content * {
+    text-align: right !important;
+  }
+
+  #location-sapporo {
+    top: 82px;
+    left: 402px;
+
+    .content {
+      top: -56px;
+      left: 16px;
+    }
+  }
+
+  #location-sendai {
+    top: 221px;
+    left: 392px;
+
+    .content {
+      top: -104px;
+      left: -40px;
+    }
+  }
+
+  #location-ibaraki {
+    top: 270px;
+    left: 392px;
+
+    .content {
+      top: -64px;
+      left: 16px;
+    }
+  }
+
+  #location-maebashi {
+    top: 270px;
+    left: 353px;
+
+    .content {
+      top: -96px;
+      right: 8px;
+    }
+  }
+
+  #location-tokyo {
+    top: 300px;
+    left: 382px;
+
+    .content {
+      top: -16px;
+      left: 8px;
+      z-index: 2;
+    }
+  }
+
+  #location-yokosuka {
+    top: 320px;
+    left: 363px;
+
+    .content {
+      top: 0;
+      left: -96px;
+    }
+  }
+
+  #location-tottori {
+    top: 310px;
+    left: 236px;
+
+    .content {
+      top: -60px;
+      right: 16px;
+    }
+  }
+
+  #location-kagawa {
+    top: 349px;
+    left: 226px;
+
+    .content {
+      top: -8px;
+      right: 0;
+    }
+  }
+
+  #location-okinawa {
+    top: 547px;
+    left: 90px;
+
+    .content {
+      top: -56px;
+      left: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #report .col.closing section {
+    margin: 32px;
+    padding: 32px;
+  }
+
+  #outline .location {
+    [itemprop='subEvent'] {
+      display: flex;
+      align-items: center;
+    }
+
+    h5 {
+      flex: none;
+      margin: 0;
+      width: calc(50% - 16px);
+      text-align: right;
+    }
+
+    .details {
+      flex: auto;
+      margin-left: 16px;
+      border-left: 2px solid rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body.wimc18 #header-outer {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        transparent 25%,
+        transparent 75%,
+        rgba(0, 0, 0, 0.7) 100%
+      ),
+      url('/static/images/2018/template/cover.jpg');
+    background-position: center left;
+  }
+
+  #report .col.closing section {
+    margin: 16px 0;
+    padding: 16px;
+  }
+
+  #locations {
+    background-position: center;
+    background-size: contain !important;
+  }
+
+  #location-map {
+    overflow: hidden;
+
+    .location {
+      float: left;
+      margin: 8px 24px;
+      width: 240px;
+
+      .marker {
+        width: 32px;
+        float: left;
+      }
+
+      .content {
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #header {
+    .description,
+    .locations {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .description span {
+      display: inline;
+    }
+
+    .locations strong {
+      font-size: inherit;
+    }
+  }
+
+  #location-map .location {
+    float: none;
+    margin: 16px auto;
+  }
+
+  #organizers ul.grid.logos {
+    display: block;
+
+    li {
+      display: block;
+      margin: 32px 16px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  #grant {
+    flex-direction: column;
+    padding: 16px;
+
+    a {
+      margin: 0 0 16px;
+    }
+  }
+
+  #outline .location {
+    padding: 16px;
+
+    .marker {
+      top: -24px;
+      font-size: 160px;
+    }
+
+    h4 ~ * {
+      margin: 16px 0 0;
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+  body.wimc17 #header h1 {
+    background-image: url('/static/images/2017/template/wordmark@2x.png');
+  }
+
+  body.wimc18 #header h1 {
+    background-image: url('/static/images/2018/template/wordmark@2x.png');
+  }
+
+  #locations {
+    background-image: url('/static/images/backgrounds/map@2x.png');
+  }
+}
+
+@media print {
+  #location-map {
+    text-align: center;
+
+    .location .marker {
+      display: none;
+    }
+  }
+}

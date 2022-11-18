@@ -1,68 +1,52 @@
-/* eslint-disable object-shorthand */
-/* eslint-disable prefer-arrow-callback */
-/* eslint-disable prefer-destructuring */
-/* eslint-disable prefer-template */
+window.addEventListener(
+  'DOMContentLoaded',
+  () => {
+    const _categories = {};
+    const _years = {};
+    const _locations = {};
+    const $fragment = document.createDocumentFragment();
+    const works = [];
+    const $pageWrapper = document.querySelector('#main-pages');
+    const $worksContainer = document.querySelector('#works-container');
+    const $works = document.querySelector('#works-container > ul');
+    const $title = document.querySelector('#works-container > h2');
+    const $container = document.querySelector('#gallery-container');
+    const $filters = document.querySelector('#filters');
+    const $filterGeneral = $filters.querySelector('#filter-general ul');
+    const $filterCategories = $filters.querySelector('#filter-categories ul');
+    const $filterYears = $filters.querySelector('#filter-years ul');
+    const $filterLocations = $filters.querySelector('#filter-locations ul');
+    const sorter = (a, b) => a[0] > b[0];
 
-'use strict';
+    // Randomize the works
+    for (;;) {
+      if (!$works.children.length) {
+        break;
+      }
 
-// Object.entries polyfill for IE 11
-if (!('entries' in Object)) {
-  Object.entries = function (obj) {
-    return Object.keys(obj).map(function (key) { return [key, obj[key]]; });
-  };
-}
+      const index = Math.floor(Math.random() * $works.children.length);
+      const child = $works.children[index];
 
-window.addEventListener('DOMContentLoaded', function () {
-  const _categories = {};
-  const _years = {};
-  const _locations = {};
-  const $fragment = document.createDocumentFragment();
-  const works = [];
-  const $page_wrapper = document.querySelector('#main-pages');
-  const $works_container = document.querySelector('#works-container');
-  const $works = document.querySelector('#works-container > ul');
-  const $title = document.querySelector('#works-container > h2');
-  const $container = document.querySelector('#gallery-container');
-  const $filters = document.querySelector('#filters');
-  const $filter_general = $filters.querySelector('#filter-general ul');
-  const $filter_categories = $filters.querySelector('#filter-categories ul');
-  const $filter_years = $filters.querySelector('#filter-years ul');
-  const $filter_locations = $filters.querySelector('#filter-locations ul');
-  // eslint-disable-next-line require-jsdoc
-  const sorter = function (a, b) { return a[0] > b[0]; };
-
-  // Randomize the works
-  for (; ;) {
-    if (!$works.children.length) {
-      break;
+      $fragment.appendChild(child);
+      works.push(child);
     }
 
-    const index = Math.floor(Math.random() * $works.children.length);
-    const child = $works.children[index];
+    $works.appendChild($fragment);
 
-    $fragment.appendChild(child);
-    works.push(child);
-  }
+    works.forEach(($work) => {
+      const { categories, year, location } = $work.dataset;
+      const $img = $work.querySelector('img');
 
-  $works.appendChild($fragment);
+      categories.split(' ').forEach((cat) => {
+        _categories[cat] = (_categories[cat] || 0) + 1;
+      });
 
-  works.forEach(function ($work) {
-    const categories = $work.dataset.categories;
-    const year = $work.dataset.year;
-    const location = $work.dataset.location;
-    const $img = $work.querySelector('img');
+      _years[year] = (_years[year] || 0) + 1;
+      _locations[location] = (_locations[location] || 0) + 1;
 
-    categories.split(' ').forEach(function (cat) {
-      _categories[cat] = (_categories[cat] || 0) + 1;
-    });
-
-    _years[year] = (_years[year] || 0) + 1;
-    _locations[location] = (_locations[location] || 0) + 1;
-
-    // Lazy load images
-    if ('IntersectionObserver' in window) {
-      const observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
+      // Lazy load images
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
           if (entry.intersectionRatio > 0) {
             observer.disconnect();
             $img.src = $img.dataset.src;
@@ -71,187 +55,177 @@ window.addEventListener('DOMContentLoaded', function () {
       });
 
       observer.observe($img);
-    } else {
-      $img.src = $img.dataset.src;
-    }
-  });
-
-  $filter_general.innerHTML = ' \
-    <li role="none"> \
-      <a href="#" role="radio" aria-checked="true" data-category="すべて"> \
-        すべて (' + works.length + ') \
-      </a> \
-    </li> \
-    <li role="none"> \
-      <a href="#" role="radio" aria-checked="false" data-award="*"> \
-        最優秀賞受賞作品 (' + works.filter(function (work) { return work.dataset.award; }).length + ') \
-      </a> \
-    </li> \
-  ';
-
-  $filter_categories.innerHTML = Object.entries(_categories).sort(sorter).map(function (args) {
-    const category = args[0];
-    const count = args[1];
-
-    return ' \
-      <li role="none"> \
-        <a href="#" role="radio" aria-checked="false" data-category="' + category + '"> \
-          ' + category + ' (' + count + ') \
-        </a> \
-      </li> \
-    ';
-  }).join('');
-
-  $filter_years.innerHTML = Object.entries(_years).sort(sorter).map(function (args) {
-    const year = args[0];
-    const count = args[1];
-
-    return ' \
-      <li role="none"> \
-        <a href="#" role="radio" aria-checked="false" data-year="' + year + '"> \
-          ' + year + ' (' + count + ') \
-        </a> \
-      </li> \
-    ';
-  }).join('');
-
-  $filter_locations.innerHTML = Object.entries(_locations).sort(sorter).map(function (args) {
-    const location = args[0];
-    const count = args[1];
-
-    return ' \
-      <li role="none"> \
-        <a href="#" role="radio" aria-checked="false" data-location="' + location + '"> \
-          ' + location + ' (' + count + ') \
-        </a> \
-      </li> \
-    ';
-  }).join('');
-
-  /**
-   * Replace the current URL with the given search params.
-   * @param {Object} init Params.
-   */
-  const update_location = function (init) {
-    if (!('URLSearchParams' in window)) {
-      return;
-    }
-
-    history.replaceState({}, '', '?' + (new URLSearchParams(init)).toString());
-  };
-
-  /**
-   * Apply a filter to the work list, and update the view accordingly. Multiple filters like year+location are not
-   * supported at this time.
-   * @param {Object} filter Filtering condition in the form of key-value pairs, where keys are `award`, `category`,
-   * `year` and `location`.
-   */
-  const apply_filter = function (filter) {
-    const award = filter.award;
-    const category = filter.category;
-    const year = filter.year;
-    const location = filter.location;
-
-    if (award) {
-      works.forEach(function ($work) {
-        $work.hidden = award && $work.matches('[data-award=""]');
-      });
-
-      [].forEach.call($filters.querySelectorAll('[role="radio"]'), function ($radio) {
-        $radio.setAttribute('aria-checked', !!$radio.dataset.award);
-      });
-
-      $title.textContent = '最優秀賞受賞作品';
-      update_location({ award: '最優秀賞' });
-
-      return;
-    }
-
-    if (category) {
-      works.forEach(function ($work) {
-        $work.hidden = category !== 'すべて' && !$work.matches('[data-categories~="' + category + '"]');
-      });
-
-      [].forEach.call($filters.querySelectorAll('[role="radio"]'), function ($radio) {
-        $radio.setAttribute('aria-checked', $radio.dataset.category === category);
-      });
-
-      $title.textContent = category;
-      update_location({ category: category });
-
-      return;
-    }
-
-    if (year) {
-      works.forEach(function ($work) {
-        $work.hidden = year !== 'すべて' && !$work.matches('[data-year="' + year + '"]');
-      });
-
-      [].forEach.call($filters.querySelectorAll('[role="radio"]'), function ($radio) {
-        $radio.setAttribute('aria-checked', $radio.dataset.year === year);
-      });
-
-      $title.textContent = year + ' 年度';
-      update_location({ year: year });
-
-      return;
-    }
-
-    if (location) {
-      works.forEach(function ($work) {
-        $work.hidden = location !== 'すべて' && !$work.matches('[data-location="' + location + '"]');
-      });
-
-      [].forEach.call($filters.querySelectorAll('[role="radio"]'), function ($radio) {
-        $radio.setAttribute('aria-checked', $radio.dataset.location === location);
-      });
-
-      $title.textContent = location;
-      update_location({ location: location });
-    }
-  };
-
-  $container.addEventListener('click', function (event) {
-    const $target = event.target;
-
-    if (!$target.matches('a')) {
-      return;
-    }
-
-    event.preventDefault();
-
-    apply_filter({
-      award: $target.dataset.award,
-      category: $target.dataset.category,
-      year: $target.dataset.year,
-      location: $target.dataset.location,
     });
 
-    $filters.classList.remove('active');
+    $filterGeneral.innerHTML = ` \
+      <li role="none"> \
+        <a href="#" role="radio" aria-checked="true" data-category="すべて"> \
+          すべて (${works.length}) \
+        </a> \
+      </li> \
+      <li role="none"> \
+        <a href="#" role="radio" aria-checked="false" data-award="*"> \
+          最優秀賞受賞作品 (${works.filter((work) => work.dataset.award).length}) \
+        </a> \
+      </li> \
+    `;
 
-    window.setTimeout(function () {
-      $page_wrapper.scrollTo(0, 0);
-      $works_container.focus();
-    }, 100);
-  });
+    $filterCategories.innerHTML = Object.entries(_categories)
+      .sort(sorter)
+      .map(
+        ([category, count]) => ` \
+          <li role="none"> \
+            <a href="#" role="radio" aria-checked="false" data-category="${category}"> \
+              ${category} (${count}) \
+            </a> \
+          </li> \
+        `,
+      )
+      .join('');
 
-  window.addEventListener('load', function () {
-    if (!('URLSearchParams' in window)) {
-      return;
-    }
+    $filterYears.innerHTML = Object.entries(_years)
+      .sort(sorter)
+      .map(
+        ([year, count]) => ` \
+          <li role="none"> \
+            <a href="#" role="radio" aria-checked="false" data-year="${year}"> \
+              ${year} (${count}) \
+            </a> \
+          </li> \
+        `,
+      )
+      .join('');
 
-    const params = new URLSearchParams(location.search);
+    $filterLocations.innerHTML = Object.entries(_locations)
+      .sort(sorter)
+      .map(
+        ([location, count]) => ` \
+          <li role="none"> \
+            <a href="#" role="radio" aria-checked="false" data-location="${location}"> \
+              ${location} (${count}) \
+            </a> \
+          </li> \
+        `,
+      )
+      .join('');
 
-    apply_filter({
-      award: params.get('award'),
-      category: params.get('category'),
-      year: params.get('year'),
-      location: params.get('location'),
+    /**
+     * Replace the current URL with the given search params.
+     * @param {Object} init Params.
+     */
+    const updateLocation = (init) => {
+      window.history.replaceState({}, '', `?${new URLSearchParams(init).toString()}`);
+    };
+
+    /**
+     * Apply a filter to the work list, and update the view accordingly. Multiple filters like
+     * year+location are not supported at this time.
+     * @param {Object} filter Filtering condition in the form of key-value pairs, where keys are
+     * `award`, `category`, `year` and `location`.
+     */
+    const applyFilter = ({ award, category, year, location }) => {
+      if (award) {
+        works.forEach(($work) => {
+          // eslint-disable-next-line no-param-reassign
+          $work.hidden = award && $work.matches('[data-award=""]');
+        });
+
+        $filters.querySelectorAll('[role="radio"]').forEach(($radio) => {
+          $radio.setAttribute('aria-checked', !!$radio.dataset.award);
+        });
+
+        $title.textContent = '最優秀賞受賞作品';
+        updateLocation({ award: '最優秀賞' });
+
+        return;
+      }
+
+      if (category) {
+        works.forEach(($work) => {
+          // eslint-disable-next-line no-param-reassign
+          $work.hidden =
+            category !== 'すべて' && !$work.matches(`[data-categories~="${category}"]`);
+        });
+
+        $filters.querySelectorAll('[role="radio"]').forEach(($radio) => {
+          $radio.setAttribute('aria-checked', $radio.dataset.category === category);
+        });
+
+        $title.textContent = category;
+        updateLocation({ category });
+
+        return;
+      }
+
+      if (year) {
+        works.forEach(($work) => {
+          // eslint-disable-next-line no-param-reassign
+          $work.hidden = year !== 'すべて' && !$work.matches(`[data-year="${year}"]`);
+        });
+
+        $filters.querySelectorAll('[role="radio"]').forEach(($radio) => {
+          $radio.setAttribute('aria-checked', $radio.dataset.year === year);
+        });
+
+        $title.textContent = `${year} 年度`;
+        updateLocation({ year });
+
+        return;
+      }
+
+      if (location) {
+        works.forEach(($work) => {
+          // eslint-disable-next-line no-param-reassign
+          $work.hidden = location !== 'すべて' && !$work.matches(`[data-location="${location}"]`);
+        });
+
+        $filters.querySelectorAll('[role="radio"]').forEach(($radio) => {
+          $radio.setAttribute('aria-checked', $radio.dataset.location === location);
+        });
+
+        $title.textContent = location;
+        updateLocation({ location });
+      }
+    };
+
+    $container.addEventListener('click', (event) => {
+      const $target = event.target;
+
+      if (!$target.matches('a')) {
+        return;
+      }
+
+      const { award, category, year, location } = $target.dataset;
+
+      event.preventDefault();
+      applyFilter({ award, category, year, location });
+      $filters.classList.remove('active');
+
+      window.setTimeout(() => {
+        $pageWrapper.scrollTo(0, 0);
+        $worksContainer.focus();
+      }, 100);
     });
-  });
 
-  document.querySelector('#filter-button').addEventListener('click', function () {
-    $filters.classList.add('active');
-    $filters.focus();
-  });
-});
+    window.addEventListener(
+      'load',
+      () => {
+        const params = new URLSearchParams(window.location.search);
+
+        applyFilter({
+          award: params.get('award'),
+          category: params.get('category'),
+          year: params.get('year'),
+          location: params.get('location'),
+        });
+      },
+      { once: true },
+    );
+
+    document.querySelector('#filter-button').addEventListener('click', () => {
+      $filters.classList.add('active');
+      $filters.focus();
+    });
+  },
+  { once: true },
+);
