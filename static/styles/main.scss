@@ -311,6 +311,11 @@ aside.latest-link {
 
   a {
     transition: all 0.3s;
+
+    &[aria-disabled='true'] {
+      pointer-events: none !important;
+      filter: grayscale(1) opacity(0.5) !important;
+    }
   }
 
   a:link,
@@ -444,11 +449,6 @@ aside.latest-link {
 
     &.large {
       font-size: 24px;
-    }
-
-    &[aria-disabled='true'] {
-      pointer-events: none;
-      filter: grayscale(1) opacity(0.5);
     }
   }
 
