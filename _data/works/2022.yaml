@@ -340,75 +340,78 @@
     - /static/images/2022/tokushima/team-b1.jpg
   award: 最優秀賞
 
-# - location: 香川
-#   team_id: A
-#   team_name: spices
-#   title: stock manager
-#   description: 外出先で家にまだ調味料などがあるかどうか分からず、買うかどうか迷ってしまうという課題に対して、外からでも Web を通して残量を見ることができる作品。ロードセルを使ったデバイスの上に、測定したいものを置くことで重量を計測できる。appscript を使って php ファイルを経由し、データベースに送ることでデータを管理する。今の残量を見ることはもちろん、どのくらい使用したのか、あと何日でなくなるかなどもも見られる。
-#   categories:
-#     - 住宅・家電
-#     - 食品・調理
-#   images:
-#     - /static/images/2022/kagawa/team-a1.jpg
-#   award:
+- location: 香川
+  team_id: A
+  team_name: spices
+  title: stock manager
+  description: 外出先で家にまだ調味料などがあるかどうか分からず、買うかどうか迷ってしまうという課題に対して、外からでも Web を通して残量を見ることができる作品。ロードセルを使ったデバイスの上に、測定したいものを置くことで重量を計測できる。appscript を使って php ファイルを経由し、データベースに送ることでデータを管理する。今の残量を見ることはもちろん、どのくらい使用したのか、あと何日でなくなるかなどもも見られる。
+  categories:
+    - 住宅・家電
+    - 食品・調理
+  images:
+    - /static/images/2022/kagawa/team-a1.jpg
+  award:
 
-# - location: 香川
-#   team_id: B
-#   team_name: キマキユトミ
-#   title: Sprinter
-#   description: 短距離走にて一人でタイムが測れるようにした作品。まず M5Stack のボタンを押すことで 30 秒ほど待ち時間が入り、その後カウントダウンをしてスタート。そしてゴールを人感センサーを利用して検知し、M5Stack 内で測っていたタイムを表示する。そのデータを Google スプレッドシートへ送信し記録する。このデータはアプリから更新ボタンを押すことでデータベースに記録することができる。ユーザーごとの記録を区別することができ、履歴やランキングが表示でき、香川県の地域レベルを表示できるようにしている。
-#   categories:
-#     - スポーツ・エンタメ
-#   images:
-#     - /static/images/2022/kagawa/team-b1.jpg
-#   award:
+- location: 香川
+  team_id: B
+  team_name: キマキユトミ
+  title: Sprinter
+  description: 短距離走にて一人でタイムが測れるようにした作品。まず M5Stack のボタンを押すことで 30 秒ほど待ち時間が入り、その後カウントダウンをしてスタート。そしてゴールを人感センサーを利用して検知し、M5Stack 内で測っていたタイムを表示する。そのデータを Google スプレッドシートへ送信し記録する。このデータはアプリから更新ボタンを押すことでデータベースに記録することができる。ユーザーごとの記録を区別することができ、履歴やランキングが表示でき、香川県の地域レベルを表示できるようにしている。
+  categories:
+    - スポーツ・エンタメ
+  images:
+    - /static/images/2022/kagawa/team-b1.jpg
+  award:
 
-# - location: 香川
-#   team_id: C
-#   team_name: 旧ソシャークで教会を統一
-#   title: ソシャーク
-#   description: 蛇口に取り付ける、サメの形をした IoT。早明浦ダムの貯水率とリンクし、節水を促す。早明浦ダムの貯水率によりサメの口の開き具合が変わり、サメの口を見るだけで視覚的に貯水率が分かるので節水をより意識させられる。
-#   categories:
-#     - 住宅・家電
-#     - 通知・リマインダー
-#   images:
-#     - /static/images/2022/kagawa/team-c1.jpg
-#   award:
+- location: 香川
+  team_id: C
+  team_name: 旧ソシャークで教会を統一
+  title: ソシャーク
+  description: 蛇口に取り付ける、サメの形をした IoT。早明浦ダムの貯水率とリンクし、節水を促す。早明浦ダムの貯水率によりサメの口の開き具合が変わり、サメの口を見るだけで視覚的に貯水率が分かるので節水をより意識させられる。
+  categories:
+    - 住宅・家電
+    - 通知・リマインダー
+  images:
+    - /static/images/2022/kagawa/team-c1.jpg
+  award:
 
-# - location: 香川
-#   team_id: D
-#   team_name: 高齢者各種対策チーム
-#   title: 高齢者の危険運転感知システム。
-#   description: 高齢者の運転技能の低下を数字的に掴み、それを免許証の返納に結びつけ、社会的問題の減少に繋がることに寄与したい。自動車に加速度センサーを搭載し、若者の加速度と老人の加速度の正規分布を比較し、当該老人の運転技能の低下を数字的に把握し、返納時期を決める。
-#   categories:
-#     - 高齢者・介護
-#     - 防災・防犯・安全
-#   images:
-#     - /static/images/2022/kagawa/team-d1.jpg
-#   award:
+- location: 香川
+  team_id: D
+  team_name: 高齢者各種対策チーム
+  title: 高齢者の危険運転感知システム。
+  description: 高齢者の運転技能の低下を数字的に掴み、それを免許証の返納に結びつけ、社会的問題の減少に繋がることに寄与したい。自動車に加速度センサーを搭載し、若者の加速度と老人の加速度の正規分布を比較し、当該老人の運転技能の低下を数字的に把握し、返納時期を決める。
+  categories:
+    - 高齢者・介護
+    - 防災・防犯・安全
+  images:
+    - /static/images/2022/kagawa/team-d1.jpg
+  award:
 
-# - location: 香川
-#   team_id: E
-#   team_name:
-#   title:
-#   description:
-#   categories:
-#     -
-#   images:
-#     - /static/images/2022/kagawa/team-e1.jpg
-#   award:
+- location: 香川
+  team_id: E
+  team_name: チームカタン
+  title: 対話ボックス
+  description: 音声入力に対して返答し、双方向コミュニケーションを実現する Raspberry Pi を使ったプログラム。ペットロボットのように台座の上に好きな人形やぬいぐるみを置いて会話の相手とすることで、無機質な AI 感を払拭しつつ、留守番をしている子どもや一人暮らしの学生・社会人が家で過ごす時間を少しでも楽しくできればと考えた。また、人手不足 (司書不在) な大学図書館などで利用者対応に用いることも想定している。
+  categories:
+    - コミュニケーション
+    - 住宅・家電
+    - 子育て・教育
+    - 店舗・公共施設
+  images:
+    - /static/images/2022/kagawa/team-e1.jpg
+  award:
 
-# - location: 香川
-#   team_id: F
-#   team_name: 香川県立坂出商業高等学校情報技術科 2 年　チームバタバタ鳥
-#   title: MY (ウロ)² bit
-#   description: 先生にウロウロ bit (ネームタグ) を持ち歩いてもらう。これは 5 秒おきに電波を送信して、受信機に存在を知らせる。また、ウロウロ bit 受信機は先生たちがよくいそうなところにあらかじめ設置しておき、電波を受信したら Microbit とタブレットを Python を使って連携させ、場所の情報、どの先生か、時間の情報をサーバーに送信する。データ集約サーバーは送られてきたデータを記録、今回は記録された最新の場所をブラウザーで表示させている。また、スマホに非同期通信を使ってリアルタイムデータを提供する。
-#   categories:
-#     - 店舗・公共施設
-#     - 子育て・教育
-#   images:
-#     - /static/images/2022/kagawa/team-f1.jpg
-#   award: 最優秀賞
+- location: 香川
+  team_id: F
+  team_name: 香川県立坂出商業高等学校情報技術科 2 年　チームバタバタ鳥
+  title: MY (ウロ)² bit
+  description: 先生にウロウロ bit (ネームタグ) を持ち歩いてもらう。これは 5 秒おきに電波を送信して、受信機に存在を知らせる。また、ウロウロ bit 受信機は先生たちがよくいそうなところにあらかじめ設置しておき、電波を受信したら Microbit とタブレットを Python を使って連携させ、場所の情報、どの先生か、時間の情報をサーバーに送信する。データ集約サーバーは送られてきたデータを記録、今回は記録された最新の場所をブラウザーで表示させている。また、スマホに非同期通信を使ってリアルタイムデータを提供する。
+  categories:
+    - 店舗・公共施設
+    - 子育て・教育
+  images:
+    - /static/images/2022/kagawa/team-f1.jpg
+  award: 最優秀賞
 
 - location: 愛媛
   team_id: A
