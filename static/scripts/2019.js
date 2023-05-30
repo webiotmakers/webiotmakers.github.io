@@ -1,4 +1,4 @@
-/* global ga */
+/* global gtag */
 
 window.addEventListener(
   'DOMContentLoaded',
@@ -30,7 +30,10 @@ window.addEventListener(
         if ($newLocation) {
           $locations.hidden = false;
           $newLocation.hidden = false;
-          ga('send', 'pageview', `/${hash}`);
+          gtag('event', 'page_view', {
+            page_title: document.title,
+            page_location: `${window.location.href}${hash}`,
+          });
         } else {
           $locations.hidden = true;
         }
