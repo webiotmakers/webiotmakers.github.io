@@ -1,7 +1,5 @@
 extends:
   - stylelint-config-recommended-scss
-processors:
-  - stylelint-processor-ignore-front-matter
 ignoreFiles:
   - 'node_modules/**'
   - '_site/**'
