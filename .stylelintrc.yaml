@@ -14,3 +14,5 @@ rules:
     - true
     - ignorePseudoClasses:
         - global
+  # Ignore front matter dashes
+  selector-type-no-unknown: null
