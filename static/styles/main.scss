@@ -246,9 +246,10 @@ figure {
   }
 }
 
-.cta + small {
+.cta ~ small {
   display: block;
   margin-top: 8px;
+  line-height: 1.75;
 }
 
 .icon.fa {

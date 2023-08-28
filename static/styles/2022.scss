@@ -167,8 +167,8 @@ svg {
 }
 
 #home-news-outer {
-  .inner {
-    padding: 32px;
+  ul {
+    list-style-position: inside;
   }
 }
 
