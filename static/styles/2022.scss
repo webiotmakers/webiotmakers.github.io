@@ -166,9 +166,18 @@ svg {
   }
 }
 
-#home-news-outer {
+#home-news {
   ul {
     list-style-position: inside;
+  }
+
+  h4 {
+    a {
+      small {
+        font-size: 16px;
+        vertical-align: 4px;
+      }
+    }
   }
 }
 

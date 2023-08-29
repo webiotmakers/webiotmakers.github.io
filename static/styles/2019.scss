@@ -146,9 +146,12 @@ body {
   .twitter {
     display: inline-block;
     margin: 8px 0 0;
-    font-size: 48px;
-    line-height: 100%;
     text-decoration: none;
+
+    svg {
+      height: 40px;
+      fill: currentColor;
+    }
   }
 }
 
