@@ -166,16 +166,28 @@ svg {
   }
 }
 
+#home-news-outer {
+  .inner {
+    padding: 32px;
+  }
+}
+
 #home-news {
+  margin: 16px 0;
+
   ul {
+    margin: 16px 0;
+    padding: 0;
     list-style-position: inside;
   }
 
   h4 {
+    margin: 16px 0;
+
     a {
       small {
-        font-size: 16px;
-        vertical-align: 4px;
+        font-size: 0.7em;
+        vertical-align: 0.2em;
       }
     }
   }
