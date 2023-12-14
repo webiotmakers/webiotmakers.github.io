@@ -250,7 +250,83 @@
               </li>
             </ul>
           </section>
-          <p>2024 年 2 月 から 3 月上旬頃にかけて講習会とハッカソンを開催予定。会場情報および詳細については、決定次第ご案内いたします。</p>
+          <section>
+            <h5>主催</h5>
+            <ul class="plain">
+              <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                <span itemprop="name">Web×IoT メイカーズチャレンジ<br>PLUS 信州運営委員会</span>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h5>共催</h5>
+            <ul class="plain">
+              <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                <span itemprop="name">信州大学</span>
+              </li>
+            </ul>
+          </section>
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location">
+            <h5 itemprop="name">ハンズオン講習会 (DAY 1)</h5>
+            <div>座学講義と Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習 (基礎編)</div>
+            <div>
+              <time datetime="2024-01-27" itemprop="startDate endDate">2024 年 1 月 27 日 (土)
+              <br>9:30 – 15:00
+            </div>
+          </section>
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location">
+            <h5 itemprop="name">ハンズオン講習会 (DAY 2)</h5>
+            <div>Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習 (応用編)とハッカソンに向けたアイデアソン</div>
+            <div>
+              <time datetime="2024-01-28" itemprop="startDate endDate">2024 年 1 月 28 日 (土)
+              <br>10:00 – 17:00
+            </div>
+          </section>
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="shinshu-location">
+            <h5 itemprop="name">ハッカソン (DAY 3–4)</h5>
+            <div>チームでの作品制作、成果発表</div>
+            <div>
+              <time datetime="2024-03-02" itemprop="startDate">2024 年 3 月 2 日 (土)</time> –
+              <time datetime="2024-03-03" itemprop="endDate">3 日 (日)</time>
+              <br>10:00 – 17:00
+            </div>
+          </section>
+          <section>
+            <h5>会場</h5>
+            <div id="shinshu-location">
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <h6>＜須坂会場＞</h6>
+                <a href="https://suzaka-bota.jp/" itemprop="url">
+                  <span itemprop="name">bota (須坂市子育て就労総合支援センター)</span>
+                </a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="須坂市">
+                </span>
+              </div>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <h6>＜塩尻会場＞</h6>
+                <a href="https://sip.shiojiri.com/access/" itemprop="url">
+                  <span itemprop="name">塩尻インキュベーションプラザ</span>
+                </a>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="addressRegion" content="長野県">
+                  <meta itemprop="addressLocality" content="塩尻市">
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="links">
+            <h5>リンク</h5>
+            <ul class="plain">
+              <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <meta itemprop="price" content="0">
+                <a href="https://webiotmakers.connpass.com/event/305229/" class="button cta" itemprop="url">詳細・参加申し込み</a>
+                <small>※ 12/19 より募集開始予定</small>
+                <small>(connpass サイトに移動します)</small>
+              </li>
+            </ul>
+          </section>
           <section>
             <h5>過去の開催報告</h5>
             <ul class="plain">
@@ -287,7 +363,7 @@
               </li>
             </ul>
           </section>
-          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="okayama-location">
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
             <h5 itemprop="name">ハンズオン講習会 (DAY 1)</h5>
             <div>座学講義と Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習</div>
             <div>
@@ -319,7 +395,7 @@
               </div>
             </div>
           </section>
-          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="okayama-location">
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
             <h5 itemprop="name">ハンズオン講習会 &amp;<br>アイデアソン (DAY 2)</h5>
             <div>
               <time datetime="2024-01-06" itemprop="startDate endDate">2024 年 1 月 6 日 (土)</time>
@@ -338,7 +414,7 @@
               </div>
             </div>
           </section>
-          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="okayama-location">
+          <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
             <h5 itemprop="name">ハッカソン (DAY 3–4)</h5>
             <div>
               <time datetime="2024-02-11" itemprop="startDate">2024 年 2 月 11 日 (日)</time> –
@@ -364,7 +440,6 @@
               <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                 <meta itemprop="price" content="0">
                 <a href="https://webiotmakers.connpass.com/event/301941/" class="button cta" itemprop="url">詳細・参加申し込み</a>
-                <small>※ 11/25 より募集開始予定</small>
                 <small>(connpass サイトに移動します)</small>
               </li>
               <li><a href="/static/docs/2023/tottori-flyer.pdf" target="_blank">告知チラシ (PDF)</a></li>
