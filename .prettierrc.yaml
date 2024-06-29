@@ -1,7 +1,7 @@
 useTabs: false
 singleQuote: true
 trailingComma: all
-printWidth: 100
+printWidth: 999999
 overrides:
   - files:
       - css
