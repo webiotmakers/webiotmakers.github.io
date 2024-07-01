@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {% include google-analytics.html %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image" content="https://webiotmakers.github.io/static/images/2024/template/ogp.jpg" />
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;display=swap" />
+    <link rel="stylesheet" href="/static/styles/main.css?v={{ site.time | date: '%s' }}" />
+    <link rel="stylesheet" href="/static/styles/2019.css?v={{ site.time | date: '%s' }}" />
+    <link rel="stylesheet" href="/static/styles/2020.css?v={{ site.time | date: '%s' }}" />
+    <link rel="stylesheet" href="/static/styles/local.css?v={{ site.time | date: '%s' }}" />
+    <link rel="stylesheet" href="/static/styles/report.css?v={{ site.time | date: '%s' }}" />
+    {%- if page.style %}
+    <link rel="stylesheet" href="/static/styles/{{ page.style }}?v={{ site.time | date: '%s' }}" />
+    {%- endif %}
+    <link rel="icon" type="image/png" href="/static/images/general/favicon.png" />
+    <link rel="apple-touch-icon" href="/static/images/general/apple-touch-icon.png" />
+  </head>
+
+  <body class="wimc-plus" id="{{ page.id }}">
+    <div id="body-wrapper">
+      <header id="mobile-header">
+        <a href="#" class="menu" role="button" aria-controls="menu" aria-label="メニュー"><span class="icon fa" aria-hidden="true">&#xf0c9;</span></a>
+        <h1 class="logo"><a href="/2024/">Web×IoT メイカーズチャレンジ PLUS</a></h1>
+      </header>
+      <aside class="drawer" id="menu">
+        <a href="#" class="close" role="button" aria-controls="menu" aria-label="閉じる"><span aria-hidden="true">×</span></a>
+        <h1 class="logo"><a href="/2024/">Web×IoT メイカーズチャレンジ PLUS</a></h1>
+        <nav>
+          <section id="side-locations">
+            <h2><span>2024 年度</span> <span>開催地域</span></h2>
+            <p>(決定次第順次更新予定)</p>
+            <ul>
+              <li><a href="#location-okayama" role="button" aria-controls="locations location-okayama">岡山</a></li>
+              <li><a href="#location-kagawa" role="button" aria-controls="locations location-kagawa">香川</a></li>
+            </ul>
+          </section>
+          <section id="side-about">
+            <h2><span>本イベント</span><span>について</span></h2>
+            <ul>
+              <li>
+                <a href="/2024/about/">運営・ご協賛の<wbr />皆様向け情報</a>
+              </li>
+              <li>
+                <a href="https://x.com/WebIoTmakers" class="twitter" aria-label="X (旧 Twitter)"> {% include x-twitter.svg %} </a>
+              </li>
+            </ul>
+          </section>
+          <section id="side-history">
+            <h2>アーカイブ</h2>
+            <ul>
+              <li><a href="/gallery/">ハッカソン作品集</a></li>
+              <li><a href="/2023/">2023 年度</a></li>
+              <li><a href="/2022/">2022 年度</a></li>
+              <li><a href="/2021/">2021 年度</a></li>
+              <li><a href="/2020/">2020 年度</a></li>
+              <li><a href="/2019/">2019 年度</a></li>
+              <li><a href="/2018/">2018 年度</a></li>
+              <li><a href="/2017/">2017 年度</a></li>
+            </ul>
+          </section>
+          <section id="side-organizers">
+            <h2>後援 <small>(グランプリ決定戦)</small></h2>
+            <ul>
+              <li>
+                <a href="https://www.soumu.go.jp/"><img src="/static/images/organizers/soumu.png" srcset="/static/images/organizers/soumu@2x.png 1.5x" alt="総務省" /></a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </aside>
+      <main>
+        <div class="drawer outer-2" id="locations" hidden>
+          <a href="#" class="close" role="button" aria-controls="locations" aria-label="閉じる"><span aria-hidden="true">×</span></a>
+          <section class="location" id="location-okayama" hidden itemscope itemtype="http://schema.org/Event">
+            <hgroup>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 岡山</span></h3>
+              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoT メイカーズチャレンジ」を岡山県で昨年度に引き続き開催します！" />
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg" />
+              <meta itemprop="startDate" content="2024-08-10" />
+              <meta itemprop="endDate" content="2024-09-29" />
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode" />
+            </hgroup>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br />PLUS 岡山運営委員会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>特別協力</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">岡山大学グリーンイノベーションセンター</span>
+                </li>
+              </ul>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="okayama-location">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>標準技術と OSS 利活用についての基礎講義、Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習</div>
+              <div>
+                <time datetime="2024-08-10" itemprop="startDate">2024 年 8 月 10 日 (土)</time> –
+                <time datetime="2024-08-11" itemprop="endDate">11 日 (日)</time>
+                <br />10:00 – 17:00 (予定)
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="okayama-location">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>チームでの作品制作、成果発表</div>
+              <div>
+                <time datetime="2024-09-28" itemprop="startDate">2024 年 9 月 28 日 (土)</time> –
+                <time datetime="2024-09-29" itemprop="endDate">29 日 (日)</time>
+                <br />10:00 – 17:00 (予定)
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <div id="okayama-location">
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <a href="https://www.okayama-u.ac.jp/tp/access/access_4.html" itemprop="url">
+                    <span itemprop="name">岡山大学 津島キャンパス</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="岡山県" />
+                    <meta itemprop="addressLocality" content="岡山市" />
+                  </span>
+                </div>
+              </div>
+            </section>
+            <section class="links">
+              <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <meta itemprop="price" content="0" />
+                  <a href="https://webiotmakers.connpass.com/event/323598/" class="button cta" itemprop="url">イベントの詳細</a>
+                  <small>(connpass サイトに移動します)</small>
+                  <small>(7/2 より募集開始予定！)</small>
+                </li>
+                <li><a href="/static/docs/2024/okayama-flyer.pdf" target="_blank">告知チラシ (PDF)</a></li>
+              </ul>
+            </section>
+            <section>
+              <h5>過去の開催報告</h5>
+              <ul class="plain">
+                <li><a href="/static/docs/2023/okayama-report.pdf" target="_blank">2023 年度 開催報告</a></li>
+                <li><a href="/static/docs/2022/okayama-report.pdf" target="_blank">2022 年度 開催報告</a></li>
+                <li><a href="/2021/okayama/">2021 年度 開催報告</a></li>
+                <li><a href="/2020/okayama/">2020 年度 開催報告</a></li>
+              </ul>
+            </section>
+          </section>
+          <section class="location" id="location-kagawa" hidden itemscope itemtype="http://schema.org/Event">
+            <hgroup>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 香川</span></h3>
+              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoT メイカーズチャレンジ」を香川県で昨年度に引き続き開催します！" />
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2022/template/ogp.jpg" />
+              <meta itemprop="startDate" content="" />
+              <meta itemprop="endDate" content="" />
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode" />
+            </hgroup>
+            <p>2024 年 9 月 ～ 12 月に講習会とハッカソンを開催予定です。<br />詳細が決まり次第ご案内いたします。</p>
+            <section>
+              <h5>過去の開催報告</h5>
+              <ul class="plain">
+                <li><a href="/static/docs/2023/kagawa-report.pdf" target="_blank">2023 年度 開催報告</a></li>
+                <li><a href="/static/docs/2022/kagawa-report.pdf" target="_blank">2022 年度 開催報告</a></li>
+                <li><a href="/2021/kagawa/">2021 年度 開催報告</a></li>
+                <li><a href="/2020/kagawa/">2020 年度 開催報告</a></li>
+                <li><a href="/2019/kagawa/">2019 年度 開催報告</a></li>
+                <li><a href="/2018/kagawa/">2018 年度 開催報告</a></li>
+              </ul>
+            </section>
+          </section>
+        </div>
+        <div id="main-pages">
+          {{ content }}
+          <div id="footer-outer" class="outer">
+            <div class="inner">
+              <footer id="footer">
+                <nav>
+                  <p><a href="/2024/">Web×IoT メイカーズチャレンジ PLUS ホームページ</a></p>
+                </nav>
+                <p>Copyright &copy; 2024 Web 標準・ICT 利活用人材育成地域連携協議会</p>
+                <p><a href="/about/admin/">運営者情報</a> | <a href="/about/privacy/">プライバシーポリシー</a> | <a href="/about/code-of-conduct/">イベント行動規範</a></p>
+                <p><small>本文中に記載されているブランド名、会社名、製品名等は、それぞれ各社の登録商標または商標です。</small></p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/static/scripts/2019.js?v={{ site.time | date: '%s' }}"></script>
+    {%- if page.script %}
+    <script src="/static/scripts/{{ page.script }}?v={{ site.time | date: '%s' }}"></script>
+    {%- endif %}
+  </body>
+</html>

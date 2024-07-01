@@ -1,0 +1,47 @@
+<svg height="800.009" viewBox="0 0 800.015 800.009" width="800.015"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="m0-400a400 400 0 0 1 371.911 252.75 400 400 0 0 1 -98.092 438.837 400 400 0 0 1 -444.131 70.343l170.312-361.93z"
+    fill="#33a02c" transform="translate(400 400)" />
+  <path
+    d="m-170.312 361.931a400 400 0 0 1 -229.688-361.931 400 400 0 0 1 229.688-361.931l170.312 361.931z"
+    fill="#b2df8a" transform="translate(400 400)" />
+  <path d="m-170.312-361.931a400 400 0 0 1 120.179-34.915l50.133 396.846z" fill="#a6cee3"
+    transform="translate(400 400)" />
+  <path d="m-50.133-396.846a400 400 0 0 1 50.133-3.154v400z" fill="#1f78b4"
+    transform="translate(400 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(584.982 392.996)">
+      <tspan x="-46.72" y="0">とても</tspan>
+      <tspan x="-64" y="46">良かった</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(525.982 521.996)">
+      <tspan x="0" y="0">57</tspan>
+    </text>
+    <text font-size="32" transform="translate(619.982 521.996)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(183.982 345.996)">
+      <tspan x="-64" y="0">良かった</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(122.982 427.996)">
+      <tspan x="0" y="0">36</tspan>
+    </text>
+    <text font-size="32" transform="translate(218.982 427.996)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(304.982 70.996)">
+      <tspan x="-32" y="0">普通</tspan>
+    </text>
+    <text font-size="48" font-weight="700" transform="translate(284.982 124.996)">
+      <tspan x="0" y="0">5</tspan>
+    </text>
+    <text font-size="24" transform="translate(314.982 124.996)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+</svg>

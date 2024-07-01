@@ -1,0 +1,62 @@
+<svg height="800.001" viewBox="0 0 800.054 800.001" width="800.054"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="m0-400a400 400 0 0 1 382.928 284.387 400 400 0 0 1 -161.571 448.782 400 400 0 0 1 -476.327-24.964l254.97-308.205z"
+    fill="#33a02c" transform="translate(400.023 400)" />
+  <path d="m-254.97 308.205c-147.947-122.393-188.055-332.645-95.553-500.905l350.523 192.7z"
+    fill="#b2df8a" transform="translate(400.023 400)" />
+  <path d="m-350.523-192.7a400 400 0 0 1 251.047-194.733l99.476 387.433z" fill="#a6cee3"
+    transform="translate(400.023 400)" />
+  <path d="m-99.476-387.433a400 400 0 0 1 99.476-12.567v400z" fill="#1f78b4"
+    transform="translate(400.023 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(594.027 370.001)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-99.584" y="46">学習経験あり</tspan>
+      <tspan x="-90.816" y="92">(初歩を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(533.027 544.001)">
+      <tspan x="0" y="0">61</tspan>
+    </text>
+    <text font-size="32" transform="translate(628.027 546.001)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(160.027 382.001)">
+      <tspan x="-64" y="0">アプリの</tspan>
+      <tspan x="-99.584" y="46">開発経験あり</tspan>
+      <tspan x="-90.816" y="92">(趣味を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(102.027 554.001)">
+      <tspan x="0" y="0">22</tspan>
+    </text>
+    <text font-size="24" transform="translate(196.027 555.001)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(224.027 136.001)">
+      <tspan x="-64" y="0">日常的に</tspan>
+      <tspan x="-96" y="46">アプリを開発</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(166.027 262.001)">
+      <tspan x="0" y="0">13</tspan>
+    </text>
+    <text font-size="24" transform="translate(260.027 263.001)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#fff">
+    <text font-size="32" transform="translate(400.027 67.001)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-96" y="46">学習経験なし</tspan>
+    </text>
+    <text font-size="48" font-weight="700" transform="translate(343.027 168.001)">
+      <tspan x="0" y="0">4</tspan>
+    </text>
+    <text font-size="24" transform="translate(373.027 168.001)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+</svg>

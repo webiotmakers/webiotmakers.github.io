@@ -81,6 +81,12 @@ caption {
   margin: 0 0 8px;
   font-size: 1.2rem;
   font-weight: 700;
+
+  small {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+  }
 }
 
 th,
@@ -139,6 +145,20 @@ ul.grid {
 
     li {
       margin: 0 16px;
+
+      &.major {
+        display: block;
+        text-align: center;
+
+        strong {
+          display: block;
+          font-size: 1.5rem;
+        }
+
+        span {
+          display: block;
+        }
+      }
     }
 
     span {

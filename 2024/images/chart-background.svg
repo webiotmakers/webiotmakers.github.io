@@ -1,0 +1,58 @@
+<svg height="800" viewBox="0 0 800.004 800" width="800.004" xmlns="http://www.w3.org/2000/svg">
+  <path d="m0-400a400 400 0 0 1 357.854 221.281 400 400 0 0 1 -38.077 419.019l-319.777-240.3z"
+    fill="#33a02c" transform="translate(400.002 400)" />
+  <path d="m319.777 240.3a400 400 0 0 1 -319.777 159.7 400 400 0 0 1 -319.777-159.7l319.777-240.3z"
+    fill="#b2df8a" transform="translate(400.002 400)" />
+  <path d="m-319.777 240.3a400 400 0 0 1 -34.405-426.186l354.182 185.886z" fill="#a6cee3"
+    transform="translate(400.002 400)" />
+  <path d="m-354.182-185.889a400 400 0 0 1 354.182-214.111v400z" fill="#1f78b4"
+    transform="translate(400.002 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(597.977 267.991)">
+      <tspan x="-64" y="0">大学生・</tspan>
+      <tspan x="-64" y="46">大学院生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(536.977 401.991)">
+      <tspan x="0" y="0">35</tspan>
+    </text>
+    <text font-size="32" transform="translate(631.977 403.991)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(399.977 576.991)">
+      <tspan x="-64" y="0">社会人・</tspan>
+      <tspan x="-48" y="46">その他</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(338.977 710.991)">
+      <tspan x="0" y="0">29</tspan>
+    </text>
+    <text font-size="32" transform="translate(433.977 712.991)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(136.977 364.991)">
+      <tspan x="-64" y="0">中学生・</tspan>
+      <tspan x="-48" y="46">高校生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(75.977 498.991)">
+      <tspan x="0" y="0">18</tspan>
+    </text>
+    <text font-size="32" transform="translate(170.977 500.991)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#fff">
+    <text font-size="32" transform="translate(263.977 127.991)">
+      <tspan x="-96" y="0">専門学校生・</tspan>
+      <tspan x="-112" y="46">高専生・短大生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(202.977 261.991)">
+      <tspan x="0" y="0">17</tspan>
+    </text>
+    <text font-size="32" transform="translate(297.977 263.991)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+</svg>

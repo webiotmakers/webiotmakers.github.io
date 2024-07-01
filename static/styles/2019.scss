@@ -141,6 +141,7 @@ body {
     margin: 4px 0;
     padding: 0;
     line-height: 1.5;
+    word-break: keep-all;
   }
 
   .twitter {
@@ -178,6 +179,15 @@ body {
 }
 
 #side-organizers {
+  h2 {
+    small {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.875rem;
+      font-weight: normal;
+    }
+  }
+
   li {
     background-color: #fff;
     margin: 4px auto;
