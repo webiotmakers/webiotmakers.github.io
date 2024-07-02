@@ -184,7 +184,23 @@ svg {
   ul {
     margin: 16px 0;
     padding: 0;
-    list-style-position: inside;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    padding: 16px 0;
+
+    &:not(:first-child)::before {
+      position: relative;
+      top: -16px;
+      display: block;
+      margin: 0 auto;
+      border-bottom: 1px solid #ccc;
+      height: 1px;
+      max-width: 50%;
+      content: '';
+    }
   }
 
   h4 {
