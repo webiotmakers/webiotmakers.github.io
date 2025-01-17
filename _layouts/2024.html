@@ -36,7 +36,6 @@
         <nav>
           <section id="side-locations">
             <h2><span>2024 年度</span> <span>開催地域</span></h2>
-            <p>(決定次第順次更新予定)</p>
             <ul>
               <li><a href="#location-akita" role="button" aria-controls="locations location-akita">秋田</a></li>
               <li><a href="#location-shinshu" role="button" aria-controls="locations location-shinshu">信州</a></li>
@@ -44,6 +43,7 @@
               <li><a href="#location-mie" role="button" aria-controls="locations location-mie">三重</a></li>
               <li><a href="#location-tottori" role="button" aria-controls="locations location-tottori">鳥取</a></li>
               <li><a href="#location-okayama" role="button" aria-controls="locations location-okayama">岡山</a></li>
+              <li><a href="#location-tokushima" role="button" aria-controls="locations location-tokushima">徳島</a></li>
               <li><a href="#location-kagawa" role="button" aria-controls="locations location-kagawa">香川</a></li>
             </ul>
           </section>
@@ -563,6 +563,86 @@
                 <li><a href="/static/docs/2022/okayama-report.pdf" target="_blank">2022 年度 開催報告</a></li>
                 <li><a href="/2021/okayama/">2021 年度 開催報告</a></li>
                 <li><a href="/2020/okayama/">2020 年度 開催報告</a></li>
+              </ul>
+            </section>
+          </section>
+          <section class="location" id="location-tokushima" hidden itemscope itemtype="http://schema.org/Event">
+            <hgroup>
+              <h3 itemprop="name"><span>Web×IoT</span> <span>メイカーズチャレンジ</span> <span>PLUS in 徳島</span></h3>
+              <meta itemprop="description" content="IoT システム開発のスキルアップイベント「Web×IoT メイカーズチャレンジ」を徳島県で昨年度に引き続き開催します！" />
+              <meta itemprop="image" content="https://webiotmakers.github.io/static/images/2024/template/ogp.jpg" />
+              <meta itemprop="startDate" content="2025-02-08" />
+              <meta itemprop="endDate" content="2025-02-23" />
+              <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+              <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode" />
+            </hgroup>
+            <section>
+              <h5>主催</h5>
+              <ul class="plain">
+                <li itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">Web×IoT メイカーズチャレンジ<br>PLUS 徳島運営委員会</span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>共催</h5>
+              <ul class="plain">
+                <li itemprop="contributor" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">徳島大学 デザイン型 AI 教育研究センター</span>
+                </li>
+              </ul>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="tokushima-location">
+              <h5 itemprop="name">ハンズオン講習会</h5>
+              <div>標準技術と OSS 利活用についての基礎講義、Raspberry Pi Zero を使った JavaScript によるハードウェア制御の実習、アイデアソン</div>
+              <div>
+                <time datetime="2025-02-08" itemprop="startDate">2025 年 2 月 8 日 (土)</time> –
+                <time datetime="2025-02-09" itemprop="endDate">9 日 (日)</time>
+                <br>10:00 – 16:30 (予定)
+              </div>
+            </section>
+            <section itemprop="subEvent" itemscope itemtype="http://schema.org/Event" itemref="tokushima-location">
+              <h5 itemprop="name">ハッカソン</h5>
+              <div>チームでの作品制作、成果発表</div>
+              <div>
+                <time datetime="2025-02-22" itemprop="startDate">2025 年 2 月 22 日 (土)</time> –
+                <time datetime="2025-02-23" itemprop="endDate">23 日 (日)</time>
+                <br>10:00 – 17:00 (予定)
+              </div>
+            </section>
+            <section>
+              <h5>会場</h5>
+              <div id="tokushima-location">
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <a href="https://www.tokushima-u.ac.jp/access/shinkura_josanjima.html" itemprop="url">
+                    <span itemprop="name">徳島大学 常三島キャンパス</span>
+                  </a>
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="addressRegion" content="徳島県">
+                    <meta itemprop="addressLocality" content="徳島市">
+                  </span>
+                </div>
+              </div>
+            </section>
+            <section class="links">
+              <h5>リンク</h5>
+              <ul class="plain">
+                <li itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <meta itemprop="price" content="0">
+                  <a href="https://webiotmakers.connpass.com/event/342765/" class="button cta" itemprop="url">イベントの詳細</a>
+                  <small>1/20 頃より募集開始予定</small>
+                  <small>(connpass サイトに移動します)</small>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h5>過去の開催報告</h5>
+              <ul class="plain">
+                <li><a href="/static/docs/2023/tokushima-report.pdf">2023 年度 開催報告</a></li>
+                <li><a href="/static/docs/2022/tokushima-report.pdf">2022 年度 開催報告</a></li>
+                <li><a href="/2021/tokushima/">2021 年度 開催報告</a></li>
+                <li><a href="/2020/tokushima/">2020 年度 開催報告</a></li>
+                <li><a href="/2019/tokushima/">2019 年度 開催報告</a></li>
               </ul>
             </section>
           </section>
