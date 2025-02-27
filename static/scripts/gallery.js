@@ -39,7 +39,6 @@ window.addEventListener(
 
     works.forEach(($work) => {
       const { award, categories, year, location } = $work.dataset;
-      const $img = $work.querySelector('img');
 
       categories.split(' ').forEach((cat) => {
         categoryMap[cat] = (categoryMap[cat] || 0) + 1;
@@ -48,18 +47,6 @@ window.addEventListener(
       awardMap[award] = (awardMap[award] || 0) + 1;
       yearMap[year] = (yearMap[year] || 0) + 1;
       locationMap[location] = (locationMap[location] || 0) + 1;
-
-      // Lazy load images
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.intersectionRatio > 0) {
-            observer.disconnect();
-            $img.src = $img.dataset.src;
-          }
-        });
-      });
-
-      observer.observe($img);
     });
 
     $filterAward.innerHTML = ` \
