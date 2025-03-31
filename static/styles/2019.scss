@@ -472,8 +472,12 @@ section.winner {
 
       &[itemprop='name'] {
         font-size: 2em;
-        line-height: 1.5;
+        line-height: 1.3;
         font-weight: bold;
+      }
+
+      & + dd {
+        margin: 8px 0 0;
       }
     }
 
