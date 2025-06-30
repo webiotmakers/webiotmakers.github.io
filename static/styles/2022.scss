@@ -1163,8 +1163,7 @@ svg {
         justify-content: flex-end;
         padding: 32px;
         color: #fff;
-        background-image: linear-gradient(to bottom, transparent, transparent, #000c),
-          linear-gradient(to right, transparent, transparent, #000c);
+        background-image: linear-gradient(to bottom, transparent, transparent, #000c), linear-gradient(to right, transparent, transparent, #000c);
         aspect-ratio: 1 / 1;
 
         @media (max-width: 767px) {
@@ -1281,6 +1280,59 @@ svg {
 
   ul.grid.labels {
     font-size: 1.25rem;
+  }
+
+  &.organized {
+    section {
+      margin: 32px 0;
+      margin-bottom: 16px;
+    }
+
+    .row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px 64px;
+      margin: 0;
+      padding: 32px;
+      background-color: #fff;
+
+      &:first-of-type {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      &:last-of-type {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+      &:not(:first-of-type) {
+        padding-top: 0;
+      }
+
+      @media screen and (max-width: 1023px) {
+        display: flex;
+      }
+    }
+
+    .col {
+      flex-basis: content;
+      margin: 0;
+    }
+
+    h4 {
+      margin-bottom: 24px;
+      color: #696969;
+      font-size: 1rem;
+    }
+
+    .grid {
+      margin: 16px !important;
+    }
+
+    h4 ~ .grid {
+      margin: 16px 0 0 !important;
+    }
   }
 }
 

@@ -1,0 +1,47 @@
+<svg height="800" viewBox="0 0 800.006 800" width="800.006" xmlns="http://www.w3.org/2000/svg">
+  <path d="m0-400a400 400 0 0 1 361.931 229.688 400 400 0 0 1 -53.726 425.282l-308.205-254.97z" fill="#33a02c" transform="translate(400.002 400)" />
+  <path d="m308.205 254.97a400 400 0 0 1 -320.769 144.83 400 400 0 0 1 -311.043-164.686l323.607-235.114z" fill="#b2df8a" transform="translate(400.002 400)" />
+  <path d="m-323.607 235.114a400 400 0 0 1 -26.916-427.814l350.523 192.7z" fill="#a6cee3" transform="translate(400.002 400)" />
+  <path d="m-350.523-192.7a400 400 0 0 1 350.523-207.3v400z" fill="#1f78b4" transform="translate(400.002 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(592.003 316)">
+      <tspan x="-128" y="0">大学生・大学院生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(531.003 400)">
+      <tspan x="0" y="0">36</tspan>
+    </text>
+    <text font-size="32" transform="translate(626.003 402)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+    <text font-size="32" transform="translate(261.003 158)">
+      <tspan x="-112" y="0">中学生・高校生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(200.003 242)">
+      <tspan x="0" y="0">17</tspan>
+    </text>
+    <text font-size="32" transform="translate(295.003 244)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(400.003 613)">
+      <tspan x="-112" y="0">社会人・その他</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(338.003 697)">
+      <tspan x="0" y="0">29</tspan>
+    </text>
+    <text font-size="32" transform="translate(433.003 699)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+    <text font-size="32" transform="translate(149.003 365)">
+      <tspan x="-96" y="0">専門学校生・</tspan>
+      <tspan x="-112" y="46">高専生・短大生</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(88.003 499)">
+      <tspan x="0" y="0">18</tspan>
+    </text>
+    <text font-size="32" transform="translate(183.003 501)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+</svg>

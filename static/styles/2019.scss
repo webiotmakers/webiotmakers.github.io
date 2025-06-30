@@ -247,6 +247,10 @@ main {
         line-height: 1.75;
       }
 
+      ul.plain.wrap li {
+        margin: 0;
+      }
+
       section {
         margin: 8px;
         border: 1px solid #fff3;

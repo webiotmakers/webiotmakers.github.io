@@ -1,0 +1,52 @@
+<svg height="800.005" viewBox="0 0 800.025 800.005" width="800.025" xmlns="http://www.w3.org/2000/svg">
+  <path d="m0-400c206.331 0 378.807 156.941 398.225 362.356s-120.6 391.9-323.272 430.558l-74.953-392.914z" fill="#33a02c" transform="translate(400.004 400)" />
+  <path d="m74.953 392.915a400 400 0 0 1 -348.772-101.328 400 400 0 0 1 -123.027-341.72l396.846 50.133z" fill="#b2df8a" transform="translate(400.004 400)" />
+  <path d="m-396.846-50.133a400 400 0 0 1 141.876-258.072l254.97 308.205z" fill="#a6cee3" transform="translate(400.004 400)" />
+  <path d="m-254.97-308.205a400 400 0 0 1 254.97-91.795v400z" fill="#1f78b4" transform="translate(400.004 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(598.012 320.002)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-99.584" y="46">学習経験あり</tspan>
+      <tspan x="-90.816" y="92">(初歩を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(537.012 494.002)">
+      <tspan x="0" y="0">47</tspan>
+    </text>
+    <text font-size="32" transform="translate(632.012 496.002)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+    <text font-size="32" transform="translate(325.012 89.002)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-96" y="46">学習経験なし</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(263.012 217.002)">
+      <tspan x="0" y="0">11</tspan>
+    </text>
+    <text font-size="32" transform="translate(358.012 219.002)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(151.012 209.002)">
+      <tspan x="-64" y="0">日常的に</tspan>
+      <tspan x="-96" y="46">アプリを開発</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(93.012 335.002)">
+      <tspan x="0" y="0">12</tspan>
+    </text>
+    <text font-size="32" transform="translate(187.012 336.002)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+    <text font-size="32" transform="translate(251.012 487.002)">
+      <tspan x="-64" y="0">アプリの</tspan>
+      <tspan x="-99.584" y="46">開発経験あり</tspan>
+      <tspan x="-90.816" y="92">(趣味を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(193.012 659.002)">
+      <tspan x="0" y="0">30</tspan>
+    </text>
+    <text font-size="32" transform="translate(287.012 660.002)">
+      <tspan x="0" y="0">%</tspan>
+    </text>
+  </g>
+</svg>

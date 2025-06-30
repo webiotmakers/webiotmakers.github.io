@@ -130,6 +130,17 @@ ul.plain {
   &.spaced li {
     margin: 8px 0;
   }
+
+  &.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 16px;
+
+    li {
+      flex: none;
+    }
+  }
 }
 
 ul.grid {
@@ -141,8 +152,12 @@ ul.grid {
   list-style-type: none;
 
   &.labels {
+    gap: 8px;
+    text-align: center;
+
     li {
       margin: 0 16px;
+      line-height: 1.25;
 
       &.major {
         display: block;
