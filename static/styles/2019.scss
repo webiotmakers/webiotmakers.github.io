@@ -37,6 +37,7 @@ h4 {
     position: absolute;
     top: 16px;
     right: 16px;
+    z-index: 100;
     color: inherit !important;
     font-size: 32px;
     line-height: 100%;
@@ -120,6 +121,13 @@ body {
   h2 {
     font-size: 1.25rem;
     color: #353e47;
+
+    small {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.875rem;
+      font-weight: normal;
+    }
   }
 
   nav section {
@@ -179,15 +187,6 @@ body {
 }
 
 #side-organizers {
-  h2 {
-    small {
-      display: block;
-      margin-top: 4px;
-      font-size: 0.875rem;
-      font-weight: normal;
-    }
-  }
-
   li {
     background-color: #fff;
     margin: 4px auto;
@@ -239,6 +238,18 @@ main {
       &.links h5 {
         position: absolute;
         left: -99999px;
+      }
+
+      &.sticky {
+        position: sticky;
+        top: 0;
+        margin: 0;
+        padding: 16px 0;
+        background-color: #343e46;
+
+        & + section {
+          margin-top: 0;
+        }
       }
 
       ul.plain li,
