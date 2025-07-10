@@ -213,6 +213,11 @@ svg {
       }
     }
   }
+
+  a[role='button'] {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
 }
 
 #features {
