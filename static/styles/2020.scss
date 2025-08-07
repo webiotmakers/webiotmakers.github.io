@@ -151,6 +151,58 @@ body.wimc-plus #menu h1 {
   .inner > section > section:last-child {
     margin-bottom: 0;
   }
+
+  .document-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+  }
+
+  .video-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 32px 0 0;
+    padding: 0;
+
+    li {
+      display: list-item flow-root;
+      margin: 0;
+      width: 50%;
+
+      & > a {
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 16px;
+      width: 100%;
+    }
+
+    p {
+      margin: 16px 0 0;
+    }
+
+    @media screen and (max-width: 639px) {
+      flex-direction: column;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
