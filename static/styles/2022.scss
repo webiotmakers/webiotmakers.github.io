@@ -1280,6 +1280,11 @@ svg {
       img {
         zoom: 60%;
       }
+
+      &.silver img {
+        margin-block: 24px;
+        zoom: 40%;
+      }
     }
   }
 
