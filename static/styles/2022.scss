@@ -993,13 +993,6 @@ svg {
 }
 
 #voices {
-  & > header {
-    p {
-      font-size: 14px;
-      text-align: center;
-    }
-  }
-
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -1051,6 +1044,11 @@ svg {
         text-align: right;
       }
     }
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
