@@ -1,0 +1,26 @@
+---
+---
+
+#grandprix-supporters {
+  section {
+    margin: 32px 0 16px;
+  }
+
+  h4 {
+    color: #696969;
+    font-size: 2rem;
+  }
+
+  ul.grid.logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px 64px;
+    margin: 0;
+    padding: 32px;
+    background-color: #fff;
+
+    &:not(.gold) img {
+      zoom: 60%;
+    }
+  }
+}

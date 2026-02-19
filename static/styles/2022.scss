@@ -214,6 +214,7 @@ svg {
     }
   }
 
+  a.large,
   a[role='button'] {
     font-size: 1.25em;
     font-weight: bold;
@@ -1275,17 +1276,12 @@ svg {
     }
   }
 
-  section:not(.platinum) {
-    ul.grid.logos {
+  section {
+    ul.grid.logos:not(.gold) {
       gap: 48px;
 
       img {
         zoom: 60%;
-      }
-
-      &.silver img {
-        margin-block: 24px;
-        zoom: 40%;
       }
     }
   }
@@ -1295,9 +1291,12 @@ svg {
   }
 
   &.organized {
-    section {
-      margin: 32px 0;
-      margin-bottom: 16px;
+    & > section {
+      margin: 32px 0 16px;
+
+      section {
+        margin: 0;
+      }
     }
 
     .row {
