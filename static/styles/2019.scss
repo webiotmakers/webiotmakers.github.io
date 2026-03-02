@@ -195,8 +195,13 @@ body {
 }
 
 #side-organizers {
-  li {
+  ul {
+    border-radius: 8px;
+    padding: 8px;
     background-color: #fff;
+  }
+
+  li {
     margin: 4px auto;
     padding: 8px;
     max-width: 160px;
