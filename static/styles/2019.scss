@@ -195,15 +195,18 @@ body {
 }
 
 #side-organizers {
+
   ul {
-    border-radius: 8px;
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 -14px;
+    padding: 24px;
     background-color: #fff;
   }
 
   li {
-    margin: 4px auto;
-    padding: 8px;
+    margin: 0 auto;
     max-width: 160px;
   }
 }
