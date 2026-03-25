@@ -195,7 +195,6 @@ body {
 }
 
 #side-organizers {
-
   ul {
     display: flex;
     flex-direction: column;
@@ -590,7 +589,7 @@ section.winner {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   section.winner {
     &:nth-of-type(even) {
       flex-direction: row-reverse;
@@ -619,7 +618,7 @@ section.winner {
   }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1439px) {
   section.winner {
     display: block;
 
@@ -630,6 +629,15 @@ section.winner {
     .location-marker {
       font-size: 120px;
       text-align: right;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  section.winner {
+    dd img {
+      float: right;
+      margin: -64px 0 32px 32px;
     }
   }
 }
