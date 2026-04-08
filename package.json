@@ -14,9 +14,9 @@
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^10.1.8",
-    "postcss": "^8.5.8",
+    "postcss": "^8.5.9",
     "prettier": "^3.8.1",
-    "stylelint": "^17.4.0",
+    "stylelint": "^17.6.0",
     "stylelint-config-recommended-scss": "^17.0.0",
     "stylelint-scss": "^7.0.0"
   }
