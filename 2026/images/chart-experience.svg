@@ -1,0 +1,40 @@
+<svg height="800.045" viewBox="0 0 800.039 800.045" width="800.039" xmlns="http://www.w3.org/2000/svg">
+  <path d="m0-400c192.012 0 356.935 136.437 392.915 325.048s-67.137 376.178-245.665 446.863-382.1 4.541-484.981-157.58l337.731-214.331z" fill="#33a02c" transform="translate(400 400)" />
+  <path d="m-337.731 214.331a400 400 0 0 1 0-428.661l337.731 214.33z" fill="#b2df8a" transform="translate(400 400)" />
+  <path d="m-337.731-214.331a400 400 0 0 1 145.031-136.192l192.7 350.523z" fill="#a6cee3" transform="translate(400 400)" />
+  <path d="m-192.7-350.523a400 400 0 0 1 192.7-49.477v400z" fill="#1f78b4" transform="translate(400 400)" />
+  <g fill="#fff">
+    <text font-size="32" transform="translate(588 380)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-99.584" y="46">学習経験あり</tspan>
+      <tspan x="-90.816" y="92">(初歩を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(527 554)"><tspan x="0" y="0">66</tspan></text>
+    <text font-size="32" transform="translate(622 556)"><tspan x="0" y="0">%</tspan></text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(131 327)">
+      <tspan x="-64" y="0">アプリの</tspan>
+      <tspan x="-99.584" y="46">開発経験あり</tspan>
+      <tspan x="-90.816" y="92">(趣味を含む)</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(73 499)"><tspan x="0" y="0">18</tspan></text>
+    <text font-size="32" transform="translate(167 501)"><tspan x="0" y="0">%</tspan></text>
+  </g>
+  <g fill="#333">
+    <text font-size="32" transform="translate(181 159)">
+      <tspan x="-64" y="0">日常的に</tspan>
+      <tspan x="-96" y="46">アプリを開発</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(223 285)"><tspan x="0" y="0">8</tspan></text>
+    <text font-size="32" transform="translate(270 287)"><tspan x="0" y="0">%</tspan></text>
+  </g>
+  <g fill="#fff">
+    <text font-size="32" transform="translate(345 69)">
+      <tspan x="-112" y="0">プログラミング</tspan>
+      <tspan x="-96" y="46">学習経験なし</tspan>
+    </text>
+    <text font-size="80" font-weight="700" transform="translate(303 197)"><tspan x="0" y="0">8</tspan></text>
+    <text font-size="32" transform="translate(350 199)"><tspan x="0" y="0">%</tspan></text>
+  </g>
+</svg>

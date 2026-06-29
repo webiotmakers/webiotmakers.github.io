@@ -1,11 +1,12 @@
 ---
-layout: 2025
+layout: 2026
 id: gallery
 title: Web×IoT メイカーズチャレンジ 作品ギャラリー
 description: 2017 年度以降、全国各地で開催された講習会＆ハッカソンにご参加いただいた皆さんの作品集です。
 style: gallery.css
 script: gallery.js
 ---
+
 <article>
   <div id="about-header-outer" class="outer outer-2">
     <div class="inner">
@@ -22,57 +23,23 @@ script: gallery.js
         <section id="clear-filter" hidden>
           <ul role="none">
             <li role="none">
-              <a
-                href="#"
-                role="button"
-                aria-controls="works-container"
-                data-award=""
-                data-category=""
-                data-year=""
-                data-location=""
-              >
-                絞り込みをクリア
-              </a>
+              <a href="#" role="button" aria-controls="works-container" data-award="" data-category="" data-year="" data-location=""> 絞り込みをクリア </a>
             </li>
           </ul>
         </section>
-        <section
-          id="filter-award"
-          tabindex="0"
-          role="radiogroup"
-          aria-controls="works-container"
-          aria-labelledby="filter-award-label"
-        >
+        <section id="filter-award" tabindex="0" role="radiogroup" aria-controls="works-container" aria-labelledby="filter-award-label">
           <h4 id="filter-award-label">受賞作品</h4>
           <ul role="none"></ul>
         </section>
-        <section
-          id="filter-category"
-          tabindex="0"
-          role="radiogroup"
-          aria-controls="works-container"
-          aria-labelledby="filter-category-label"
-        >
+        <section id="filter-category" tabindex="0" role="radiogroup" aria-controls="works-container" aria-labelledby="filter-category-label">
           <h4 id="filter-category-label">テーマ</h4>
           <ul role="none"></ul>
         </section>
-        <section
-          id="filter-year"
-          tabindex="0"
-          role="radiogroup"
-          aria-controls="works-container"
-          aria-labelledby="filter-year-label"
-        >
+        <section id="filter-year" tabindex="0" role="radiogroup" aria-controls="works-container" aria-labelledby="filter-year-label">
           <h4 id="filter-year-label">開催年度</h4>
           <ul role="none"></ul>
         </section>
-        <section
-          id="filter-location"
-          tabindex="0"
-          role="radiogroup"
-          aria-controls="works-container"
-          aria-labelledby="filter-location-label"
-        >
+        <section id="filter-location" tabindex="0" role="radiogroup" aria-controls="works-container" aria-labelledby="filter-location-label">
           <h4 id="filter-location-label">開催地域</h4>
           <ul role="none"></ul>
         </section>
@@ -80,34 +47,28 @@ script: gallery.js
       <div id="works-container" tabindex="0">
         <h2>すべて</h2>
         <ul>
-        {%- for _hash in site.data.works %}
-          {%- assign year = _hash[0] %}
-          {%- for work in _hash[1] %}
-            {%- assign categories = work.categories | sort %}
-            <li data-categories="{{ categories | join: ' ' }}" data-year="{{ year }}"
-                data-location="{{ work.location }}" data-award="{{ work.award }}">
-              <img loading="lazy" src="{{ work.images[0] }}" alt="">
-              <h4>{{ work.title }}</h4>
-              <ul>
-                <li>{{ work.description }}</li>
-                <li>
-                  テーマ:
-                  {%- for category in categories %}
-                    <a href="#" role="button" aria-controls="works" data-category="{{ category }}">{{ category }}</a>
-                  {%- endfor %}
-                </li>
-                <li>
-                  開催年度・地域:
-                  <a href="#" role="button" aria-controls="works" data-year="{{ year }}">{{ year }}</a>
-                  <a href="#" role="button" aria-controls="works" data-location="{{ work.location }}">{{ work.location }}</a>
-                  {%- if work.award %}
-                  <a href="#" role="button" aria-controls="works" data-award="{{ work.award }}">{{ work.award }}</a>
-                  {%- endif %}
-                </li>
-              </ul>
-            </li>
-          {%- endfor %}
-        {%- endfor %}
+          {%- for _hash in site.data.works %} {%- assign year = _hash[0] %} {%- for work in _hash[1] %} {%- assign categories = work.categories | sort %}
+          <li data-categories="{{ categories | join: ' ' }}" data-year="{{ year }}" data-location="{{ work.location }}" data-award="{{ work.award }}">
+            <img loading="lazy" src="{{ work.images[0] }}" alt="" />
+            <h4>{{ work.title }}</h4>
+            <ul>
+              <li>{{ work.description }}</li>
+              <li>
+                テーマ: {%- for category in categories %}
+                <a href="#" role="button" aria-controls="works" data-category="{{ category }}">{{ category }}</a>
+                {%- endfor %}
+              </li>
+              <li>
+                開催年度・地域:
+                <a href="#" role="button" aria-controls="works" data-year="{{ year }}">{{ year }}</a>
+                <a href="#" role="button" aria-controls="works" data-location="{{ work.location }}">{{ work.location }}</a>
+                {%- if work.award %}
+                <a href="#" role="button" aria-controls="works" data-award="{{ work.award }}">{{ work.award }}</a>
+                {%- endif %}
+              </li>
+            </ul>
+          </li>
+          {%- endfor %} {%- endfor %}
         </ul>
       </div>
     </div>
